@@ -1,0 +1,27 @@
+{
+  "startedAt": "2026-03-16T20:24:17.347Z",
+  "steps": [
+    {
+      "name": "content-generation",
+      "status": "success",
+      "timestamp": "2026-03-16T20:24:17.391Z"
+    },
+    {
+      "name": "site-building",
+      "status": "success",
+      "timestamp": "2026-03-16T20:24:17.467Z"
+    },
+    {
+      "name": "monetization",
+      "status": "success",
+      "timestamp": "2026-03-16T20:24:17.470Z"
+    },
+    {
+      "name": "dashboard",
+      "status": "success",
+      "timestamp": "2026-03-16T20:24:17.486Z"
+    }
+  ],
+  "completedAt": "2026-03-16T20:24:17.486Z",
+  "durationSeconds": 0.14
+}
