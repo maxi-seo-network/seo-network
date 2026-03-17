@@ -14,37 +14,51 @@ const sites = [
   'video-editing-software-youtubers'
 ];
 
-const amazonDisclosure = `    <p style="margin-top: 1rem; font-size: 0.85rem; color: #666;">
-      <strong>Amazon Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases.
-    </p>
+const amazonDisclosure = `  <div style="margin: 2rem 0; padding: 1rem; background: #f8f9fa; border-left: 3px solid #667eea; font-size: 0.9rem; color: #555;">
+    <strong>Amazon Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases.
+  </div>
 `;
 
+let totalCount = 0;
+
 sites.forEach(siteDir => {
-  const indexPath = path.join(__dirname, '..', siteDir, 'index.html');
-  if (!fs.existsSync(indexPath)) return;
+  const sitePath = path.join(__dirname, '..', siteDir);
+  if (!fs.existsSync(sitePath)) return;
   
-  let content = fs.readFileSync(indexPath, 'utf8');
+  const htmlFiles = fs.readdirSync(sitePath).filter(f => f.endsWith('.html'));
   
-  // Add disclosure to footer
-  content = content.replace(
-    /<\/footer>/,
-    amazonDisclosure + '  </footer>\n'
-  );
+  htmlFiles.forEach(filename => {
+    const filePath = path.join(sitePath, filename);
+    let content = fs.readFileSync(filePath, 'utf8');
+    
+    // Skip if already has disclosure
+    if (content.includes('Amazon Associate')) {
+      console.log(`⊘ ${siteDir}/${filename}: already has disclosure`);
+      return;
+    }
+    
+    // Add disclosure before footer
+    content = content.replace(
+      /<\/footer>/,
+      amazonDisclosure + '  </footer>\n'
+    );
+    
+    fs.writeFileSync(filePath, content);
+    totalCount++;
+  });
   
-  fs.writeFileSync(indexPath, content);
-  console.log(`✅ ${siteDir}/index.html: Amazon disclosure added`);
+  console.log(`${siteDir}: ${htmlFiles.length} pages processed`);
 });
 
-// Also add to root index.html
+// Also update root index.html
 const rootIndexPath = path.join(__dirname, '..', 'index.html');
 if (fs.existsSync(rootIndexPath)) {
   let content = fs.readFileSync(rootIndexPath, 'utf8');
-  content = content.replace(
-    /<\/footer>/,
-    amazonDisclosure + '  </footer>\n'
-  );
-  fs.writeFileSync(rootIndexPath, content);
-  console.log(`✅ Root index.html: Amazon disclosure added`);
+  if (!content.includes('Amazon Associate')) {
+    content = content.replace(/<\/footer>/, amazonDisclosure + '  </footer>\n');
+    fs.writeFileSync(rootIndexPath, content);
+    console.log(`✅ Root index.html: Amazon disclosure added`);
+  }
 }
 
-console.log('\n✅ Amazon disclosure added to all 11 index pages');
+console.log(`\n✅ Total pages updated: ${totalCount}`);
