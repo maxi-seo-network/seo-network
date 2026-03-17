@@ -29,6 +29,36 @@
         }
       ],
       "count": 2
+    },
+    {
+      "timestamp": "2026-03-17T14:32:50.824Z",
+      "opportunities": [
+        {
+          "symbol": "BTC-PERP",
+          "fundingRate": 0.0012,
+          "price": 67500,
+          "profitability": {
+            "dailyReturn": 0.0015999999999999999,
+            "annualized": 0.584,
+            "breakEven": true
+          },
+          "side": "SHORT",
+          "timestamp": "2026-03-17T14:32:50.823Z"
+        },
+        {
+          "symbol": "ASTER-PERP",
+          "fundingRate": 0.0015,
+          "price": 0.7,
+          "profitability": {
+            "dailyReturn": 0.0025000000000000005,
+            "annualized": 0.9125000000000002,
+            "breakEven": true
+          },
+          "side": "SHORT",
+          "timestamp": "2026-03-17T14:32:50.823Z"
+        }
+      ],
+      "count": 2
     }
   ]
 }

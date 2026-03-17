@@ -1,0 +1,14 @@
+{
+  "checks": [
+    {
+      "timestamp": "2026-03-17T14:34:15.894Z",
+      "symbol": "ASTER-PERP",
+      "currentPrice": "0.6915",
+      "gridRange": "$0.6 - $0.8",
+      "activeLevels": 0,
+      "potentialProfit": "0.00",
+      "dailyEstimate": "0.00",
+      "status": "IN_RANGE"
+    }
+  ]
+}

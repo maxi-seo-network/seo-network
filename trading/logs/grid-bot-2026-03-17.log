@@ -1,0 +1,16 @@
+[2026-03-17T14:34:15.889Z] 
+🔍 Running grid trading bot check...
+[2026-03-17T14:34:15.893Z] Symbol: ASTER-PERP
+[2026-03-17T14:34:15.893Z] Grid Range: $0.6 - $0.8
+[2026-03-17T14:34:15.893Z] Levels: 20 | Order Size: $50
+[2026-03-17T14:34:15.894Z] 
+📊 Grid Status:
+[2026-03-17T14:34:15.894Z]   Price: $0.6915
+[2026-03-17T14:34:15.894Z]   Active Levels: 0/21
+[2026-03-17T14:34:15.894Z]   Potential Profit: $0.00
+[2026-03-17T14:34:15.894Z]   Daily Estimate: $0.00
+[2026-03-17T14:34:15.895Z]   Status: IN_RANGE
+[2026-03-17T14:34:15.895Z] 📄 Data saved: /home/node/.openclaw/workspace/seo-network/trading/data/2026-03-17-grid-data.json
+[2026-03-17T14:34:15.895Z] 📊 Report generated: /home/node/.openclaw/workspace/seo-network/memory/2026-03-17-grid-report.md
+[2026-03-17T14:34:15.895Z] 
+✅ Grid bot check complete. Next check in 5 minutes.

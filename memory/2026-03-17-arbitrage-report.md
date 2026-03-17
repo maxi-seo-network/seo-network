@@ -1,6 +1,6 @@
 # Funding Rate Arbitrage Report - 2026-03-17
 
-**Generated:** 2026-03-17T14:27:50.723Z
+**Generated:** 2026-03-17T14:32:50.824Z
 
 ## Opportunities Found: 2
 
