@@ -1,0 +1,761 @@
+{
+  "generatedAt": "2026-03-16T20:24:17.485Z",
+  "summary": {
+    "totalSites": 10,
+    "totalPageviews": 33230,
+    "totalRevenue": 8081.35,
+    "totalIndexedPages": 5738
+  },
+  "sites": [
+    {
+      "site": "accounting-software-freelancers",
+      "analytics": {
+        "site": "accounting-software-freelancers",
+        "period": "last_30_days",
+        "sessions": 4360,
+        "pageviews": 10900,
+        "bounceRate": "55.0%",
+        "avgSessionDuration": "2m 4s",
+        "topPages": [
+          {
+            "path": "/content/best-tools.html",
+            "pageviews": 1308
+          },
+          {
+            "path": "/content/how-to-guide.html",
+            "pageviews": 1090
+          },
+          {
+            "path": "/content/comparison.html",
+            "pageviews": 872
+          }
+        ],
+        "trafficSources": {
+          "organic": "79.3%",
+          "direct": "14.0%",
+          "referral": "11.5%",
+          "social": "3.8%"
+        }
+      },
+      "searchConsole": {
+        "site": "accounting-software-freelancers",
+        "period": "last_28_days",
+        "impressions": 44671,
+        "clicks": 1340,
+        "ctr": "3.0%",
+        "avgPosition": "23.3",
+        "indexedPages": 819,
+        "topQueries": [
+          {
+            "query": "best tools for freelancers",
+            "impressions": 8934
+          },
+          {
+            "query": "accounting software freelancers",
+            "impressions": 6700
+          },
+          {
+            "query": "how to choose accounting",
+            "impressions": 4467
+          }
+        ],
+        "indexingStatus": {
+          "valid": 464,
+          "errors": 16,
+          "warnings": 24
+        }
+      },
+      "revenue": {
+        "site": "accounting-software-freelancers",
+        "period": "last_30_days",
+        "pageviews": 22697,
+        "rpm": 27.14,
+        "estimatedRevenue": 616,
+        "sources": {
+          "adsense": "431.20",
+          "affiliates": "154.00",
+          "other": "30.80"
+        },
+        "projection": {
+          "next_30_days": "708.40",
+          "next_90_days": "924.00"
+        }
+      }
+    },
+    {
+      "site": "ai-tools-for-realtors",
+      "analytics": {
+        "site": "ai-tools-for-realtors",
+        "period": "last_30_days",
+        "sessions": 2852,
+        "pageviews": 7130,
+        "bounceRate": "49.2%",
+        "avgSessionDuration": "2m 1s",
+        "topPages": [
+          {
+            "path": "/content/best-tools.html",
+            "pageviews": 855
+          },
+          {
+            "path": "/content/how-to-guide.html",
+            "pageviews": 713
+          },
+          {
+            "path": "/content/comparison.html",
+            "pageviews": 570
+          }
+        ],
+        "trafficSources": {
+          "organic": "70.5%",
+          "direct": "10.3%",
+          "referral": "7.9%",
+          "social": "3.8%"
+        }
+      },
+      "searchConsole": {
+        "site": "ai-tools-for-realtors",
+        "period": "last_28_days",
+        "impressions": 44706,
+        "clicks": 1341,
+        "ctr": "3.0%",
+        "avgPosition": "21.3",
+        "indexedPages": 762,
+        "topQueries": [
+          {
+            "query": "best tools for for",
+            "impressions": 8941
+          },
+          {
+            "query": "ai tools for realtors",
+            "impressions": 6705
+          },
+          {
+            "query": "how to choose ai",
+            "impressions": 4470
+          }
+        ],
+        "indexingStatus": {
+          "valid": 365,
+          "errors": 5,
+          "warnings": 28
+        }
+      },
+      "revenue": {
+        "site": "ai-tools-for-realtors",
+        "period": "last_30_days",
+        "pageviews": 52693,
+        "rpm": 34.23,
+        "estimatedRevenue": 1803.68,
+        "sources": {
+          "adsense": "1262.58",
+          "affiliates": "450.92",
+          "other": "90.18"
+        },
+        "projection": {
+          "next_30_days": "2074.23",
+          "next_90_days": "2705.52"
+        }
+      }
+    },
+    {
+      "site": "analytics-tools-apps",
+      "analytics": {
+        "site": "analytics-tools-apps",
+        "period": "last_30_days",
+        "sessions": 3869,
+        "pageviews": 9672.5,
+        "bounceRate": "54.1%",
+        "avgSessionDuration": "2m 0s",
+        "topPages": [
+          {
+            "path": "/content/best-tools.html",
+            "pageviews": 1160
+          },
+          {
+            "path": "/content/how-to-guide.html",
+            "pageviews": 967
+          },
+          {
+            "path": "/content/comparison.html",
+            "pageviews": 773
+          }
+        ],
+        "trafficSources": {
+          "organic": "82.3%",
+          "direct": "17.6%",
+          "referral": "6.3%",
+          "social": "3.5%"
+        }
+      },
+      "searchConsole": {
+        "site": "analytics-tools-apps",
+        "period": "last_28_days",
+        "impressions": 46377,
+        "clicks": 1391,
+        "ctr": "3.0%",
+        "avgPosition": "24.1",
+        "indexedPages": 810,
+        "topQueries": [
+          {
+            "query": "best tools for apps",
+            "impressions": 9275
+          },
+          {
+            "query": "analytics tools apps",
+            "impressions": 6956
+          },
+          {
+            "query": "how to choose analytics",
+            "impressions": 4637
+          }
+        ],
+        "indexingStatus": {
+          "valid": 942,
+          "errors": 10,
+          "warnings": 49
+        }
+      },
+      "revenue": {
+        "site": "analytics-tools-apps",
+        "period": "last_30_days",
+        "pageviews": 29566,
+        "rpm": 28.75,
+        "estimatedRevenue": 850.02,
+        "sources": {
+          "adsense": "595.01",
+          "affiliates": "212.50",
+          "other": "42.50"
+        },
+        "projection": {
+          "next_30_days": "977.52",
+          "next_90_days": "1275.03"
+        }
+      }
+    },
+    {
+      "site": "best-crm-for-agencies",
+      "analytics": {
+        "site": "best-crm-for-agencies",
+        "period": "last_30_days",
+        "sessions": 5106,
+        "pageviews": 12765,
+        "bounceRate": "41.8%",
+        "avgSessionDuration": "2m 28s",
+        "topPages": [
+          {
+            "path": "/content/best-tools.html",
+            "pageviews": 1531
+          },
+          {
+            "path": "/content/how-to-guide.html",
+            "pageviews": 1276
+          },
+          {
+            "path": "/content/comparison.html",
+            "pageviews": 1021
+          }
+        ],
+        "trafficSources": {
+          "organic": "79.9%",
+          "direct": "10.9%",
+          "referral": "9.9%",
+          "social": "4.4%"
+        }
+      },
+      "searchConsole": {
+        "site": "best-crm-for-agencies",
+        "period": "last_28_days",
+        "impressions": 31272,
+        "clicks": 938,
+        "ctr": "3.0%",
+        "avgPosition": "21.9",
+        "indexedPages": 472,
+        "topQueries": [
+          {
+            "query": "best tools for for",
+            "impressions": 6254
+          },
+          {
+            "query": "best crm for agencies",
+            "impressions": 4690
+          },
+          {
+            "query": "how to choose best",
+            "impressions": 3127
+          }
+        ],
+        "indexingStatus": {
+          "valid": 603,
+          "errors": 17,
+          "warnings": 44
+        }
+      },
+      "revenue": {
+        "site": "best-crm-for-agencies",
+        "period": "last_30_days",
+        "pageviews": 8461,
+        "rpm": 36.1,
+        "estimatedRevenue": 305.44,
+        "sources": {
+          "adsense": "213.81",
+          "affiliates": "76.36",
+          "other": "15.27"
+        },
+        "projection": {
+          "next_30_days": "351.26",
+          "next_90_days": "458.16"
+        }
+      }
+    },
+    {
+      "site": "chatbot-platforms-saas",
+      "analytics": {
+        "site": "chatbot-platforms-saas",
+        "period": "last_30_days",
+        "sessions": 1088,
+        "pageviews": 2720,
+        "bounceRate": "50.7%",
+        "avgSessionDuration": "2m 26s",
+        "topPages": [
+          {
+            "path": "/content/best-tools.html",
+            "pageviews": 326
+          },
+          {
+            "path": "/content/how-to-guide.html",
+            "pageviews": 272
+          },
+          {
+            "path": "/content/comparison.html",
+            "pageviews": 217
+          }
+        ],
+        "trafficSources": {
+          "organic": "80.9%",
+          "direct": "15.9%",
+          "referral": "10.7%",
+          "social": "5.4%"
+        }
+      },
+      "searchConsole": {
+        "site": "chatbot-platforms-saas",
+        "period": "last_28_days",
+        "impressions": 46619,
+        "clicks": 1398,
+        "ctr": "3.0%",
+        "avgPosition": "17.1",
+        "indexedPages": 558,
+        "topQueries": [
+          {
+            "query": "best tools for saas",
+            "impressions": 9323
+          },
+          {
+            "query": "chatbot platforms saas",
+            "impressions": 6992
+          },
+          {
+            "query": "how to choose chatbot",
+            "impressions": 4661
+          }
+        ],
+        "indexingStatus": {
+          "valid": 388,
+          "errors": 9,
+          "warnings": 2
+        }
+      },
+      "revenue": {
+        "site": "chatbot-platforms-saas",
+        "period": "last_30_days",
+        "pageviews": 49502,
+        "rpm": 23.09,
+        "estimatedRevenue": 1143,
+        "sources": {
+          "adsense": "800.10",
+          "affiliates": "285.75",
+          "other": "57.15"
+        },
+        "projection": {
+          "next_30_days": "1314.45",
+          "next_90_days": "1714.50"
+        }
+      }
+    },
+    {
+      "site": "email-marketing-tools-ecommerce",
+      "analytics": {
+        "site": "email-marketing-tools-ecommerce",
+        "period": "last_30_days",
+        "sessions": 2567,
+        "pageviews": 6417.5,
+        "bounceRate": "44.2%",
+        "avgSessionDuration": "2m 26s",
+        "topPages": [
+          {
+            "path": "/content/best-tools.html",
+            "pageviews": 770
+          },
+          {
+            "path": "/content/how-to-guide.html",
+            "pageviews": 641
+          },
+          {
+            "path": "/content/comparison.html",
+            "pageviews": 513
+          }
+        ],
+        "trafficSources": {
+          "organic": "89.3%",
+          "direct": "17.8%",
+          "referral": "10.7%",
+          "social": "3.3%"
+        }
+      },
+      "searchConsole": {
+        "site": "email-marketing-tools-ecommerce",
+        "period": "last_28_days",
+        "impressions": 32839,
+        "clicks": 985,
+        "ctr": "3.0%",
+        "avgPosition": "17.3",
+        "indexedPages": 479,
+        "topQueries": [
+          {
+            "query": "best tools for tools",
+            "impressions": 6567
+          },
+          {
+            "query": "email marketing tools ecommerce",
+            "impressions": 4925
+          },
+          {
+            "query": "how to choose email",
+            "impressions": 3283
+          }
+        ],
+        "indexingStatus": {
+          "valid": 600,
+          "errors": 19,
+          "warnings": 25
+        }
+      },
+      "revenue": {
+        "site": "email-marketing-tools-ecommerce",
+        "period": "last_30_days",
+        "pageviews": 29644,
+        "rpm": 13.6,
+        "estimatedRevenue": 403.16,
+        "sources": {
+          "adsense": "282.21",
+          "affiliates": "100.79",
+          "other": "20.16"
+        },
+        "projection": {
+          "next_30_days": "463.63",
+          "next_90_days": "604.74"
+        }
+      }
+    },
+    {
+      "site": "project-management-software-startups",
+      "analytics": {
+        "site": "project-management-software-startups",
+        "period": "last_30_days",
+        "sessions": 2488,
+        "pageviews": 6220,
+        "bounceRate": "55.8%",
+        "avgSessionDuration": "2m 29s",
+        "topPages": [
+          {
+            "path": "/content/best-tools.html",
+            "pageviews": 746
+          },
+          {
+            "path": "/content/how-to-guide.html",
+            "pageviews": 622
+          },
+          {
+            "path": "/content/comparison.html",
+            "pageviews": 497
+          }
+        ],
+        "trafficSources": {
+          "organic": "81.5%",
+          "direct": "14.4%",
+          "referral": "9.6%",
+          "social": "5.7%"
+        }
+      },
+      "searchConsole": {
+        "site": "project-management-software-startups",
+        "period": "last_28_days",
+        "impressions": 29892,
+        "clicks": 896,
+        "ctr": "3.0%",
+        "avgPosition": "21.8",
+        "indexedPages": 282,
+        "topQueries": [
+          {
+            "query": "best tools for software",
+            "impressions": 5978
+          },
+          {
+            "query": "project management software startups",
+            "impressions": 4483
+          },
+          {
+            "query": "how to choose project",
+            "impressions": 2989
+          }
+        ],
+        "indexingStatus": {
+          "valid": 937,
+          "errors": 14,
+          "warnings": 24
+        }
+      },
+      "revenue": {
+        "site": "project-management-software-startups",
+        "period": "last_30_days",
+        "pageviews": 52900,
+        "rpm": 11.33,
+        "estimatedRevenue": 599.36,
+        "sources": {
+          "adsense": "419.55",
+          "affiliates": "149.84",
+          "other": "29.97"
+        },
+        "projection": {
+          "next_30_days": "689.26",
+          "next_90_days": "899.04"
+        }
+      }
+    },
+    {
+      "site": "seo-tools-bloggers",
+      "analytics": {
+        "site": "seo-tools-bloggers",
+        "period": "last_30_days",
+        "sessions": 4104,
+        "pageviews": 10260,
+        "bounceRate": "58.9%",
+        "avgSessionDuration": "2m 8s",
+        "topPages": [
+          {
+            "path": "/content/best-tools.html",
+            "pageviews": 1231
+          },
+          {
+            "path": "/content/how-to-guide.html",
+            "pageviews": 1026
+          },
+          {
+            "path": "/content/comparison.html",
+            "pageviews": 820
+          }
+        ],
+        "trafficSources": {
+          "organic": "89.0%",
+          "direct": "16.5%",
+          "referral": "6.4%",
+          "social": "6.7%"
+        }
+      },
+      "searchConsole": {
+        "site": "seo-tools-bloggers",
+        "period": "last_28_days",
+        "impressions": 12422,
+        "clicks": 372,
+        "ctr": "3.0%",
+        "avgPosition": "12.5",
+        "indexedPages": 573,
+        "topQueries": [
+          {
+            "query": "best tools for bloggers",
+            "impressions": 2484
+          },
+          {
+            "query": "seo tools bloggers",
+            "impressions": 1863
+          },
+          {
+            "query": "how to choose seo",
+            "impressions": 1242
+          }
+        ],
+        "indexingStatus": {
+          "valid": 941,
+          "errors": 18,
+          "warnings": 1
+        }
+      },
+      "revenue": {
+        "site": "seo-tools-bloggers",
+        "period": "last_30_days",
+        "pageviews": 19866,
+        "rpm": 43.28,
+        "estimatedRevenue": 859.8,
+        "sources": {
+          "adsense": "601.86",
+          "affiliates": "214.95",
+          "other": "42.99"
+        },
+        "projection": {
+          "next_30_days": "988.77",
+          "next_90_days": "1289.70"
+        }
+      }
+    },
+    {
+      "site": "social-media-schedulers-influencers",
+      "analytics": {
+        "site": "social-media-schedulers-influencers",
+        "period": "last_30_days",
+        "sessions": 5154,
+        "pageviews": 12885,
+        "bounceRate": "51.0%",
+        "avgSessionDuration": "2m 28s",
+        "topPages": [
+          {
+            "path": "/content/best-tools.html",
+            "pageviews": 1546
+          },
+          {
+            "path": "/content/how-to-guide.html",
+            "pageviews": 1288
+          },
+          {
+            "path": "/content/comparison.html",
+            "pageviews": 1030
+          }
+        ],
+        "trafficSources": {
+          "organic": "77.5%",
+          "direct": "10.2%",
+          "referral": "9.7%",
+          "social": "6.4%"
+        }
+      },
+      "searchConsole": {
+        "site": "social-media-schedulers-influencers",
+        "period": "last_28_days",
+        "impressions": 28299,
+        "clicks": 848,
+        "ctr": "3.0%",
+        "avgPosition": "20.3",
+        "indexedPages": 744,
+        "topQueries": [
+          {
+            "query": "best tools for schedulers",
+            "impressions": 5659
+          },
+          {
+            "query": "social media schedulers influencers",
+            "impressions": 4244
+          },
+          {
+            "query": "how to choose social",
+            "impressions": 2829
+          }
+        ],
+        "indexingStatus": {
+          "valid": 426,
+          "errors": 7,
+          "warnings": 34
+        }
+      },
+      "revenue": {
+        "site": "social-media-schedulers-influencers",
+        "period": "last_30_days",
+        "pageviews": 8973,
+        "rpm": 40.09,
+        "estimatedRevenue": 359.73,
+        "sources": {
+          "adsense": "251.81",
+          "affiliates": "89.93",
+          "other": "17.99"
+        },
+        "projection": {
+          "next_30_days": "413.69",
+          "next_90_days": "539.60"
+        }
+      }
+    },
+    {
+      "site": "video-editing-software-youtubers",
+      "analytics": {
+        "site": "video-editing-software-youtubers",
+        "period": "last_30_days",
+        "sessions": 1642,
+        "pageviews": 4105,
+        "bounceRate": "57.1%",
+        "avgSessionDuration": "2m 24s",
+        "topPages": [
+          {
+            "path": "/content/best-tools.html",
+            "pageviews": 492
+          },
+          {
+            "path": "/content/how-to-guide.html",
+            "pageviews": 410
+          },
+          {
+            "path": "/content/comparison.html",
+            "pageviews": 328
+          }
+        ],
+        "trafficSources": {
+          "organic": "85.3%",
+          "direct": "18.9%",
+          "referral": "10.0%",
+          "social": "5.8%"
+        }
+      },
+      "searchConsole": {
+        "site": "video-editing-software-youtubers",
+        "period": "last_28_days",
+        "impressions": 9454,
+        "clicks": 283,
+        "ctr": "3.0%",
+        "avgPosition": "11.1",
+        "indexedPages": 239,
+        "topQueries": [
+          {
+            "query": "best tools for software",
+            "impressions": 1890
+          },
+          {
+            "query": "video editing software youtubers",
+            "impressions": 1418
+          },
+          {
+            "query": "how to choose video",
+            "impressions": 945
+          }
+        ],
+        "indexingStatus": {
+          "valid": 545,
+          "errors": 15,
+          "warnings": 28
+        }
+      },
+      "revenue": {
+        "site": "video-editing-software-youtubers",
+        "period": "last_30_days",
+        "pageviews": 32839,
+        "rpm": 34.75,
+        "estimatedRevenue": 1141.16,
+        "sources": {
+          "adsense": "798.81",
+          "affiliates": "285.29",
+          "other": "57.06"
+        },
+        "projection": {
+          "next_30_days": "1312.33",
+          "next_90_days": "1711.74"
+        }
+      }
+    }
+  ]
+}
