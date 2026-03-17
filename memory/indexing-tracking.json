@@ -185,6 +185,67 @@
       "totalUrls": 1010,
       "liveCount": 10,
       "expectedUrls": 1010
+    },
+    {
+      "timestamp": "2026-03-17T15:57:09.664Z",
+      "date": "2026-03-17",
+      "results": [
+        {
+          "site": "accounting-software-freelancers",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "ai-tools-for-realtors",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "analytics-tools-apps",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "best-crm-for-agencies",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "chatbot-platforms-saas",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "email-marketing-tools-ecommerce",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "project-management-software-startups",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "seo-tools-bloggers",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "social-media-schedulers-influencers",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "video-editing-software-youtubers",
+          "urls": 101,
+          "status": 200
+        }
+      ],
+      "totalUrls": 1010,
+      "liveCount": 10,
+      "googleIndexed": 0,
+      "expectedUrls": 1010,
+      "note": "All pages live via HTTP. Google indexing pending (0 pages indexed)."
     }
   ]
 }

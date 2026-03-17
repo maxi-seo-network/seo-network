@@ -22,3 +22,259 @@
 [2026-03-17T14:32:50.824Z] 📊 Report generated: /home/node/.openclaw/workspace/seo-network/memory/2026-03-17-arbitrage-report.md
 [2026-03-17T14:32:50.825Z] 
 ✅ Monitor cycle complete. Next check in 5 minutes.
+[2026-03-17T15:23:06.507Z] 🚀 Funding Rate Arbitrage Bot Starting (LIVE MODE)...
+[2026-03-17T15:23:06.508Z] 
+🔍 Starting funding rate arbitrage monitor...
+[2026-03-17T15:23:06.508Z] Mode: LIVE TRADING
+[2026-03-17T15:23:06.509Z] Threshold: 0.10% per 8 hours
+[2026-03-17T15:23:06.509Z] Position Size: $20
+[2026-03-17T15:23:06.509Z] Leverage: 5x
+[2026-03-17T15:23:06.519Z] 📡 Monitoring active.
+[2026-03-17T15:23:06.573Z] Balance check failed: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T15:23:06.573Z] Fetching live funding rates...
+[2026-03-17T15:23:06.818Z] 
+🎯 Found 4 arbitrage opportunities:
+[2026-03-17T15:23:06.818Z]   PIPPINUSDT: LONG | 1.52% daily | -0.574% funding
+[2026-03-17T15:23:06.819Z]   POLYXUSDT: LONG | 0.65% daily | -0.283% funding
+[2026-03-17T15:23:06.819Z]   KITEUSDT: LONG | 0.49% daily | -0.230% funding
+[2026-03-17T15:23:06.819Z]   HYPERUSDT: LONG | 0.25% daily | -0.151% funding
+[2026-03-17T15:23:06.819Z] 
+🎯 Executing arbitrage on PIPPINUSDT
+[2026-03-17T15:23:06.819Z]    Funding Rate: -0.574%
+[2026-03-17T15:23:06.819Z]    Side: LONG (get paid funding)
+[2026-03-17T15:23:06.819Z]    Position Size: $20
+[2026-03-17T15:23:06.819Z]    Leverage: 5x
+[2026-03-17T15:23:07.059Z]    Current Price: $0.18241
+[2026-03-17T15:23:07.059Z]    Order Quantity: 109.6431
+[2026-03-17T15:23:07.059Z] [LIVE] Setting leverage: 5x for PIPPINUSDT
+[2026-03-17T15:23:07.299Z] [LIVE] Placing order: LONG 109.6431 PIPPINUSDT @ market
+[2026-03-17T15:23:07.534Z]    ❌ Trade failed: API Error: Invalid side.
+[2026-03-17T15:23:07.534Z] 📄 Data saved: /home/node/.openclaw/workspace/seo-network/trading/data/2026-03-17-opportunities.json
+[2026-03-17T15:23:07.535Z] 📊 Report generated: /home/node/.openclaw/workspace/seo-network/memory/2026-03-17-arbitrage-report.md
+[2026-03-17T15:23:07.535Z] 
+✅ Monitor cycle complete. Next check in 14400 seconds.
+[2026-03-17T15:23:45.723Z] 🚀 Funding Rate Arbitrage Bot Starting (LIVE MODE)...
+[2026-03-17T15:23:45.726Z] 
+🔍 Starting funding rate arbitrage monitor...
+[2026-03-17T15:23:45.726Z] Mode: LIVE TRADING
+[2026-03-17T15:23:45.726Z] Threshold: 0.10% per 8 hours
+[2026-03-17T15:23:45.727Z] Position Size: $20
+[2026-03-17T15:23:45.727Z] Leverage: 5x
+[2026-03-17T15:23:45.741Z] 📡 Monitoring active.
+[2026-03-17T15:23:45.809Z] Balance check failed: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T15:23:45.810Z] Fetching live funding rates...
+[2026-03-17T15:23:46.060Z] 
+🎯 Found 4 arbitrage opportunities:
+[2026-03-17T15:23:46.061Z]   PIPPINUSDT: BUY | 1.52% daily | -0.574% funding
+[2026-03-17T15:23:46.061Z]   POLYXUSDT: BUY | 0.65% daily | -0.283% funding
+[2026-03-17T15:23:46.061Z]   KITEUSDT: BUY | 0.49% daily | -0.230% funding
+[2026-03-17T15:23:46.061Z]   HYPERUSDT: BUY | 0.25% daily | -0.151% funding
+[2026-03-17T15:23:46.061Z] 
+🎯 Executing arbitrage on PIPPINUSDT
+[2026-03-17T15:23:46.061Z]    Funding Rate: -0.574%
+[2026-03-17T15:23:46.062Z]    Side: BUY (get paid funding)
+[2026-03-17T15:23:46.062Z]    Position Size: $20
+[2026-03-17T15:23:46.062Z]    Leverage: 5x
+[2026-03-17T15:23:46.308Z]    Current Price: $0.18303
+[2026-03-17T15:23:46.308Z]    Order Quantity: 109.2717
+[2026-03-17T15:23:46.308Z] [LIVE] Setting leverage: 5x for PIPPINUSDT
+[2026-03-17T15:23:46.554Z] [LIVE] Placing order: BUY 109.2717 PIPPINUSDT @ market
+[2026-03-17T15:23:47.246Z]    ❌ Trade failed: API Error: Precision is over the maximum defined for this asset.
+[2026-03-17T15:23:47.246Z] 📄 Data saved: /home/node/.openclaw/workspace/seo-network/trading/data/2026-03-17-opportunities.json
+[2026-03-17T15:23:47.247Z] 📊 Report generated: /home/node/.openclaw/workspace/seo-network/memory/2026-03-17-arbitrage-report.md
+[2026-03-17T15:23:47.247Z] 
+✅ Monitor cycle complete. Next check in 14400 seconds.
+[2026-03-17T15:24:30.374Z] 🚀 Funding Rate Arbitrage Bot Starting (LIVE MODE)...
+[2026-03-17T15:24:30.375Z] 
+🔍 Starting funding rate arbitrage monitor...
+[2026-03-17T15:24:30.375Z] Mode: LIVE TRADING
+[2026-03-17T15:24:30.375Z] Threshold: 0.10% per 8 hours
+[2026-03-17T15:24:30.375Z] Position Size: $20
+[2026-03-17T15:24:30.375Z] Leverage: 5x
+[2026-03-17T15:24:30.385Z] 📡 Monitoring active.
+[2026-03-17T15:24:30.475Z] Balance check failed: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T15:24:30.475Z] Fetching live funding rates...
+[2026-03-17T15:24:30.944Z] 
+🎯 Found 4 arbitrage opportunities:
+[2026-03-17T15:24:30.945Z]   PIPPINUSDT: BUY | 1.52% daily | -0.574% funding
+[2026-03-17T15:24:30.945Z]   POLYXUSDT: BUY | 0.65% daily | -0.283% funding
+[2026-03-17T15:24:30.945Z]   KITEUSDT: BUY | 0.49% daily | -0.230% funding
+[2026-03-17T15:24:30.945Z]   HYPERUSDT: BUY | 0.25% daily | -0.151% funding
+[2026-03-17T15:24:30.945Z] 
+🎯 Executing arbitrage on PIPPINUSDT
+[2026-03-17T15:24:30.945Z]    Funding Rate: -0.574%
+[2026-03-17T15:24:30.945Z]    Side: BUY (get paid funding)
+[2026-03-17T15:24:30.945Z]    Position Size: $20
+[2026-03-17T15:24:30.945Z]    Leverage: 5x
+[2026-03-17T15:24:31.201Z]    Current Price: $0.18344
+[2026-03-17T15:24:31.201Z]    Order Quantity: 109
+[2026-03-17T15:24:31.201Z] [LIVE] Setting leverage: 5x for PIPPINUSDT
+[2026-03-17T15:24:31.456Z] [LIVE] Placing order: BUY 109 PIPPINUSDT @ market
+[2026-03-17T15:24:32.343Z]    ❌ Trade failed: API Error: Order's position side does not match user's setting.
+[2026-03-17T15:24:32.344Z] 📄 Data saved: /home/node/.openclaw/workspace/seo-network/trading/data/2026-03-17-opportunities.json
+[2026-03-17T15:24:32.345Z] 📊 Report generated: /home/node/.openclaw/workspace/seo-network/memory/2026-03-17-arbitrage-report.md
+[2026-03-17T15:24:32.345Z] 
+✅ Monitor cycle complete. Next check in 14400 seconds.
+[2026-03-17T15:25:04.081Z] 🚀 Funding Rate Arbitrage Bot Starting (LIVE MODE)...
+[2026-03-17T15:25:04.083Z] 
+🔍 Starting funding rate arbitrage monitor...
+[2026-03-17T15:25:04.084Z] Mode: LIVE TRADING
+[2026-03-17T15:25:04.084Z] Threshold: 0.10% per 8 hours
+[2026-03-17T15:25:04.084Z] Position Size: $20
+[2026-03-17T15:25:04.084Z] Leverage: 5x
+[2026-03-17T15:25:04.099Z] 📡 Monitoring active.
+[2026-03-17T15:25:04.186Z] Balance check failed: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T15:25:04.187Z] Fetching live funding rates...
+[2026-03-17T15:25:04.445Z] 
+🎯 Found 4 arbitrage opportunities:
+[2026-03-17T15:25:04.445Z]   PIPPINUSDT: BUY | 1.52% daily | -0.574% funding
+[2026-03-17T15:25:04.445Z]   POLYXUSDT: BUY | 0.65% daily | -0.283% funding
+[2026-03-17T15:25:04.445Z]   KITEUSDT: BUY | 0.49% daily | -0.230% funding
+[2026-03-17T15:25:04.445Z]   HYPERUSDT: BUY | 0.25% daily | -0.151% funding
+[2026-03-17T15:25:04.446Z] 
+🎯 Executing arbitrage on PIPPINUSDT
+[2026-03-17T15:25:04.446Z]    Funding Rate: -0.574%
+[2026-03-17T15:25:04.446Z]    Side: BUY (get paid funding)
+[2026-03-17T15:25:04.446Z]    Position Size: $20
+[2026-03-17T15:25:04.446Z]    Leverage: 5x
+[2026-03-17T15:25:04.707Z]    Current Price: $0.18295
+[2026-03-17T15:25:04.707Z]    Order Quantity: 109
+[2026-03-17T15:25:04.707Z] [LIVE] Setting leverage: 5x for PIPPINUSDT
+[2026-03-17T15:25:04.953Z] [LIVE] Placing order: BUY 109 PIPPINUSDT @ market
+[2026-03-17T15:25:05.408Z]    ❌ Trade failed: API Error: Order's position side does not match user's setting.
+[2026-03-17T15:25:05.409Z] 📄 Data saved: /home/node/.openclaw/workspace/seo-network/trading/data/2026-03-17-opportunities.json
+[2026-03-17T15:25:05.410Z] 📊 Report generated: /home/node/.openclaw/workspace/seo-network/memory/2026-03-17-arbitrage-report.md
+[2026-03-17T15:25:05.410Z] 
+✅ Monitor cycle complete. Next check in 14400 seconds.
+[2026-03-17T15:25:48.461Z] 🚀 Funding Rate Arbitrage Bot Starting (LIVE MODE)...
+[2026-03-17T15:25:48.464Z] 
+🔍 Starting funding rate arbitrage monitor...
+[2026-03-17T15:25:48.464Z] Mode: LIVE TRADING
+[2026-03-17T15:25:48.464Z] Threshold: 0.10% per 8 hours
+[2026-03-17T15:25:48.464Z] Position Size: $20
+[2026-03-17T15:25:48.465Z] Leverage: 5x
+[2026-03-17T15:25:48.474Z] 📡 Monitoring active.
+[2026-03-17T15:25:48.525Z] Balance check failed: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T15:25:48.525Z] Fetching live funding rates...
+[2026-03-17T15:25:48.981Z] 
+🎯 Found 4 arbitrage opportunities:
+[2026-03-17T15:25:48.981Z]   PIPPINUSDT: BUY | 1.52% daily | -0.574% funding
+[2026-03-17T15:25:48.981Z]   POLYXUSDT: BUY | 0.65% daily | -0.283% funding
+[2026-03-17T15:25:48.981Z]   KITEUSDT: BUY | 0.49% daily | -0.230% funding
+[2026-03-17T15:25:48.982Z]   HYPERUSDT: BUY | 0.25% daily | -0.151% funding
+[2026-03-17T15:25:48.982Z] 
+🎯 Executing arbitrage on PIPPINUSDT
+[2026-03-17T15:25:48.982Z]    Funding Rate: -0.574%
+[2026-03-17T15:25:48.982Z]    Side: BUY (get paid funding)
+[2026-03-17T15:25:48.982Z]    Position Size: $20
+[2026-03-17T15:25:48.982Z]    Leverage: 5x
+[2026-03-17T15:25:49.216Z]    Current Price: $0.18404
+[2026-03-17T15:25:49.216Z]    Order Quantity: 108
+[2026-03-17T15:25:49.456Z]    Position mode already set: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T15:25:49.456Z] [LIVE] Setting leverage: 5x for PIPPINUSDT
+[2026-03-17T15:25:49.695Z] [LIVE] Placing order: BUY 108 PIPPINUSDT @ market
+[2026-03-17T15:25:50.144Z]    ❌ Trade failed: API Error: Order's position side does not match user's setting.
+[2026-03-17T15:25:50.145Z] 📄 Data saved: /home/node/.openclaw/workspace/seo-network/trading/data/2026-03-17-opportunities.json
+[2026-03-17T15:25:50.146Z] 📊 Report generated: /home/node/.openclaw/workspace/seo-network/memory/2026-03-17-arbitrage-report.md
+[2026-03-17T15:25:50.146Z] 
+✅ Monitor cycle complete. Next check in 14400 seconds.
+[2026-03-17T15:26:21.767Z] 🚀 Funding Rate Arbitrage Bot Starting (LIVE MODE)...
+[2026-03-17T15:26:21.769Z] 
+🔍 Starting funding rate arbitrage monitor...
+[2026-03-17T15:26:21.770Z] Mode: LIVE TRADING
+[2026-03-17T15:26:21.770Z] Threshold: 0.10% per 8 hours
+[2026-03-17T15:26:21.770Z] Position Size: $20
+[2026-03-17T15:26:21.770Z] Leverage: 5x
+[2026-03-17T15:26:21.779Z] 📡 Monitoring active.
+[2026-03-17T15:26:21.832Z] Balance check failed: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T15:26:21.833Z] Fetching live funding rates...
+[2026-03-17T15:26:22.071Z] 
+🎯 Found 4 arbitrage opportunities:
+[2026-03-17T15:26:22.071Z]   PIPPINUSDT: BUY | 1.52% daily | -0.574% funding
+[2026-03-17T15:26:22.071Z]   POLYXUSDT: BUY | 0.65% daily | -0.283% funding
+[2026-03-17T15:26:22.071Z]   KITEUSDT: BUY | 0.49% daily | -0.230% funding
+[2026-03-17T15:26:22.071Z]   HYPERUSDT: BUY | 0.25% daily | -0.151% funding
+[2026-03-17T15:26:22.072Z] 
+🎯 Executing arbitrage on PIPPINUSDT
+[2026-03-17T15:26:22.072Z]    Funding Rate: -0.574%
+[2026-03-17T15:26:22.072Z]    Side: BUY (get paid funding)
+[2026-03-17T15:26:22.072Z]    Position Size: $20
+[2026-03-17T15:26:22.072Z]    Leverage: 5x
+[2026-03-17T15:26:22.313Z]    Current Price: $0.18395
+[2026-03-17T15:26:22.314Z]    Order Quantity: 108
+[2026-03-17T15:26:22.553Z]    Position mode already set: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T15:26:22.554Z] [LIVE] Setting leverage: 5x for PIPPINUSDT
+[2026-03-17T15:26:22.795Z] [LIVE] Placing order: BUY 108 PIPPINUSDT @ market
+[2026-03-17T15:26:23.232Z]    ❌ Trade failed: API Error: Order's position side does not match user's setting.
+[2026-03-17T15:26:23.233Z] 📄 Data saved: /home/node/.openclaw/workspace/seo-network/trading/data/2026-03-17-opportunities.json
+[2026-03-17T15:26:23.234Z] 📊 Report generated: /home/node/.openclaw/workspace/seo-network/memory/2026-03-17-arbitrage-report.md
+[2026-03-17T15:26:23.234Z] 
+✅ Monitor cycle complete. Next check in 14400 seconds.
+[2026-03-17T15:34:43.324Z] 🚀 Funding Rate Arbitrage Bot Starting (LIVE MODE)...
+[2026-03-17T15:34:43.327Z] 
+🔍 Starting funding rate arbitrage monitor...
+[2026-03-17T15:34:43.327Z] Mode: LIVE TRADING
+[2026-03-17T15:34:43.327Z] Threshold: 0.10% per 8 hours
+[2026-03-17T15:34:43.327Z] Position Size: $20
+[2026-03-17T15:34:43.327Z] Leverage: 5x
+[2026-03-17T15:34:43.336Z] 📡 Monitoring active.
+[2026-03-17T15:34:43.377Z] Balance check failed: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T15:34:43.378Z] Fetching live funding rates...
+[2026-03-17T15:34:43.648Z] 
+🎯 Found 4 arbitrage opportunities:
+[2026-03-17T15:34:43.648Z]   PIPPINUSDT: BUY | 1.52% daily | -0.574% funding
+[2026-03-17T15:34:43.648Z]   POLYXUSDT: BUY | 0.65% daily | -0.283% funding
+[2026-03-17T15:34:43.648Z]   KITEUSDT: BUY | 0.49% daily | -0.230% funding
+[2026-03-17T15:34:43.648Z]   HYPERUSDT: BUY | 0.25% daily | -0.151% funding
+[2026-03-17T15:34:43.649Z] 
+🎯 Executing arbitrage on PIPPINUSDT
+[2026-03-17T15:34:43.649Z]    Funding Rate: -0.574%
+[2026-03-17T15:34:43.649Z]    Side: BUY (get paid funding)
+[2026-03-17T15:34:43.649Z]    Position Size: $20
+[2026-03-17T15:34:43.649Z]    Leverage: 5x
+[2026-03-17T15:34:43.887Z]    Current Price: $0.18165
+[2026-03-17T15:34:43.887Z]    Order Quantity: 110
+[2026-03-17T15:34:44.122Z]    Position mode already set: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T15:34:44.122Z] [LIVE] Setting leverage: 5x for PIPPINUSDT
+[2026-03-17T15:34:44.361Z] [LIVE] Placing order: BUY 110 PIPPINUSDT @ market (LONG)
+[2026-03-17T15:34:44.803Z]    ✅ Order placed: 2081795131
+[2026-03-17T15:34:44.804Z] 📄 Data saved: /home/node/.openclaw/workspace/seo-network/trading/data/2026-03-17-opportunities.json
+[2026-03-17T15:34:44.805Z] 📊 Report generated: /home/node/.openclaw/workspace/seo-network/memory/2026-03-17-arbitrage-report.md
+[2026-03-17T15:34:44.805Z] 
+✅ Trade executed successfully!
+[2026-03-17T15:34:44.805Z]    Expected daily return: 1.52%
+[2026-03-17T15:34:44.805Z] 
+✅ Monitor cycle complete. Next check in 14400 seconds.
+[2026-03-17T16:02:12.181Z] 🚀 Funding Rate Arbitrage Bot Starting (LIVE MODE)...
+[2026-03-17T16:02:12.184Z] 
+🔍 Starting funding rate arbitrage monitor...
+[2026-03-17T16:02:12.184Z] Mode: LIVE TRADING
+[2026-03-17T16:02:12.184Z] Threshold: 0.10% per 8 hours
+[2026-03-17T16:02:12.185Z] Position Size: $20
+[2026-03-17T16:02:12.185Z] Leverage: 5x
+[2026-03-17T16:02:12.201Z] 📡 Monitoring active.
+[2026-03-17T16:02:12.239Z] Balance check failed: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T16:02:12.239Z] Fetching live funding rates...
+[2026-03-17T16:02:12.495Z] 
+🎯 Found 2 arbitrage opportunities:
+[2026-03-17T16:02:12.495Z]   PIPPINUSDT: BUY | 1.87% daily | -0.691% funding
+[2026-03-17T16:02:12.495Z]   POLYXUSDT: BUY | 0.61% daily | -0.269% funding
+[2026-03-17T16:02:12.495Z] 
+🎯 Executing arbitrage on PIPPINUSDT
+[2026-03-17T16:02:12.495Z]    Funding Rate: -0.691%
+[2026-03-17T16:02:12.495Z]    Side: BUY (get paid funding)
+[2026-03-17T16:02:12.496Z]    Position Size: $20
+[2026-03-17T16:02:12.496Z]    Leverage: 5x
+[2026-03-17T16:02:12.751Z]    Current Price: $0.16572
+[2026-03-17T16:02:12.751Z]    Order Quantity: 120
+[2026-03-17T16:02:12.993Z]    Position mode already set: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T16:02:12.993Z] [LIVE] Setting leverage: 5x for PIPPINUSDT
+[2026-03-17T16:02:13.230Z] [LIVE] Placing order: BUY 120 PIPPINUSDT @ market (LONG)
+[2026-03-17T16:02:13.673Z]    ✅ Order placed: 2082064481
+[2026-03-17T16:02:13.674Z] 📄 Data saved: /home/node/.openclaw/workspace/seo-network/trading/data/2026-03-17-opportunities.json
+[2026-03-17T16:02:13.675Z] 📊 Report generated: /home/node/.openclaw/workspace/seo-network/memory/2026-03-17-arbitrage-report.md
+[2026-03-17T16:02:13.675Z] 
+✅ Trade executed successfully!
+[2026-03-17T16:02:13.675Z]    Expected daily return: 1.87%
+[2026-03-17T16:02:13.675Z] 
+✅ Monitor cycle complete. Next check in 14400 seconds.
