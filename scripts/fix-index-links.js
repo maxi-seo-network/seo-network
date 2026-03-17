@@ -14,63 +14,44 @@ const sites = [
   'video-editing-software-youtubers'
 ];
 
+const today = new Date().toISOString().split('T')[0];
+
 sites.forEach(siteDir => {
-  const indexPath = path.join(__dirname, '..', siteDir, 'index.html');
-  if (!fs.existsSync(indexPath)) return;
-  
   const htmlFiles = fs.readdirSync(path.join(__dirname, '..', siteDir))
-    .filter(f => f.endsWith('.html') && !['index.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html'].includes(f))
+    .filter(f => f.endsWith('.html') && !['about.html', 'contact.html', 'privacy.html', 'terms.html'].includes(f))
     .sort();
   
-  const bestFiles = htmlFiles.filter(f => f.startsWith('best-'));
-  const howToFiles = htmlFiles.filter(f => f.startsWith('how-to-'));
-  const vsFiles = htmlFiles.filter(f => f.includes('-vs-'));
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+`;
   
-  function formatTitle(filename) {
-    return filename.replace('.html', '').replace(/-/g, ' ')
-      .replace(/^best /, 'Best ')
-      .replace(/^how to /, 'How to ')
-      .replace(/ vs /g, ' vs ')
-      .split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-  }
+  // Add index page
+  xml += `  <url>
+    <loc>https://www.toolreviewshub.com/${siteDir}/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+`;
   
-  function buildArticleList(files, prefix) {
-    let html = '';
-    files.forEach(f => {
-      const title = formatTitle(f);
-      html += `        <article>\n          <h3><a href="/${siteDir}/${f}">${title}</a></h3>\n          <p>${prefix} ${title} guide</p>\n        </article>\n`;
-    });
-    return html;
-  }
+  // Add all article pages
+  htmlFiles.forEach(f => {
+    if (f === 'index.html') return;
+    const filename = f.replace('.html', '');
+    xml += `  <url>
+    <loc>https://www.toolreviewshub.com/${siteDir}/${f}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+`;
+  });
   
-  let content = fs.readFileSync(indexPath, 'utf8');
+  xml += `</urlset>
+`;
   
-  const bestHTML = buildArticleList(bestFiles, 'Complete comparison of');
-  const howToHTML = buildArticleList(howToFiles, 'Step-by-step');
-  const vsHTML = buildArticleList(vsFiles, 'Head-to-head');
-  
-  const newFeatured = `<section class="featured">
-      <h2 id="best">Best Tools (${bestFiles.length})</h2>
-      <div class="article-grid">
-${bestHTML}      </div>
-    </section>
-    
-    <section class="featured">
-      <h2 id="howto">How-To Guides (${howToFiles.length})</h2>
-      <div class="article-grid">
-${howToHTML}      </div>
-    </section>
-    
-    <section class="featured">
-      <h2 id="vs">Comparisons (${vsFiles.length})</h2>
-      <div class="article-grid">
-${vsHTML}      </div>
-    </section>`;
-  
-  content = content.replace(/<section class="featured">[\s\S]*<\/main>/, newFeatured + '\n  </main>');
-  
-  fs.writeFileSync(indexPath, content);
-  console.log(`${siteDir}: ${bestFiles.length} best + ${howToFiles.length} how-to + ${vsFiles.length} vs = ${htmlFiles.length} total`);
+  fs.writeFileSync(path.join(__dirname, '..', siteDir, 'sitemap.xml'), xml);
+  console.log(`${siteDir}: ${htmlFiles.length + 1} URLs in sitemap`);
 });
 
-console.log('✅ All index files updated with full article lists');
+console.log('✅ All sitemaps regenerated with full article lists');
