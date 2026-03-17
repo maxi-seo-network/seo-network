@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maxi-seo-network.github.io/best-crm-for-agencies/sitemap.xml

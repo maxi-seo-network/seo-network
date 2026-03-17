@@ -1,0 +1,77 @@
+{
+  "builtAt": "2026-03-16T21:16:39.558Z",
+  "sites": [
+    {
+      "name": "accounting-software-freelancers",
+      "niche": "Accounting",
+      "industry": "Freelancers",
+      "pages": 100,
+      "generated": "2026-03-16T21:16:35.318Z"
+    },
+    {
+      "name": "ai-tools-for-realtors",
+      "niche": "AI Tools",
+      "industry": "Real Estate",
+      "pages": 100,
+      "generated": "2026-03-16T21:16:35.290Z"
+    },
+    {
+      "name": "analytics-tools-apps",
+      "niche": "Analytics",
+      "industry": "Mobile Apps",
+      "pages": 100,
+      "generated": "2026-03-16T21:16:35.355Z"
+    },
+    {
+      "name": "best-crm-for-agencies",
+      "niche": "CRM Software",
+      "industry": "Marketing Agencies",
+      "pages": 100,
+      "generated": "2026-03-16T21:16:35.299Z"
+    },
+    {
+      "name": "chatbot-platforms-saas",
+      "niche": "Chatbots",
+      "industry": "SaaS",
+      "pages": 100,
+      "generated": "2026-03-16T21:16:35.345Z"
+    },
+    {
+      "name": "email-marketing-tools-ecommerce",
+      "niche": "Email Marketing",
+      "industry": "E-commerce",
+      "pages": 100,
+      "generated": "2026-03-16T21:16:35.306Z"
+    },
+    {
+      "name": "project-management-software-startups",
+      "niche": "Project Management",
+      "industry": "Startups",
+      "pages": 100,
+      "generated": "2026-03-16T21:16:35.312Z"
+    },
+    {
+      "name": "seo-tools-bloggers",
+      "niche": "SEO Tools",
+      "industry": "Bloggers",
+      "pages": 100,
+      "generated": "2026-03-16T21:16:35.338Z"
+    },
+    {
+      "name": "social-media-schedulers-influencers",
+      "niche": "Social Media",
+      "industry": "Influencers",
+      "pages": 100,
+      "generated": "2026-03-16T21:16:35.324Z"
+    },
+    {
+      "name": "video-editing-software-youtubers",
+      "niche": "Video Editing",
+      "industry": "Content Creators",
+      "pages": 100,
+      "generated": "2026-03-16T21:16:35.331Z"
+    }
+  ],
+  "outputDir": "../build",
+  "githubOrg": "maxi-seo-network"
+}

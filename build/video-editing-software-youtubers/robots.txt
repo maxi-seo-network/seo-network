@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maxi-seo-network.github.io/video-editing-software-youtubers/sitemap.xml

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maxi-seo-network.github.io/social-media-schedulers-influencers/sitemap.xml

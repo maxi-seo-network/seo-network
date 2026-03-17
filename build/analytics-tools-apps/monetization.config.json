@@ -1,0 +1,23 @@
+{
+  "site": "analytics-tools-apps",
+  "adsense": {
+    "publisherId": "ca-pub-XXXXXXXXXXXXXXXX",
+    "status": "pending_approval",
+    "autoAds": true
+  },
+  "analytics": {
+    "gaId": "GA-XXXXXXXXXX",
+    "status": "active"
+  },
+  "affiliates": {
+    "amazon": {
+      "tag": "yoursite-20",
+      "status": "pending_approval"
+    },
+    "ezoic": {
+      "siteId": "",
+      "status": "not_configured"
+    }
+  },
+  "configured": "2026-03-16T20:24:17.468Z"
+}
