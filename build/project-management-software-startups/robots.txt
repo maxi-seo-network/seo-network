@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://maxi-seo-network.github.io/project-management-software-startups/sitemap.xml

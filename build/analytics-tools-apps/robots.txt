@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://maxi-seo-network.github.io/analytics-tools-apps/sitemap.xml
