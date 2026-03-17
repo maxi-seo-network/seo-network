@@ -1,0 +1,190 @@
+{
+  "checks": [
+    {
+      "timestamp": "2026-03-17T10:19:45.078Z",
+      "date": "2026-03-17",
+      "results": [
+        {
+          "site": "accounting-software-freelancers",
+          "urls": 0,
+          "status": "ERROR",
+          "error": "Hostname/IP does not match certificate's altnames: Host: www.toolreviewshub.com. is not in the cert's altnames: DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+        },
+        {
+          "site": "ai-tools-for-realtors",
+          "urls": 0,
+          "status": "ERROR",
+          "error": "Hostname/IP does not match certificate's altnames: Host: www.toolreviewshub.com. is not in the cert's altnames: DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+        },
+        {
+          "site": "analytics-tools-apps",
+          "urls": 0,
+          "status": "ERROR",
+          "error": "Hostname/IP does not match certificate's altnames: Host: www.toolreviewshub.com. is not in the cert's altnames: DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+        },
+        {
+          "site": "best-crm-for-agencies",
+          "urls": 0,
+          "status": "ERROR",
+          "error": "Hostname/IP does not match certificate's altnames: Host: www.toolreviewshub.com. is not in the cert's altnames: DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+        },
+        {
+          "site": "chatbot-platforms-saas",
+          "urls": 0,
+          "status": "ERROR",
+          "error": "Hostname/IP does not match certificate's altnames: Host: www.toolreviewshub.com. is not in the cert's altnames: DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+        },
+        {
+          "site": "email-marketing-tools-ecommerce",
+          "urls": 0,
+          "status": "ERROR",
+          "error": "Hostname/IP does not match certificate's altnames: Host: www.toolreviewshub.com. is not in the cert's altnames: DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+        },
+        {
+          "site": "project-management-software-startups",
+          "urls": 0,
+          "status": "ERROR",
+          "error": "Hostname/IP does not match certificate's altnames: Host: www.toolreviewshub.com. is not in the cert's altnames: DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+        },
+        {
+          "site": "seo-tools-bloggers",
+          "urls": 0,
+          "status": "ERROR",
+          "error": "Hostname/IP does not match certificate's altnames: Host: www.toolreviewshub.com. is not in the cert's altnames: DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+        },
+        {
+          "site": "social-media-schedulers-influencers",
+          "urls": 0,
+          "status": "ERROR",
+          "error": "Hostname/IP does not match certificate's altnames: Host: www.toolreviewshub.com. is not in the cert's altnames: DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+        },
+        {
+          "site": "video-editing-software-youtubers",
+          "urls": 0,
+          "status": "ERROR",
+          "error": "Hostname/IP does not match certificate's altnames: Host: www.toolreviewshub.com. is not in the cert's altnames: DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+        }
+      ],
+      "totalUrls": 0,
+      "liveCount": 0
+    },
+    {
+      "timestamp": "2026-03-17T10:21:27.464Z",
+      "date": "2026-03-17",
+      "results": [
+        {
+          "site": "accounting-software-freelancers",
+          "urls": 0,
+          "status": 301
+        },
+        {
+          "site": "ai-tools-for-realtors",
+          "urls": 0,
+          "status": 301
+        },
+        {
+          "site": "analytics-tools-apps",
+          "urls": 0,
+          "status": 301
+        },
+        {
+          "site": "best-crm-for-agencies",
+          "urls": 0,
+          "status": 301
+        },
+        {
+          "site": "chatbot-platforms-saas",
+          "urls": 0,
+          "status": 301
+        },
+        {
+          "site": "email-marketing-tools-ecommerce",
+          "urls": 0,
+          "status": 301
+        },
+        {
+          "site": "project-management-software-startups",
+          "urls": 0,
+          "status": 301
+        },
+        {
+          "site": "seo-tools-bloggers",
+          "urls": 0,
+          "status": 301
+        },
+        {
+          "site": "social-media-schedulers-influencers",
+          "urls": 0,
+          "status": 301
+        },
+        {
+          "site": "video-editing-software-youtubers",
+          "urls": 0,
+          "status": 301
+        }
+      ],
+      "totalUrls": 0,
+      "liveCount": 0,
+      "expectedUrls": 1010
+    },
+    {
+      "timestamp": "2026-03-17T10:22:47.810Z",
+      "date": "2026-03-17",
+      "results": [
+        {
+          "site": "accounting-software-freelancers",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "ai-tools-for-realtors",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "analytics-tools-apps",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "best-crm-for-agencies",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "chatbot-platforms-saas",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "email-marketing-tools-ecommerce",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "project-management-software-startups",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "seo-tools-bloggers",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "social-media-schedulers-influencers",
+          "urls": 101,
+          "status": 200
+        },
+        {
+          "site": "video-editing-software-youtubers",
+          "urls": 101,
+          "status": 200
+        }
+      ],
+      "totalUrls": 1010,
+      "liveCount": 10,
+      "expectedUrls": 1010
+    }
+  ]
+}
