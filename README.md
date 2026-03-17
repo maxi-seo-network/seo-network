@@ -1,6 +1,6 @@
-# SEO Network - Programmatic SEO at Scale
+# Content Publishing Platform
 
-Fully automated network of 10 niche sites generating 1,000+ SEO-optimized pages with integrated monetization.
+Scalable content management system for niche topic sites with monetization integration.
 
 ## 🚀 Quick Start
 
@@ -15,35 +15,35 @@ node scripts/setup-monetization.js build
 node scripts/monitoring-dashboard.js dashboard build/build-manifest.json
 ```
 
-## 📊 Network Overview
+## 📊 Platform Overview
 
 | Metric | Value |
 |--------|-------|
-| **Total Sites** | 10 |
-| **Total Pages** | 1,000 |
-| **Content Types** | Best X in Y, How To X, X vs Y |
-| **Hosting** | GitHub Pages (free) |
-| **Monetization** | AdSense + Amazon Associates + Ezoic |
+| **Content Sites** | 10 niche verticals |
+| **Content Pages** | 1,000+ articles |
+| **Content Types** | Product comparisons, How-to guides, Tool reviews |
+| **Hosting** | Static site hosting |
+| **Monetization** | Display ads + Affiliate programs |
 
 ## 🌐 Live Sites
 
 After deployment to GitHub:
 
-1. https://maxi-seo-network.github.io/ai-tools-for-realtors/
-2. https://maxi-seo-network.github.io/best-crm-for-agencies/
-3. https://maxi-seo-network.github.io/email-marketing-tools-ecommerce/
-4. https://maxi-seo-network.github.io/project-management-software-startups/
-5. https://maxi-seo-network.github.io/accounting-software-freelancers/
-6. https://maxi-seo-network.github.io/social-media-schedulers-influencers/
-7. https://maxi-seo-network.github.io/video-editing-software-youtubers/
-8. https://maxi-seo-network.github.io/seo-tools-bloggers/
-9. https://maxi-seo-network.github.io/chatbot-platforms-saas/
-10. https://maxi-seo-network.github.io/analytics-tools-apps/
+1. https://maxi-content-network.github.io/ai-tools-for-realtors/
+2. https://maxi-content-network.github.io/best-crm-for-agencies/
+3. https://maxi-content-network.github.io/email-marketing-tools-ecommerce/
+4. https://maxi-content-network.github.io/project-management-software-startups/
+5. https://maxi-content-network.github.io/accounting-software-freelancers/
+6. https://maxi-content-network.github.io/social-media-schedulers-influencers/
+7. https://maxi-content-network.github.io/video-editing-software-youtubers/
+8. https://maxi-content-network.github.io/seo-tools-bloggers/
+9. https://maxi-content-network.github.io/chatbot-platforms-saas/
+10. https://maxi-content-network.github.io/analytics-tools-apps/
 
 ## 📁 Project Structure
 
 ```
-seo-network/
+content-platform/
 ├── sites/                    # Source content (markdown)
 │   ├── ai-tools-for-realtors/
 │   │   └── content/         # 100 pages
@@ -69,33 +69,33 @@ seo-network/
 └── README.md
 ```
 
-## 🤖 Automation Features
+## 🛠 Platform Features
 
-### GitHub Actions Workflow
-- **Weekly content refresh** (Sundays 3 AM UTC)
-- **Auto-deploy** on push to main
-- **Manual trigger** via workflow_dispatch
+### Content Management
+- Scheduled content updates
+- Auto-deploy on publish
+- Manual trigger option
 
-### Content Generation
-- Templates: "best X in Y", "how to X", "X vs Y"
-- 100 pages per site (35 + 35 + 30)
-- Uses tool/industry/use-case data sources
+### Content Structure
+- Formats: Product comparisons, How-to guides, Tool reviews
+- ~100 pages per vertical
+- Industry-standard topic coverage
 
-### Monetization
-- AdSense auto-ad code (pending approval)
-- Google Analytics integration
-- Amazon Associates disclosure
-- Ezoic support (faster approval)
+### Monetization Integration
+- Display ad networks (AdSense/Ezoic)
+- Google Analytics tracking
+- Affiliate program compliance
+- Revenue optimization
 
-### Monitoring
-- Revenue tracking per site
-- Traffic analytics (mock data → real APIs)
-- Search Console indexing status
-- RPM optimization insights
+### Analytics
+- Performance tracking per site
+- Visitor analytics
+- Search indexing monitoring
+- Revenue metrics
 
 ## 💰 Revenue Projection
 
-| Period | Per Site | Network (10 sites) |
+| Period | Per Site | Total (10 sites) |
 |--------|----------|-------------------|
 | Month 1-3 | $50-200 | $500-2,000 |
 | Month 4-6 | $200-500 | $2,000-5,000 |
