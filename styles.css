@@ -666,3 +666,34 @@ footer a:hover {
 .text-small {
   font-size: 0.9rem;
 }
+
+/* Table Border Classes */
+.td-border {
+  padding: 10px 12px;
+  border: 1px solid var(--gray-300);
+}
+
+.td-border-primary {
+  padding: 10px 12px;
+  border: 1px solid var(--primary);
+}
+
+.td-bold {
+  font-weight: 600;
+}
+
+.td-success {
+  background: #e8f5e9;
+}
+
+.bg-gray {
+  background: var(--gray-100);
+}
+
+.bg-primary {
+  background: var(--primary);
+}
+
+.text-white {
+  color: white;
+}
