@@ -4,27 +4,30 @@
     "content_rewrite_batch1": "2026-03-18T11:00:00Z",
     "content_rewrite_batch2": "2026-03-18T11:02:00Z",
     "index_page_optimization": "2026-03-18T10:45:00Z",
-    "gsc_setup_guide": "2026-03-18T10:44:00Z"
+    "gsc_setup_guide": "2026-03-18T10:44:00Z",
+    "homepage_optimization": "2026-03-18T11:20:00Z",
+    "gsc_submission": "2026-03-18T11:28:00Z"
   },
   "currentTask": {
     "type": "seo_content_optimization",
     "started": "2026-03-18T11:03:00Z",
-    "categoriesInProgress": 14,
+    "categoriesInProgress": 5,
     "agentsRunning": 5
   },
   "seoNetworkStats": {
-    "totalPages": 1222,
-    "indexPagesOptimized": 1,
-    "articlesRewritten": 10,
-    "categoriesRemaining": 13,
-    "gscSubmitted": false,
-    "gscIndexStatus": "not_indexed"
+    "totalPages": 1393,
+    "indexPagesOptimized": 15,
+    "articlesRewritten": 50,
+    "comparisonPages": 336,
+    "gscSubmitted": true,
+    "gscIndexStatus": "pending_crawl"
   },
-  "nextActions": [
-    "Submit to Google Search Console",
-    "Deploy to Zeabur after rewrites complete",
-    "Continue optimizing remaining categories",
-    "Create missing comparison pages",
-    "Build internal linking structure"
+  "completedCommits": [
+    "e7814cb SEO improvements: GSC setup guide, audit, template",
+    "5e6f697 SEO rewrite: 10 email marketing articles",
+    "baaf4f0 SEO rewrite: 14 category index pages",
+    "a7f67a6 SEO rewrite: Analytics, social, video articles",
+    "7105e11 Homepage SEO optimization",
+    "4568368 Sitemaps updated, humans.txt"
   ]
 }
