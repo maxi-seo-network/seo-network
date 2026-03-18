@@ -271,7 +271,35 @@
           <td>15 min</td>
           <td>45 min</td>
         </tr>
+        <tr>
+          <td>Market Report</td>
+          <td>1 hour</td>
+          <td>15 min</td>
+          <td>45 min</td>
+        </tr>
+        <tr>
+          <td>Client Follow-up Emails</td>
+          <td>30 min</td>
+          <td>5 min</td>
+          <td>25 min</td>
+        </tr>
+        <tr>
+          <td>Blog Post</td>
+          <td>2 hours</td>
+          <td>30 min</td>
+          <td>1.5 hours</td>
+        </tr>
       </table>
+      <h3>Monthly ROI Example</h3>
+      <p>For a typical agent creating content weekly:</p>
+      <ul>
+        <li>4 listing descriptions: 100 min saved</li>
+        <li>1 newsletter: 90 min saved</li>
+        <li>4 social post batches: 180 min saved</li>
+        <li>Market analysis: 45 min saved</li>
+        <li><strong>Total saved: 415 min (7 hours)</strong></li>
+      </ul>
+      <p>At $100/hour value, that's $700/month in time saved. A $20/mo tool delivers 35x ROI.</p>
 
       <h2>Related Articles</h2>
       <ul>
@@ -289,6 +317,21 @@
       
       <h3>Which AI is best for listing descriptions?</h3>
       <p>ChatGPT Plus and Claude Pro both excel. ChatGPT has more templates; Claude produces more natural language.</p>
+      
+      <h3>How do I calculate ROI on AI tools?</h3>
+      <p>Track your time on content tasks before and after AI. Multiply hours saved by your hourly rate. If you save 5 hours/month at $100/hour, that's $500 in value. A $20/mo tool pays for itself many times over.</p>
+      
+      <h3>Do I need multiple AI subscriptions?</h3>
+      <p>Most agents need only one. ChatGPT Plus covers 90% of real estate tasks. Add Jasper only if you do heavy marketing content creation. Claude is good for long-form content but less versatile than ChatGPT.</p>
+      
+      <h3>What about AI image generation for listings?</h3>
+      <p>ChatGPT Plus includes DALL-E for image generation. For professional listing photos, consider specialized tools like Canva Pro ($15/mo) or Adobe Creative Cloud ($55/mo) for advanced editing.</p>
+      
+      <h3>Are there real estate-specific AI tools?</h3>
+      <p>Yes, tools like Real Estate AI, PropertyPen, and others focus on real estate. However, general AI tools (ChatGPT, Claude) are often better and cheaper. Use general AI first, then evaluate specialized tools.</p>
+      
+      <h3>How long does it take to see ROI?</h3>
+      <p>Most agents see positive ROI within the first month. If you create 10+ listing descriptions monthly, AI pays for itself in the first week. Marketing teams see ROI even faster.</p>
 
       <p><em>Last updated: March 2026</em></p>
     </article>
@@ -302,6 +345,19 @@
   <div id="cookie-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background: #333; color: white; padding: 1rem; display: none; z-index: 9999;">
     <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
       <p style="margin: 0;">We use cookies to improve your experience. By continuing, you agree to our <a href="/privacy.html" style="color: #667eea;">Privacy Policy</a>.</p>
+      <div style="display: flex; gap: 0.5rem;">
+        <button onclick="acceptCookies()" style="background: #667eea; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer;">Accept</button>
+        <button onclick="declineCookies()" style="background: transparent; color: white; border: 1px solid white; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer;">Decline</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    if (!localStorage.getItem('cookieConsent')) { document.getElementById('cookie-banner').style.display = 'block'; }
+    function acceptCookies() { localStorage.setItem('cookieConsent', 'accepted'); document.getElementById('cookie-banner').style.display = 'none'; }
+    function declineCookies() { localStorage.setItem('cookieConsent', 'declined'); document.getElementById('cookie-banner').style.display = 'none'; }
+  </script>
+</body>
+</html>ee to our <a href="/privacy.html" style="color: #667eea;">Privacy Policy</a>.</p>
       <div style="display: flex; gap: 0.5rem;">
         <button onclick="acceptCookies()" style="background: #667eea; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer;">Accept</button>
         <button onclick="declineCookies()" style="background: transparent; color: white; border: 1px solid white; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer;">Decline</button>
