@@ -845,3 +845,31 @@ footer a:hover {
   border-radius: 4px;
   cursor: pointer;
 }
+
+/* Grid and Layout Utilities */
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.bg-success-light {
+  background: #e8f5e9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.section-spacing {
+  margin-top: 3rem;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+/* Table Header Row */
+.tr-header {
+  background: #333;
+  color: white;
+}

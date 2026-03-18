@@ -112,7 +112,7 @@
       <!-- Quick Navigation -->
       <section class="key-takeaways">
         <h2>📑 Quick Navigation</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+        <div class="grid-auto">
           <div>
             <h3>Pricing</h3>
             <ul>
@@ -502,7 +502,7 @@
       </div>
 
       <!-- Article Sections -->
-      <section class="featured" style="margin-top: 3rem;">
+      <section class="featured" class="section-spacing">
         <h2 id="best">Best VPN Services (15)</h2>
         <p>Detailed reviews of the best VPNs for remote workers:</p>
         <div class="article-grid grid-auto">
@@ -585,7 +585,7 @@
 
       <div class="key-takeaways">
         <h3 class="mt-0">🎯 Quick Recommendations</h3>
-        <ul style="margin-bottom: 0;">
+        <ul class="margin-bottom-0">
           <li><strong>Best Overall:</strong> NordVPN - Best balance of speed, security, and price</li>
           <li><strong>Best Premium:</strong> ExpressVPN - Fastest speeds, most reliable</li>
           <li><strong>Best Value:</strong> Surfshark - Unlimited devices, lowest price</li>
@@ -608,12 +608,12 @@
     </p>
   </footer>
 
-  <div id="cookie-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background: #333; color: white; padding: 1rem; display: none; z-index: 9999; font-size: 0.9rem;">
+  <div id="cookie-banner" class="cookie-banner">
     <div class="container-flex">
       <p class="m-0">We use cookies to improve your experience. By continuing, you agree to our <a href="/privacy.html" class="link-primary">Privacy Policy</a>.</p>
-      <div style="display: flex; gap: 0.5rem;">
-        <button onclick="acceptCookies()" style="background: #667eea; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer;">Accept</button>
-        <button onclick="declineCookies()" style="background: transparent; color: white; border: 1px solid white; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer;">Decline</button>
+      <div class="flex-gap">
+        <button onclick="acceptCookies()" class="btn-primary">Accept</button>
+        <button onclick="declineCookies()" class="btn-outline">Decline</button>
       </div>
     </div>
   </div>
