@@ -1,4 +1,23 @@
 User-agent: *
 Allow: /
 
+# Main sitemap index (lists all sitemaps)
+Sitemap: https://www.toolreviewshub.com/sitemap-index.xml
+
+# Individual sitemaps
 Sitemap: https://www.toolreviewshub.com/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/accounting-software-freelancers/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/ai-tools-for-realtors/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/ai-writing-tools-authors/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/analytics-tools-apps/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/best-crm-for-agencies/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/chatbot-platforms-saas/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/email-marketing-tools-ecommerce/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/email-verification-tools/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/password-managers-teams/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/project-management-software-startups/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/seo-tools-bloggers/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/social-media-schedulers-influencers/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/video-editing-software-youtubers/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/vpn-services-remote-workers/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/web-hosting-small-business/sitemap.xml
