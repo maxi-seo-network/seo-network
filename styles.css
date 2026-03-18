@@ -697,3 +697,63 @@ footer a:hover {
 .text-white {
   color: white;
 }
+
+/* Key Takeaways Section - Standard */
+.key-takeaways {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  margin: 1.5rem 0;
+}
+
+.key-takeaways h2 {
+  color: white !important;
+  border-bottom: none;
+  margin-top: 0;
+}
+
+.key-takeaways ul {
+  list-style: none;
+  padding: 0;
+}
+
+.key-takeaways li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.key-takeaways li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: rgba(255,255,255,0.8);
+}
+
+/* Takeaway Cards */
+.takeaway-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.takeaway-card {
+  background: rgba(255,255,255,0.1);
+  padding: 1rem;
+  border-radius: var(--radius);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.takeaway-card h3 {
+  color: white;
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.takeaway-card p {
+  color: rgba(255,255,255,0.9);
+  margin: 0;
+  font-size: 0.9rem;
+}
