@@ -481,6 +481,65 @@
       ],
       "count": 2,
       "mode": "live"
+    },
+    {
+      "timestamp": "2026-03-17T19:34:46.273Z",
+      "opportunities": [
+        {
+          "symbol": "PIPPINUSDT",
+          "fundingRate": -0.00299719,
+          "fundingTime": 1773774000000,
+          "side": "BUY",
+          "positionSide": "LONG",
+          "profitability": {
+            "dailyReturn": 0.006991569999999999,
+            "annualized": 2.5519230499999996,
+            "breakEven": true
+          },
+          "timestamp": "2026-03-17T19:34:45.086Z"
+        },
+        {
+          "symbol": "KITEUSDT",
+          "fundingRate": -0.00203279,
+          "fundingTime": 1773774000000,
+          "side": "BUY",
+          "positionSide": "LONG",
+          "profitability": {
+            "dailyReturn": 0.0040983700000000005,
+            "annualized": 1.4959050500000002,
+            "breakEven": true
+          },
+          "timestamp": "2026-03-17T19:34:45.086Z"
+        },
+        {
+          "symbol": "POLYXUSDT",
+          "fundingRate": -0.00158006,
+          "fundingTime": 1773774000000,
+          "side": "BUY",
+          "positionSide": "LONG",
+          "profitability": {
+            "dailyReturn": 0.00274018,
+            "annualized": 1.0001657,
+            "breakEven": true
+          },
+          "timestamp": "2026-03-17T19:34:45.086Z"
+        },
+        {
+          "symbol": "CFGUSDT",
+          "fundingRate": -0.00151859,
+          "fundingTime": 1773774000000,
+          "side": "BUY",
+          "positionSide": "LONG",
+          "profitability": {
+            "dailyReturn": 0.0025557699999999997,
+            "annualized": 0.9328560499999999,
+            "breakEven": true
+          },
+          "timestamp": "2026-03-17T19:34:45.086Z"
+        }
+      ],
+      "count": 4,
+      "mode": "live"
     }
   ]
 }

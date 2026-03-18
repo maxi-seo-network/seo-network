@@ -1,6 +1,16 @@
 /**
- * AsterDEX Funding Rate Arbitrage Bot - LIVE TRADING
- * Monitors funding rates and executes arbitrage trades
+ * AsterDEX Funding Rate Arbitrage Bot - DISABLED
+ * 
+ * ⚠️ DISABLED - This bot caused losses by trading small-cap tokens
+ * ⚠️ DO NOT ENABLE - Violates trading rules (majors only)
+ * 
+ * Original issue: Traded PIPPIN despite losing 61% earlier on same token
+ * Script ran automatically without user consent
+ * 
+ * If you want to re-enable:
+ * 1. Change simulationMode to false
+ * 2. Add MAJOR PAIR FILTER (BTC, ETH, SOL, BNB, XRP only)
+ * 3. Get explicit user approval before trading
  */
 
 const fs = require('fs');
@@ -18,7 +28,7 @@ const CONFIG = {
   minProfitability: 0.0005, // 0.05% daily after fees
   maxPositionSize: 20, // $20 max per position (conservative for $23.85 balance)
   leverage: 5, // Conservative leverage
-  simulationMode: false, // LIVE TRADING - real orders
+  simulationMode: true, // DISABLED - Live trading disabled to prevent losses
   dataDir: path.join(__dirname, '..', 'trading', 'data'),
   logDir: path.join(__dirname, '..', 'trading', 'logs'),
   memoryDir: path.join(__dirname, '..', 'memory')

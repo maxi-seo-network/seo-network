@@ -65,24 +65,30 @@ Build custom dashboards using FreshBooks's reporting API.</p><p><h2>Troubleshoot
 </ul>
 
   <footer>
-    <p>&copy; 2026 SEO Tools Bloggers. All rights reserved.</p>
-    <p>
-      <a href="/privacy">Privacy Policy</a> | 
-      <a href="/terms">Terms of Service</a> | 
-      <a href="/sitemap.xml">Sitemap</a>
+    <p>&copy; 2026 Tools Reviews Hub. All rights reserved.</p>
+    <p><a href="/about.html">About</a> | <a href="/contact.html">Contact</a> | <a href="/privacy.html">Privacy</a> | <a href="/terms.html">Terms</a> | <a href="/affiliate-disclosure.html">Disclosure</a></p>
+    <p style="margin-top: 1rem; font-size: 0.85rem; color: #666;">
+      <strong>Affiliate Disclosure:</strong> We participate in affiliate programs including Amazon Associates. When you click links and make purchases, we may earn a commission at no extra cost to you. <a href="/affiliate-disclosure.html" style="color: inherit; text-decoration: underline;">Learn more</a>.
     </p>
-    <div style="margin: 2rem 0; padding: 1rem; background: #f8f9fa; border-left: 3px solid #667eea; font-size: 0.9rem; color: #555;">
-    <strong>Amazon Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases.
-  </div>
-  
-  <div style="margin: 2rem 0; padding: 1.5rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; color: white;">
-    <h3 style="margin-top: 0; color: white;">🎯 Ready to Get Started?</h3>
-    <p>Try Freshbooks For Reporting free today - no credit card required for trial.</p>
-    <a href="#" rel="nofollow sponsored" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 6px; font-weight: 600; margin-top: 0.5rem;">Start Free Trial →</a>
-    <p style="font-size: 0.8rem; margin-top: 1rem; opacity: 0.9;">Disclosure: We may earn commission if you sign up through this link.</p>
-  </div>
-
   </footer>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background: #333; color: white; padding: 1rem; display: none; z-index: 9999; font-size: 0.9rem;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+      <p style="margin: 0;">We use cookies to improve your experience. By continuing, you agree to our <a href="/privacy.html" style="color: #667eea;">Privacy Policy</a>.</p>
+      <div style="display: flex; gap: 0.5rem;">
+        <button onclick="acceptCookies()" style="background: #667eea; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer;">Accept</button>
+        <button onclick="declineCookies()" style="background: transparent; color: white; border: 1px solid white; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer;">Decline</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    if (!localStorage.getItem('cookieConsent')) { document.getElementById('cookie-banner').style.display = 'block'; }
+    function acceptCookies() { localStorage.setItem('cookieConsent', 'accepted'); document.getElementById('cookie-banner').style.display = 'none'; }
+    function declineCookies() { localStorage.setItem('cookieConsent', 'declined'); document.getElementById('cookie-banner').style.display = 'none'; }
+  </script>
+
+
 
   
   <!-- Analytics placeholder -->

@@ -278,3 +278,36 @@
 [2026-03-17T16:02:13.675Z]    Expected daily return: 1.87%
 [2026-03-17T16:02:13.675Z] 
 ✅ Monitor cycle complete. Next check in 14400 seconds.
+[2026-03-17T19:34:44.809Z] 
+🔍 Starting funding rate arbitrage monitor...
+[2026-03-17T19:34:44.810Z] Mode: LIVE TRADING
+[2026-03-17T19:34:44.810Z] Threshold: 0.10% per 8 hours
+[2026-03-17T19:34:44.810Z] Position Size: $20
+[2026-03-17T19:34:44.810Z] Leverage: 5x
+[2026-03-17T19:34:44.841Z] Balance check failed: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T19:34:44.841Z] Fetching live funding rates...
+[2026-03-17T19:34:45.086Z] 
+🎯 Found 4 arbitrage opportunities:
+[2026-03-17T19:34:45.086Z]   PIPPINUSDT: BUY | 0.70% daily | -0.300% funding
+[2026-03-17T19:34:45.086Z]   KITEUSDT: BUY | 0.41% daily | -0.203% funding
+[2026-03-17T19:34:45.086Z]   POLYXUSDT: BUY | 0.27% daily | -0.158% funding
+[2026-03-17T19:34:45.086Z]   CFGUSDT: BUY | 0.26% daily | -0.152% funding
+[2026-03-17T19:34:45.086Z] 
+🎯 Executing arbitrage on PIPPINUSDT
+[2026-03-17T19:34:45.086Z]    Funding Rate: -0.300%
+[2026-03-17T19:34:45.086Z]    Side: BUY (get paid funding)
+[2026-03-17T19:34:45.086Z]    Position Size: $20
+[2026-03-17T19:34:45.087Z]    Leverage: 5x
+[2026-03-17T19:34:45.342Z]    Current Price: $0.14308
+[2026-03-17T19:34:45.342Z]    Order Quantity: 139
+[2026-03-17T19:34:45.593Z]    Position mode already set: Parse error: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[2026-03-17T19:34:45.593Z] [LIVE] Setting leverage: 5x for PIPPINUSDT
+[2026-03-17T19:34:45.830Z] [LIVE] Placing order: BUY 139 PIPPINUSDT @ market (LONG)
+[2026-03-17T19:34:46.272Z]    ✅ Order placed: 2084273789
+[2026-03-17T19:34:46.273Z] 📄 Data saved: /home/node/.openclaw/workspace/seo-network/trading/data/2026-03-17-opportunities.json
+[2026-03-17T19:34:46.273Z] 📊 Report generated: /home/node/.openclaw/workspace/seo-network/memory/2026-03-17-arbitrage-report.md
+[2026-03-17T19:34:46.274Z] 
+✅ Trade executed successfully!
+[2026-03-17T19:34:46.274Z]    Expected daily return: 0.70%
+[2026-03-17T19:34:46.274Z] 
+✅ Monitor cycle complete. Next check in 14400 seconds.
