@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Analytics for Mobile Apps in 2026 | Complete Guide & Pricing</title>
+  <meta name="description" content="Complete guide to Firebase Analytics for mobile apps. Compare features, implementation, pricing, and alternatives. Learn how to track mobile app analytics with Firebase.">
+  <meta name="keywords" content="firebase analytics mobile apps, google analytics for firebase, mobile app analytics, firebase pricing, app tracking">
+  <link rel="stylesheet" href="/styles.css">
+  
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Firebase Analytics free?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Firebase Analytics is completely free with unlimited event tracking. It's part of Google's Firebase platform which offers a generous free tier (Spark plan) that includes Analytics, Crashlytics, Performance Monitoring, Remote Config, and more."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What's the difference between Firebase Analytics and Google Analytics 4?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Firebase Analytics and Google Analytics 4 (GA4) are now the same product. GA4 replaced the older Google Analytics for Firebase. The Firebase SDK automatically collects events, while GA4 provides the reporting interface. They share the same data, and you can view Firebase data in the GA4 dashboard."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What events does Firebase Analytics automatically track?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Firebase automatically tracks: first_open, session_start, user_engagement, app_update, app_remove (Android), app_exception, os_update, dynamic_link_first_open, and campaign attribution. You can also enable automatic screen view tracking."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Firebase Analytics work offline?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Firebase Analytics caches events locally when the device is offline and sends them when connectivity is restored. Events are timestamped when they occurred, not when sent. This ensures accurate analytics even with intermittent connectivity."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I export Firebase Analytics data?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Firebase Analytics data can be exported to BigQuery for free on the Spark plan. Daily exports are available at no cost. This allows SQL queries, custom analysis, and integration with data visualization tools like Looker Studio."
+        }
+      }
+    ]
+  }
+  </script>
+  
+  <!-- AdSense placeholder -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" class="logo">Analytics Tools Apps</a>
+      <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <article>
+      <!-- Breadcrumb Navigation -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/analytics-tools-apps">Analytics Tools</a></li>
+          <li><span>Firebase Analytics for Mobile Apps</span></li>
+        </ol>
+      </nav>
+      
+      <h1>Firebase Analytics for Mobile Apps: The Complete 2026 Guide</h1>
+      <p class="subtitle">Everything app developers need to know about implementing and optimizing Firebase Analytics for mobile app tracking</p>
+      
+      <section class="key-takeaways">
+        <h2>Key Takeaways</h2>
+        <ul>
+          <li>Firebase Analytics is completely free with unlimited event tracking</li>
+          <li>Automatic event collection reduces implementation time</li>
+          <li>Seamless integration with Google ecosystem (GA4, BigQuery, Ads)</li>
+          <li>Built-in crash reporting with Crashlytics integration</li>
+          <li>Best for: mobile-first teams using Google/Firebase tools and needing free analytics</li>
+        </ul>
+      </section>
+      
+      <h2>What is Firebase Analytics?</h2>
+      <p>Firebase Analytics (now part of Google Analytics 4) is Google's free mobile app analytics solution. It's designed specifically for mobile apps, offering automatic event collection, seamless SDK integration, and tight integration with other Firebase services like Crashlytics, Remote Config, and Cloud Messaging.</p>
+      
+      <p>For mobile app developers, Firebase Analytics provides the foundation for understanding user acquisition, engagement, and monetization. Its biggest advantage is that it's free and requires minimal setup—automatic events are collected out of the box.</p>
+      
+      <h2>Firebase Analytics Pricing</h2>
+      <p>Firebase Analytics is completely free. It's included in Firebase's Spark (free) plan with no limits on events, users, or data retention.</p>
+      
+      <table class="pricing-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Spark (Free)</th>
+            <th>Blaze (Pay-as-you-go)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Firebase Analytics</td>
+            <td>✅ Free, unlimited</td>
+            <td>✅ Free, unlimited</td>
+          </tr>
+          <tr>
+            <td>Events per Month</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <td>Data Retention</td>
+            <td>2 months (up to 14)</td>
+            <td>2 months (up to 14)</td>
+          </tr>
+          <tr>
+            <td>BigQuery Export</td>
+            <td>✅ Free daily export</td>
+            <td>✅ Free daily export</td>
+          </tr>
+          <tr>
+            <td>Crashlytics</td>
+            <td>✅ Free, unlimited</td>
+            <td>✅ Free, unlimited</td>
+          </tr>
+          <tr>
+            <td>Performance Monitoring</td>
+            <td>✅ Free</td>
+            <td>✅ Free</td>
+          </tr>
+          <tr>
+            <td>Remote Config</td>
+            <td>✅ Free</td>
+            <td>✅ Free</td>
+          </tr>
+          <tr>
+            <td>A/B Testing</td>
+            <td>✅ Free</td>
+            <td>✅ Free</td>
+          </tr>
+          <tr>
+            <td>Predictions</td>
+            <td>✅ Free</td>
+            <td>✅ Free</td>
+          </tr>
+          <tr>
+            <td>Cloud Messaging</td>
+            <td>✅ Free</td>
+            <td>✅ Free</td>
+          </tr>
+          <tr>
+            <td>App Distribution</td>
+            <td>✅ Free</td>
+            <td>✅ Free</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p><strong>Note:</strong> Firebase Analytics is always free. The Blaze plan only charges for other Firebase services like Cloud Functions, Firestore, or Storage if you exceed free tier limits.</p>
+      
+      <h2>Key Features for Mobile App Developers</h2>
+      
+      <h3>Automatic Event Collection</h3>
+      <p>Firebase automatically collects these events without any code:</p>
+      <table class="feature-table">
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>first_open</td>
+            <td>First time user opens the app</td>
+          </tr>
+          <tr>
+            <td>session_start</td>
+            <td>When a session begins</td>
+          </tr>
+          <tr>
+            <td>user_engagement</td>
+            <td>Active time in app</td>
+          </tr>
+          <tr>
+            <td>app_update</td>
+            <td>App updated to new version</td>
+          </tr>
+          <tr>
+            <td>app_remove</td>
+            <td>User uninstalls (Android only)</td>
+          </tr>
+          <tr>
+            <td>app_exception</td>
+            <td>Crash or error occurred</td>
+          </tr>
+          <tr>
+            <td>os_update</td>
+            <td>OS updated on device</td>
+          </tr>
+          <tr>
+            <td>dynamic_link_first_open</td>
+            <td>Deep link first open</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h3>Recommended Events for Mobile Apps</h3>
+      <p>Implement these events for better insights:</p>
+      <table class="feature-table">
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th>Purpose</th>
+            <th>Key Parameters</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>in_app_purchase</td>
+            <td>Track purchases</td>
+            <td>value, currency, item_id</td>
+          </tr>
+          <tr>
+            <td>earn_virtual_currency</td>
+            <td>Virtual currency earned</td>
+            <td>virtual_currency_name, value</td>
+          </tr>
+          <tr>
+            <td>level_start</td>
+            <td>Game level started</td>
+            <td>level_name</td>
+          </tr>
+          <tr>
+            <td>level_end</td>
+            <td>Game level completed</td>
+            <td>level_name, success</td>
+          </tr>
+          <tr>
+            <td>share</td>
+            <td>Content shared</td>
+            <td>content_type, method</td>
+          </tr>
+          <tr>
+            <td>sign_up</td>
+            <td>User registration</td>
+            <td>method</td>
+          </tr>
+          <tr>
+            <td>login</td>
+            <td>User login</td>
+            <td>method</td>
+          </tr>
+          <tr>
+            <td>screen_view</td>
+            <td>Screen navigation</td>
+            <td>screen_name, screen_class</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h3>User Properties</h3>
+      <p>Segment users by custom properties:</p>
+      <ul>
+        <li>Set up to 25 user properties</li>
+        <li>Pre-defined properties: language, device, country, etc.</li>
+        <li>Custom properties: subscription_tier, user_type, preferences</li>
+      </ul>
+      
+      <h3>Audiences</h3>
+      <p>Create user segments for targeting:</p>
+      <ul>
+        <li>Define audiences based on events and properties</li>
+        <li>Use for remarketing in Google Ads</li>
+        <li>Target with Firebase Remote Config</li>
+        <li>Send push notifications to specific audiences</li>
+      </ul>
+      
+      <h3>Integration with Firebase Services</h3>
+      <p>Firebase Analytics connects seamlessly with:</p>
+      <ul>
+        <li><strong>Crashlytics:</strong> Crash tracking and stability metrics</li>
+        <li><strong>Remote Config:</strong> Change app behavior without code changes</li>
+        <li><strong>A/B Testing:</strong> Experiment with UI changes</li>
+        <li><strong>Cloud Messaging:</strong> Push notification analytics</li>
+        <li><strong>Predictions:</strong> ML-powered user behavior predictions</li>
+        <li><strong>App Distribution:</strong> Beta testing analytics</li>
+      </ul>
+      
+      <h3>BigQuery Export</h3>
+      <p>Export raw data for advanced analysis:</p>
+      <ul>
+        <li>Free daily exports to BigQuery</li>
+        <li>SQL queries for custom analysis</li>
+        <li>Connect to Looker Studio for dashboards</li>
+        <li>Machine learning with BigQuery ML</li>
+      </ul>
+      
+      <h2>Implementation Guide</h2>
+      
+      <h3>Step 1: Create Firebase Project</h3>
+      <ol>
+        <li>Go to Firebase Console (console.firebase.google.com)</li>
+        <li>Create new project or select existing</li>
+        <li>Add your iOS/Android app</li>
+        <li>Download config file (GoogleService-Info.plist / google-services.json)</li>
+      </ol>
+      
+      <h3>Step 2: Install SDK</h3>
+      <p><strong>iOS (Swift Package Manager):</strong></p>
+      <pre><code>// Package.swift
+dependencies: [
+    .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "10.0.0")
+]
+
+// AppDelegate
+import FirebaseCore
+
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    FirebaseApp.configure()
+    return true
+}</code></pre>
+      
+      <p><strong>Android (Gradle):</strong></p>
+      <pre><code>// build.gradle (project)
+dependencies {
+    classpath 'com.google.gms:google-services:4.4.0'
+}
+
+// build.gradle (app)
+plugins {
+    id 'com.google.gms.google-services'
+}
+dependencies {
+    implementation 'com.google.firebase:firebase-analytics-ktx:21.5.0'
+}</code></pre>
+      
+      <h3>Step 3: Track Custom Events</h3>
+      <pre><code>// iOS (Swift)
+import FirebaseAnalytics
+
+Analytics.logEvent("purchase_completed", parameters: [
+    "item_name": "Premium Plan",
+    "price": 99.00,
+    "currency": "USD",
+    "payment_method": "credit_card"
+])
+
+// Android (Kotlin)
+import com.google.firebase.analytics.FirebaseAnalytics
+
+firebaseAnalytics.logEvent("purchase_completed") {
+    param("item_name", "Premium Plan")
+    param("price", 99.00)
+    param("currency", "USD")
+    param("payment_method", "credit_card")
+}</code></pre>
+      
+      <h3>Step 4: Set User Properties</h3>
+      <pre><code>// iOS (Swift)
+Analytics.setUserProperty("premium", forName: "subscription_tier")
+
+// Android (Kotlin)
+firebaseAnalytics.setUserProperty("subscription_tier", "premium")</code></pre>
+      
+      <h3>Step 5: Enable Debug Mode</h3>
+      <p>For real-time debugging:</p>
+      <pre><code>// iOS (Swift)
+// Add to scheme arguments:
+-FIRDebugEnabled
+
+// Android (Kotlin)
+// Enable in terminal:
+adb shell setprop debug.firebase.analytics.app &lt;package_name&gt;</code></pre>
+      
+      <h2>Pros and Cons of Firebase Analytics</h2>
+      
+      <div class="pros-cons">
+        <div class="pros">
+          <h3>✅ Pros</h3>
+          <ul>
+            <li>Completely free with no limits</li>
+            <li>Automatic event collection</li>
+            <li>Easy SDK integration (iOS, Android, Unity)</li>
+            <li>Seamless Firebase ecosystem integration</li>
+            <li>Free BigQuery export</li>
+            <li>Crashlytics integration for crash tracking</li>
+            <li>Remote Config for A/B testing</li>
+            <li>Real-time debug mode</li>
+            <li>Works offline (caches events)</li>
+            <li>Google Ads integration for attribution</li>
+          </ul>
+        </div>
+        
+        <div class="cons">
+          <h3>❌ Cons</h3>
+          <ul>
+            <li>Requires Google/Firebase account</li>
+            <li>Limited data retention (2-14 months)</li>
+            <li>No user-level profiles in dashboard</li>
+            <li>Less intuitive than Mixpanel/Amplitude</li>
+            <li>Complex GA4 reporting interface</li>
+            <li>No session replay</li>
+            <li>Attribution limited to Google ecosystem</li>
+            <li>Less granular control over events</li>
+            <li>Privacy concerns with Google data</li>
+            <li>Support is community-based</li>
+          </ul>
+        </div>
+      </div>
+      
+      <h2>Firebase Analytics vs Google Analytics 4 vs Mixpanel</h2>
+      
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Firebase Analytics</th>
+            <th>Google Analytics 4</th>
+            <th>Mixpanel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Free Tier</td>
+            <td>✅ Unlimited</td>
+            <td>✅ Unlimited</td>
+            <td>100K MTUs</td>
+          </tr>
+          <tr>
+            <td>Automatic Events</td>
+            <td>✅ Yes</td>
+            <td>✅ Yes</td>
+            <td>⚠️ Basic</td>
+          </tr>
+          <tr>
+            <td>User Profiles</td>
+            <td>❌ No</td>
+            <td>❌ No</td>
+            <td>✅ Yes</td>
+          </tr>
+          <tr>
+            <td>Real-Time Dashboards</td>
+            <td>⚠️ Limited</td>
+            <td>⚠️ Limited</td>
+            <td>✅ Full</td>
+          </tr>
+          <tr>
+            <td>BigQuery Export</td>
+            <td>✅ Free</td>
+            <td>✅ Free</td>
+            <td>💰 Paid</td>
+          </tr>
+          <tr>
+            <td>Crashlytics</td>
+            <td>✅ Built-in</td>
+            <td>❌ No</td>
+            <td>❌ No</td>
+          </tr>
+          <tr>
+            <td>A/B Testing</td>
+            <td>✅ Remote Config</td>
+            <td>❌ No</td>
+            <td>💰 Enterprise</td>
+          </tr>
+          <tr>
+            <td>Push Notifications</td>
+            <td>✅ FCM</td>
+            <td>❌ No</td>
+            <td>❌ No</td>
+          </tr>
+          <tr>
+            <td>Learning Curve</td>
+            <td>Low</td>
+            <td>Medium</td>
+            <td>Low</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h2>Best Practices for Mobile Apps</h2>
+      
+      <h3>1. Use Recommended Events</h3>
+      <p>Always implement recommended events for your app type:</p>
+      <ul>
+        <li>E-commerce: purchase, add_to_cart, view_item, begin_checkout</li>
+        <li>Gaming: level_start, level_end, unlock_achievement, earn_virtual_currency</li>
+        <li>Content: screen_view, share, search, select_content</li>
+      </ul>
+      
+      <h3>2. Set User Properties Early</h3>
+      <p>Define key user segments:</p>
+      <pre><code>// Set after signup
+Analytics.setUserProperty("premium", forName: "subscription_tier")
+Analytics.setUserProperty("referral", forName: "acquisition_channel")
+
+// Track engagement
+Analytics.setUserProperty("active", forName: "user_status")</code></pre>
+      
+      <h3>3. Enable Screen Tracking</h3>
+      <p>Automatic screen tracking:</p>
+      <pre><code>// iOS (Swift)
+// Enable automatic screen tracking
+Analytics.logEvent(AnalyticsEventScreenView, parameters: [
+    AnalyticsParameterScreenName: screenName,
+    AnalyticsParameterScreenClass: screenClassName
+])</code></pre>
+      
+      <h3>4. Integrate Crashlytics</h3>
+      <p>Get crash insights alongside analytics:</p>
+      <ul>
+        <li>Crash-free users rate in Analytics dashboard</li>
+        <li>Crash events linked to user sessions</li>
+        <li>Breadcrumbs for crash debugging</li>
+      </ul>
+      
+      <h3>5. Use Remote Config</h3>
+      <p>Personalize experiences based on analytics:</p>
+      <ul>
+        <li>Show different features to different user segments</li>
+        <li>A/B test UI changes</li>
+        <li>Roll out features gradually</li>
+      </ul>
+      
+      <h2>When to Choose Firebase Analytics</h2>
+      
+      <p><strong>Choose Firebase Analytics when:</strong></p>
+      <ul>
+        <li>You want free, unlimited analytics</li>
+        <li>You're building on Firebase platform</li>
+        <li>You need crash reporting (Crashlytics)</li>
+        <li>You use Google Ads for acquisition</li>
+        <li>You want Remote Config / A/B testing</li>
+        <li>You need BigQuery export at no cost</li>
+      </ul>
+      
+      <p><strong>Consider alternatives when:</strong></p>
+      <ul>
+        <li>You need user-level analytics profiles → Mixpanel, Amplitude</li>
+        <li>You need real-time product dashboards → Amplitude</li>
+        <li>You need session replay → UXCam, Smartlook</li>
+        <li>You're concerned about Google data → PostHog</li>
+        <li>You need marketing attribution beyond Google → Adjust, AppsFlyer</li>
+      </ul>
+      
+      <h2>FAQ</h2>
+      
+      <div class="faq-section">
+        <h3>Is Firebase Analytics free?</h3>
+        <p>Yes, Firebase Analytics is completely free with unlimited event tracking. It's part of Google's Firebase platform which offers a generous free tier (Spark plan) that includes Analytics, Crashlytics, Performance Monitoring, Remote Config, and more.</p>
+        
+        <h3>What's the difference between Firebase Analytics and Google Analytics 4?</h3>
+        <p>Firebase Analytics and Google Analytics 4 (GA4) are now the same product. GA4 replaced the older Google Analytics for Firebase. The Firebase SDK automatically collects events, while GA4 provides the reporting interface. They share the same data, and you can view Firebase data in the GA4 dashboard.</p>
+        
+        <h3>What events does Firebase Analytics automatically track?</h3>
+        <p>Firebase automatically tracks: first_open, session_start, user_engagement, app_update, app_remove (Android), app_exception, os_update, dynamic_link_first_open, and campaign attribution. You can also enable automatic screen view tracking.</p>
+        
+        <h3>Does Firebase Analytics work offline?</h3>
+        <p>Yes, Firebase Analytics caches events locally when the device is offline and sends them when connectivity is restored. Events are timestamped when they occurred, not when sent. This ensures accurate analytics even with intermittent connectivity.</p>
+        
+        <h3>How do I export Firebase Analytics data?</h3>
+        <p>Firebase Analytics data can be exported to BigQuery for free on the Spark plan. Daily exports are available at no cost. This allows SQL queries, custom analysis, and integration with data visualization tools like Looker Studio.</p>
+      </div>
+      
+      <h2>Final Verdict</h2>
+      <p><strong>Firebase Analytics is the best free foundation for mobile app analytics</strong> and should be the starting point for most mobile app projects. Its integration with the Firebase ecosystem makes it essential for teams using Crashlytics, Remote Config, or other Firebase services.</p>
+      
+      <p><strong>Best for:</strong></p>
+      <ul>
+        <li>Any mobile app (free, unlimited)</li>
+        <li>Teams using Firebase platform</li>
+        <li>Apps using Google Ads for acquisition</li>
+        <li>Teams needing crash reporting + analytics</li>
+        <li>Developers wanting quick setup</li>
+      </ul>
+      
+      <p><strong>Rating: 9/10</strong> for mobile app analytics. Deducted points for limited dashboard and no user profiles, but the free pricing and Firebase integration make it essential.</p>
+      
+    </article>
+  </main>
+  
+  <footer>
+    <p>&copy; 2026 Analytics Tools Apps. All rights reserved.</p>
+    <p>
+      <a href="/privacy">Privacy Policy</a> | 
+      <a href="/terms">Terms of Service</a> | 
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </footer>
+  
+  <!-- Analytics placeholder -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA-XXXXXXXXXX');
+  </script>
+</body>
+</html>

@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Analytics vs Mixpanel for Mobile Apps (2026) | Complete Comparison</title>
+  <meta name="description" content="Google Analytics vs Mixpanel: Complete comparison for mobile apps. Compare pricing, features, implementation, and use cases. Find the best analytics tool for your app.">
+  <meta name="keywords" content="google analytics vs mixpanel, ga4 vs mixpanel, mobile app analytics comparison, mixpanel vs ga4, analytics tools">
+  <link rel="stylesheet" href="/styles.css">
+  
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Which is better for mobile apps: Google Analytics or Mixpanel?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on your needs. Google Analytics (GA4) is better for teams wanting free unlimited analytics, marketing attribution, and Google ecosystem integration. Mixpanel is better for product teams needing user-level analytics, real-time dashboards, funnels, and cohort analysis. Many teams use both together."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use both Google Analytics and Mixpanel together?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, many teams use both together. Google Analytics for marketing attribution, traffic analysis, and free unlimited tracking. Mixpanel for product analytics, user behavior insights, and real-time dashboards. This combination gives you comprehensive analytics coverage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Mixpanel worth the cost vs free Google Analytics?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mixpanel offers 100K free monthly tracked users, which covers most small to medium apps. For product teams who need user-level analytics, funnels, and cohort analysis, Mixpanel's free tier is worth using alongside GA4. Paid Mixpanel plans are worth it for teams who need advanced features like A/B testing and behavioral cohorts."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the main differences between GA4 and Mixpanel?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Key differences: GA4 is free unlimited with aggregate analytics, Mixpanel has 100K free MTUs with user profiles. GA4 requires Firebase SDK, Mixpanel has native SDKs. GA4 integrates with Google Ads/BigQuery, Mixpanel offers better funnels/cohorts. GA4 has learning curve, Mixpanel is more intuitive for product teams."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which analytics tool is better for startups?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For startups, start with Google Analytics 4 (free unlimited) as your foundation. Add Mixpanel (free 100K MTUs) if you need product analytics. Many startups use both: GA4 for marketing attribution and general analytics, Mixpanel for user behavior and product insights. This combination costs nothing and provides comprehensive coverage."
+        }
+      }
+    ]
+  }
+  </script>
+  
+  <!-- AdSense placeholder -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" class="logo">Analytics Tools Apps</a>
+      <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <article>
+      <!-- Breadcrumb Navigation -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/analytics-tools-apps">Analytics Tools</a></li>
+          <li><span>Google Analytics vs Mixpanel</span></li>
+        </ol>
+      </nav>
+      
+      <h1>Google Analytics vs Mixpanel for Mobile Apps: 2026 Comparison</h1>
+      <p class="subtitle">A detailed comparison to help you choose the right analytics solution for your mobile app</p>
+      
+      <section class="key-takeaways">
+        <h2>Quick Verdict</h2>
+        <ul>
+          <li><strong>Choose Google Analytics (GA4)</strong> if you want free unlimited analytics, need marketing attribution, or use Google Ads/BigQuery</li>
+          <li><strong>Choose Mixpanel</strong> if you need user-level analytics, real-time product dashboards, and funnel/retention analysis</li>
+          <li><strong>Use both together</strong> for comprehensive coverage—GA4 for marketing/traffic, Mixpanel for product/behavior</li>
+          <li><strong>Both have generous free tiers:</strong> GA4 is completely free, Mixpanel offers 100K MTUs free</li>
+        </ul>
+      </section>
+      
+      <h2>Overview: Google Analytics vs Mixpanel</h2>
+      <p>Google Analytics 4 (GA4) and Mixpanel take fundamentally different approaches to mobile app analytics. Understanding these differences is crucial for choosing the right tool—or combination of tools—for your app.</p>
+      
+      <h3>Google Analytics 4 (GA4)</h3>
+      <p>GA4 is Google's free, next-generation analytics platform. Originally built for web analytics, GA4 now handles mobile app tracking through Firebase Analytics integration. It excels at aggregate metrics, marketing attribution, and cross-platform tracking—but lacks user-level analysis.</p>
+      
+      <h3>Mixpanel</h3>
+      <p>Mixpanel is a product analytics platform built specifically for understanding user behavior. It tracks individual users through funnels, retention cohorts, and user profiles. While not free at scale, its generous free tier and powerful analytics make it ideal for product teams.</p>
+      
+      <h2>Pricing Comparison</h2>
+      
+      <table class="pricing-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Google Analytics 4</th>
+            <th>Mixpanel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Free Tier</td>
+            <td>✅ Unlimited events</td>
+            <td>100K MTUs/month</td>
+          </tr>
+          <tr>
+            <td>Paid Plans</td>
+            <td>Analytics 360: $150K/year</td>
+            <td>Enterprise: Custom pricing</td>
+          </tr>
+          <tr>
+            <td>Data Retention</td>
+            <td>2-14 months</td>
+            <td>Unlimited (all plans)</td>
+          </tr>
+          <tr>
+            <td>Event Limits</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <td>User Profiles</td>
+            <td>❌ Not available</td>
+            <td>✅ Included</td>
+          </tr>
+          <tr>
+            <td>BigQuery Export</td>
+            <td>✅ Free daily</td>
+            <td>💰 API only</td>
+          </tr>
+          <tr>
+            <td>Team Members</td>
+            <td>Unlimited</td>
+            <td>3 (free) / Unlimited (paid)</td>
+          </tr>
+          <tr>
+            <td>Support</td>
+            <td>Community (free)</td>
+            <td>Email (free) / Dedicated (paid)</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p><strong>Winner:</strong> Google Analytics for completely free unlimited tracking. Mixpanel's 100K free MTUs is generous for small apps, but scales cost at volume.</p>
+      
+      <h2>Feature Comparison</h2>
+      
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Google Analytics 4</th>
+            <th>Mixpanel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Automatic Events</td>
+            <td>✅ Extensive</td>
+            <td>⚠️ Basic</td>
+          </tr>
+          <tr>
+            <td>Custom Events</td>
+            <td>✅ Unlimited</td>
+            <td>✅ Unlimited</td>
+          </tr>
+          <tr>
+            <td>User Profiles</td>
+            <td>❌ No</td>
+            <td>✅ Yes</td>
+          </tr>
+          <tr>
+            <td>Funnels</td>
+            <td>⚠️ Basic</td>
+            <td>✅ Advanced</td>
+          </tr>
+          <tr>
+            <td>Retention Analysis</td>
+            <td>✅ Yes</td>
+            <td>✅ Advanced</td>
+          </tr>
+          <tr>
+            <td>Cohort Analysis</td>
+            <td>⚠️ Basic</td>
+            <td>✅ Advanced</td>
+          </tr>
+          <tr>
+            <td>Real-Time Dashboards</td>
+            <td>⚠️ Limited</td>
+            <td>✅ Full</td>
+          </tr>
+          <tr>
+            <td>User Segmentation</td>
+            <td>⚠️ Aggregate only</td>
+            <td>✅ Individual users</td>
+          </tr>
+          <tr>
+            <td>Session Replay</td>
+            <td>❌ No</td>
+            <td>❌ No</td>
+          </tr>
+          <tr>
+            <td>A/B Testing</td>
+            <td>❌ No</td>
+            <td>💰 Enterprise</td>
+          </tr>
+          <tr>
+            <td>Cross-Platform</td>
+            <td>✅ Web + App</td>
+            <td>✅ All platforms</td>
+          </tr>
+          <tr>
+            <td>BigQuery Export</td>
+            <td>✅ Free</td>
+            <td>💰 Paid</td>
+          </tr>
+          <tr>
+            <td>Marketing Attribution</td>
+            <td>✅ Strong</td>
+            <td>⚠️ Requires integration</td>
+          </tr>
+          <tr>
+            <td>Google Ads Integration</td>
+            <td>✅ Native</td>
+            <td>❌ No</td>
+          </tr>
+          <tr>
+            <td>SDK Quality</td>
+            <td>✅ Firebase SDK</td>
+            <td>✅ Native SDKs</td>
+          </tr>
+          <tr>
+            <td>Learning Curve</td>
+            <td>Medium-High</td>
+            <td>Low</td>
+          </tr>
+          <tr>
+            <td>Documentation</td>
+            <td>✅ Extensive</td>
+            <td>✅ Excellent</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h2>Detailed Comparison</h2>
+      
+      <h3>User-Level vs Aggregate Analytics</h3>
+      <p><strong>Google Analytics</strong> focuses on aggregate metrics. You see trends, averages, and segments—but not individual user behavior. This is intentional for privacy and scale.</p>
+      
+      <p><strong>Mixpanel</strong> tracks individual users. You can see a specific user's journey, their properties, and every event they've performed. This enables powerful segmentation and personalization.</p>
+      
+      <div class="comparison-box">
+        <div class="ga-box">
+          <h4>Google Analytics</h4>
+          <ul>
+            <li>"2,543 users completed purchase"</li>
+            <li>"35% of users from USA"</li>
+            <li>"Average session duration: 4m 32s"</li>
+          </ul>
+        </div>
+        <div class="mixpanel-box">
+          <h4>Mixpanel</h4>
+          <ul>
+            <li>"User 12345 viewed product X, then Y, then purchased"</li>
+            <li>"Users who completed onboarding have 80% higher retention"</li>
+            <li>"John Doe (john@email.com) - Premium Plan"</li>
+          </ul>
+        </div>
+      </div>
+      
+      <h3>Funnels & Conversion</h3>
+      <p><strong>Google Analytics</strong> has basic funnel capabilities in the Exploration reports. You can create multi-step funnels and see conversion rates, but segmentation and time analysis are limited.</p>
+      
+      <p><strong>Mixpanel</strong> excels at funnel analysis. You can:</p>
+      <ul>
+        <li>Build complex multi-step funnels</li>
+        <li>Segment by any user property or behavior</li>
+        <li>Analyze time between steps</li>
+        <li>See exactly which users dropped off</li>
+        <li>Compare funnels across time periods</li>
+        <li>Create funnel cohorts for retention analysis</li>
+      </ul>
+      
+      <h3>Retention Analysis</h3>
+      <p><strong>Google Analytics</strong> provides retention curves in the Exploration reports. You can see N-day retention and basic cohort analysis.</p>
+      
+      <p><strong>Mixpanel</strong> offers advanced retention analysis:</p>
+      <ul>
+        <li>N-day and unbounded retention</li>
+        <li>Retention by cohort (signup date, campaign, etc.)</li>
+        <li>Power user identification</li>
+        <li>Retention drivers analysis</li>
+        <li>Stickiness metrics (DAU/MAU)</li>
+      </ul>
+      
+      <h3>Real-Time Reporting</h3>
+      <p><strong>Google Analytics</strong> has a real-time view showing current users, but it's limited and updates every few seconds. Most reports have 24-48 hour data freshness.</p>
+      
+      <p><strong>Mixpanel</strong> provides true real-time dashboards with instant updates. Events appear within seconds, making it ideal for monitoring launches, campaigns, and feature releases.</p>
+      
+      <h3>Marketing Attribution</h3>
+      <p><strong>Google Analytics</strong> excels at marketing attribution:</p>
+      <ul>
+        <li>Native Google Ads integration</li>
+        <li>Campaign tracking parameters (UTM)</li>
+        <li>Multi-touch attribution models</li>
+        <li>User acquisition reports</li>
+        <li>Channel grouping and analysis</li>
+      </ul>
+      
+      <p><strong>Mixpanel</strong> requires integration for attribution:</p>
+      <ul>
+        <li>Works with attribution partners (Adjust, AppsFlyer, Branch)</li>
+        <li>Can track UTMs as user properties</li>
+        <li>Less focused on acquisition channels</li>
+        <li>Better at post-install behavior analysis</li>
+      </ul>
+      
+      <h3>Data Export & Integration</h3>
+      <p><strong>Google Analytics</strong> offers free BigQuery export:</p>
+      <ul>
+        <li>Daily exports to BigQuery (free)</li>
+        <li>SQL queries for custom analysis</li>
+        <li>Integration with Looker Studio</li>
+        <li>Machine learning with BigQuery ML</li>
+      </ul>
+      
+      <p><strong>Mixpanel</strong> offers API and warehouse sync:</p>
+      <ul>
+        <li>Export API (free tier)</li>
+        <li>Data warehouse sync (paid)</li>
+        <li>Webhooks for real-time data</li>
+        <li>Integrations with 100+ tools</li>
+      </ul>
+      
+      <h2>Implementation Comparison</h2>
+      
+      <h3>Google Analytics (via Firebase)</h3>
+      <pre><code>// iOS - Firebase Analytics
+import FirebaseAnalytics
+
+// Automatic events - no code needed!
+// Just initialize Firebase
+
+// Custom events
+Analytics.logEvent("purchase", parameters: [
+    "item_name": "Premium Plan",
+    "price": 99.00
+])</code></pre>
+      
+      <h3>Mixpanel</h3>
+      <pre><code>// iOS - Mixpanel
+import Mixpanel
+
+// Initialize
+Mixpanel.initialize(token: "YOUR_TOKEN", trackAutomaticEvents: true)
+
+// Identify user
+Mixpanel.mainInstance().identify(distinctId: "user_12345")
+Mixpanel.mainInstance().people.set(properties: [
+    "name": "John Doe",
+    "plan": "premium"
+])
+
+// Track events
+Mixpanel.mainInstance().track(event: "Purchase Completed", properties: [
+    "item_name": "Premium Plan",
+    "price": 99.00
+])</code></pre>
+      
+      <p><strong>Implementation Winner:</strong> Tie. Both have excellent SDKs and similar implementation complexity. GA4/Firebase has more automatic events, Mixpanel has more intuitive user tracking.</p>
+      
+      <h2>When to Use Google Analytics</h2>
+      
+      <div class="use-case-box">
+        <h3>✅ Choose Google Analytics When:</h3>
+        <ul>
+          <li>You need <strong>completely free analytics</strong> with no limits</li>
+          <li>You're running <strong>Google Ads campaigns</strong></li>
+          <li>You need <strong>marketing attribution</strong> and UTM tracking</li>
+          <li>You want <strong>cross-platform tracking</strong> (web + app)</li>
+          <li>You need <strong>BigQuery export</strong> for custom analysis</li>
+          <li>You're using <strong>other Firebase services</strong> (Crashlytics, etc.)</li>
+          <li>You need <strong>aggregate traffic metrics</strong></li>
+          <li>Budget is <strong>zero or minimal</strong></li>
+        </ul>
+      </div>
+      
+      <h2>When to Use Mixpanel</h2>
+      
+      <div class="use-case-box">
+        <h3>✅ Choose Mixpanel When:</h3>
+        <ul>
+          <li>You need <strong>user-level analytics</strong> and profiles</li>
+          <li>Your product team needs <strong>real-time dashboards</strong></li>
+          <li>You want to analyze <strong>funnels and cohorts</strong></li>
+          <li>You need to understand <strong>user behavior patterns</strong></li>
+          <li>You have &lt; 100K monthly users (free tier)</li>
+          <li>You want <strong>intuitive, visual analytics</strong></li>
+          <li>You need to <strong>segment users</strong> by behavior</li>
+          <li>You want to identify <strong>power users</strong></li>
+        </ul>
+      </div>
+      
+      <h2>Can You Use Both Together?</h2>
+      
+      <p><strong>Yes! This is a common strategy.</strong> Many teams use both together:</p>
+      
+      <table class="use-case-table">
+        <thead>
+          <tr>
+            <th>Use Case</th>
+            <th>Primary Tool</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Marketing attribution</td>
+            <td>Google Analytics</td>
+          </tr>
+          <tr>
+            <td>Google Ads optimization</td>
+            <td>Google Analytics</td>
+          </tr>
+          <tr>
+            <td>Product analytics</td>
+            <td>Mixpanel</td>
+          </tr>
+          <tr>
+            <td>User behavior insights</td>
+            <td>Mixpanel</td>
+          </tr>
+          <tr>
+            <td>Funnel analysis</td>
+            <td>Mixpanel</td>
+          </tr>
+          <tr>
+            <td>Retention analysis</td>
+            <td>Mixpanel</td>
+          </tr>
+          <tr>
+            <td>BigQuery analysis</td>
+            <td>Google Analytics</td>
+          </tr>
+          <tr>
+            <td>Real-time monitoring</td>
+            <td>Mixpanel</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h2>Cost Analysis at Scale</h2>
+      
+      <h3>Google Analytics</h3>
+      <ul>
+        <li><strong>Free:</strong> Unlimited events, 2-14 month retention</li>
+        <li><strong>Analytics 360:</strong> $150,000/year minimum</li>
+        <li>Only needed for enterprise SLAs and dedicated support</li>
+      </ul>
+      
+      <h3>Mixpanel</h3>
+      <ul>
+        <li><strong>Free:</strong> 100K MTUs/month</li>
+        <li><strong>Growth:</strong> From $20/month (for MTUs over 100K)</li>
+        <li><strong>Enterprise:</strong> Custom pricing</li>
+        <li>Costs scale with monthly tracked users</li>
+      </ul>
+      
+      <p><strong>Example at scale:</strong></p>
+      <ul>
+        <li>500K MTUs: Mixpanel ~$250-500/month, GA4 = $0</li>
+        <li>1M MTUs: Mixpanel ~$500-1,000/month, GA4 = $0</li>
+        <li>5M MTUs: Mixpanel ~$2,000+/month, GA4 = $0</li>
+      </ul>
+      
+      <h2>Recommendations by Team Size</h2>
+      
+      <h3>Startup / Small Team (&lt;50K users)</h3>
+      <p><strong>Recommendation:</strong> Use both! Start with GA4 for free unlimited tracking, add Mixpanel for product analytics. Both are free at this scale.</p>
+      
+      <h3>Growing Team (50K-100K users)</h3>
+      <p><strong>Recommendation:</strong> Use both. GA4 for marketing/traffic, Mixpanel for product. Still within Mixpanel's free tier.</p>
+      
+      <h3>Scaling Team (100K-500K users)</h3>
+      <p><strong>Recommendation:</strong> Evaluate Mixpanel costs. If product analytics is critical, pay for Mixpanel. If budget is tight, GA4 + Amplitude (10M free events) is a cost-effective alternative.</p>
+      
+      <h3>Enterprise (500K+ users)</h3>
+      <p><strong>Recommendation:</strong> Use GA4 for marketing attribution and BigQuery export. For product analytics, evaluate Mixpanel vs Amplitude vs building in-house. Cost becomes a factor.</p>
+      
+      <h2>FAQ</h2>
+      
+      <div class="faq-section">
+        <h3>Which is better for mobile apps: Google Analytics or Mixpanel?</h3>
+        <p>It depends on your needs. Google Analytics (GA4) is better for teams wanting free unlimited analytics, marketing attribution, and Google ecosystem integration. Mixpanel is better for product teams needing user-level analytics, real-time dashboards, funnels, and cohort analysis. Many teams use both together.</p>
+        
+        <h3>Can I use both Google Analytics and Mixpanel together?</h3>
+        <p>Yes, many teams use both together. Google Analytics for marketing attribution, traffic analysis, and free unlimited tracking. Mixpanel for product analytics, user behavior insights, and real-time dashboards. This combination gives you comprehensive analytics coverage.</p>
+        
+        <h3>Is Mixpanel worth the cost vs free Google Analytics?</h3>
+        <p>Mixpanel offers 100K free monthly tracked users, which covers most small to medium apps. For product teams who need user-level analytics, funnels, and cohort analysis, Mixpanel's free tier is worth using alongside GA4. Paid Mixpanel plans are worth it for teams who need advanced features like A/B testing and behavioral cohorts.</p>
+        
+        <h3>What are the main differences between GA4 and Mixpanel?</h3>
+        <p>Key differences: GA4 is free unlimited with aggregate analytics, Mixpanel has 100K free MTUs with user profiles. GA4 requires Firebase SDK, Mixpanel has native SDKs. GA4 integrates with Google Ads/BigQuery, Mixpanel offers better funnels/cohorts. GA4 has learning curve, Mixpanel is more intuitive for product teams.</p>
+        
+        <h3>Which analytics tool is better for startups?</h3>
+        <p>For startups, start with Google Analytics 4 (free unlimited) as your foundation. Add Mixpanel (free 100K MTUs) if you need product analytics. Many startups use both: GA4 for marketing attribution and general analytics, Mixpanel for user behavior and product insights. This combination costs nothing and provides comprehensive coverage.</p>
+      </div>
+      
+      <h2>Final Verdict</h2>
+      
+      <table class="verdict-table">
+        <thead>
+          <tr>
+            <th>Criteria</th>
+            <th>Winner</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Free Pricing</td>
+            <td>🟢 Google Analytics (unlimited)</td>
+          </tr>
+          <tr>
+            <td>User-Level Analytics</td>
+            <td>🟢 Mixpanel</td>
+          </tr>
+          <tr>
+            <td>Marketing Attribution</td>
+            <td>🟢 Google Analytics</td>
+          </tr>
+          <tr>
+            <td>Funnel Analysis</td>
+            <td>🟢 Mixpanel</td>
+          </tr>
+          <tr>
+            <td>Real-Time Dashboards</td>
+            <td>🟢 Mixpanel</td>
+          </tr>
+          <tr>
+            <td>BigQuery Export</td>
+            <td>🟢 Google Analytics</td>
+          </tr>
+          <tr>
+            <td>Ease of Use</td>
+            <td>🟢 Mixpanel</td>
+          </tr>
+          <tr>
+            <td>Ecosystem Integration</td>
+            <td>🟢 Google Analytics</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h3>Our Recommendation</h3>
+      <p><strong>For most mobile apps:</strong> Use both tools together. Start with Google Analytics 4 for free unlimited tracking and marketing attribution. Add Mixpanel (free tier) for product analytics, user behavior, and real-time insights.</p>
+      
+      <p><strong>For budget-conscious teams:</strong> Google Analytics 4 alone provides excellent free analytics. Add Amplitude (10M free events) as a Mixpanel alternative if you need user-level analytics without cost.</p>
+      
+      <p><strong>For product-focused teams:</strong> Mixpanel provides the best user behavior analytics experience. Use it alongside GA4 for marketing attribution and you'll have comprehensive coverage.</p>
+      
+    </article>
+  </main>
+  
+  <footer>
+    <p>&copy; 2026 Analytics Tools Apps. All rights reserved.</p>
+    <p>
+      <a href="/privacy">Privacy Policy</a> | 
+      <a href="/terms">Terms of Service</a> | 
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </footer>
+  
+  <!-- Analytics placeholder -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA-XXXXXXXXXX');
+  </script>
+</body>
+</html>
