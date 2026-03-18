@@ -1,79 +1,570 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="robots" content="noindex, follow">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>How to Use CapCut for Reporting</title>
-  <meta name="description" content="Step-by-step guide to leveraging CapCut for reporting. Practical examples and best practices.">
-  <meta name="keywords" content="capcut tutorial, reporting, how to capcut">
+  <meta name="robots" content="index, follow">
+  <title>CapCut Analytics & Reporting: How to Track Video Performance in 2026</title>
+  <meta name="description" content="Learn how to use CapCut for video performance reporting. Track views, engagement, watch time, and analytics for TikTok, YouTube Shorts, and Instagram Reels.">
+  <meta name="keywords" content="capcut analytics, capcut reporting, video performance tracking, capcut stats, capcut engagement metrics">
+  <link rel="canonical" href="https://www.toolreviewshub.com/video-editing-software-youtubers/how-to-use-capcut-for-reporting.html">
   <link rel="stylesheet" href="/styles.css">
-  <link rel="canonical" href="https://www.toolreviewshub.com/analytics-tools-apps/how-to-use-capcut-for-reporting.html">
-  <!-- AdSense placeholder -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+  
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Does CapCut have built-in analytics?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CapCut itself doesn't have analytics - it's a video editor. However, CapCut is owned by ByteDance (TikTok's parent company) and integrates directly with TikTok. For video performance reporting, you need to use the platform analytics (TikTok Analytics, YouTube Studio, Instagram Insights) after exporting from CapCut."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I track CapCut video performance on TikTok?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "After exporting from CapCut to TikTok, use TikTok Analytics (available on Pro/Creator accounts) to track views, watch time, engagement rate, audience demographics, and trending sounds. TikTok Creator Marketplace provides deeper analytics for sponsored content."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What metrics should I track for CapCut-edited videos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Key metrics include: views, average watch time, completion rate, engagement rate (likes + comments + shares / views), click-through rate (for videos with links), audience retention graph, and follower growth from video. These vary by platform (TikTok, YouTube, Instagram)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I export CapCut videos with analytics tracking?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CapCut exports standard video files (MP4, MOV). Analytics tracking happens on the publishing platform, not in CapCut. For best results, use platform-specific export settings: TikTok (1080x1920, 9:16), YouTube Shorts (1080x1920, 9:16), Instagram Reels (1080x1920, 9:16)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I create a CapCut video reporting dashboard?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Combine data from TikTok Analytics, YouTube Studio, and Instagram Insights into a unified dashboard. Export CSV reports from each platform, then use Google Sheets, Looker Studio, or a social media tool like Hootsuite or Buffer to visualize performance across all platforms."
+        }
+      }
+    ]
+  }
+  </script>
+  
+  <style>
+    .category-disclaimer {
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 15px 20px;
+      margin: 20px 0;
+      border-radius: 4px;
+    }
+    .category-disclaimer strong {
+      color: #856404;
+    }
+    .redirect-suggestion {
+      margin-top: 10px;
+    }
+    .redirect-suggestion a {
+      color: #0056b3;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="/" class="logo">Analytics Tools Apps</a>
-      <ul>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav class="breadcrumbs">
+    <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="/"><span itemprop="name">Home</span></a>
+        <meta itemprop="position" content="1">
+      </li>
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="/video-editing-software-youtubers/"><span itemprop="name">Video Editing for YouTubers</span></a>
+        <meta itemprop="position" content="2">
+      </li>
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">How to Use CapCut for Video Reporting</span>
+        <meta itemprop="position" content="3">
+      </li>
+    </ol>
+  </nav>
   
   <main>
     <article>
+      <div class="category-disclaimer">
+        <strong>📌 Note:</strong> CapCut is a video editing tool, not an analytics platform. This guide covers video performance reporting after editing in CapCut.
+        <div class="redirect-suggestion">
+          Looking for mobile app analytics? See: <a href="/analytics-tools-apps/">Analytics Tools for Mobile Apps</a> covering Firebase, Mixpanel, and Amplitude.
+        </div>
+      </div>
       
-<h1>How to Use CapCut for Reporting</h1></p><p><h2>Overview</h2></p><p>CapCut is a powerful platform that can transform your reporting workflow. This guide walks you through everything you need to know.</p><p><h2>Prerequisites</h2>
-<li>Active CapCut account</li><li>Basic understanding of reporting concepts</li><li>2-3 hours for initial setup</li></p><p><h2>Step 1: Initial Configuration</h2></p><p><h3>Account Setup</h3>
-1. Sign up at capcut.com
-2. Complete profile verification
-3. Configure workspace settings</p><p><h3>Integration Setup</h3>
-1. Navigate to Settings → Integrations
-2. Connect your existing tools
-3. Test connections</p><p><h2>Step 2: Core Workflow Setup</h2></p><p><h3>Creating Your First Campaign</h3>
-1. Click "New Campaign"
-2. Define objectives and KPIs
-3. Set budget and timeline</p><p><h3>Configuring Automation</h3>
-1. Access Automation Builder
-2. Define triggers and actions
-3. Test workflow end-to-end</p><p><h2>Step 3: Optimization</h2></p><p><h3>A/B Testing</h3>
-1. Create variant A (control)
-2. Create variant B (test)
-3. Run test for 2 weeks minimum</p><p><h3>Analytics Review</h3>
-1. Check dashboard daily
-2. Export weekly reports
-3. Adjust based on data</p><p><h2>Best Practices</h2></p><p><h3>Do's</h3><li>Start with templates</li><li>Document your workflows</li><li>Review analytics weekly</li></p><p><h3>Don'ts</h3><li>Don't skip testing</li><li>Don't ignore mobile optimization</li><li>Don't over-complicate initial setup</li></p><p><h2>Advanced Techniques</h2></p><p><h3>API Integration</h3>
-<pre><code class="language-javascript">const tool = require('capcut');
-const client = new tool.Client({ apiKey: 'YOUR_KEY' });
-await client.campaigns.create({ name: 'My Campaign' });
-</code></pre></p><p><h3>Custom Reporting</h3>
-Build custom dashboards using CapCut's reporting API.</p><p><h2>Troubleshooting</h2></p><p><h3>Common Issues</h3><li><strong>Connection errors:</strong> Check API keys and permissions</li><li><strong>Data sync issues:</strong> Force manual sync, then investigate</li><li><strong>Performance problems:</strong> Clear cache, reduce data volume</li></p><p><h2>Next Steps</h2></p><p>1. Complete initial setup (2-3 hours)
-2. Run first campaign (1 week)
-3. Review and optimize (ongoing)</p><p><h2>Resources</h2>
-<li>Official documentation: capcut.com/docs</li><li>Community forum: community.capcut.com</li><li>Video tutorials: YouTube/capcut</li></p><p>---</p><p><em>Guide last updated: March 2026</em>
-
+      <h1>CapCut Analytics & Reporting: How to Track Video Performance in 2026</h1>
+      <p class="meta">Last updated: March 2026 | 10 min read</p>
+      
+      <div class="key-takeaways">
+        <h2>📋 Key Takeaways</h2>
+        <ul>
+          <li><strong>CapCut is a video editor</strong> - analytics tracking happens on publishing platforms (TikTok, YouTube, Instagram)</li>
+          <li><strong>TikTok Analytics</strong> provides views, watch time, engagement, and audience demographics for CapCut-edited videos</li>
+          <li><strong>YouTube Studio</strong> offers detailed analytics for YouTube Shorts edited in CapCut</li>
+          <li><strong>Instagram Insights</strong> tracks Reels performance including reach, interactions, and audience data</li>
+          <li><strong>Unified reporting</strong> requires combining platform data in spreadsheets or dashboard tools</li>
+        </ul>
+      </div>
+      
+      <nav class="toc">
+        <h2>Table of Contents</h2>
+        <ul>
+          <li><a href="#overview">Understanding CapCut & Analytics</a></li>
+          <li><a href="#tiktok">TikTok Analytics for CapCut Videos</a></li>
+          <li><a href="#youtube">YouTube Analytics for CapCut Shorts</a></li>
+          <li><a href="#instagram">Instagram Insights for CapCut Reels</a></li>
+          <li><a href="#metrics">Key Metrics to Track</a></li>
+          <li><a href="#dashboard">Building a Unified Dashboard</a></li>
+          <li><a href="#best-practices">Reporting Best Practices</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      
+      <section id="overview">
+        <h2>Understanding CapCut & Video Analytics</h2>
+        <p>CapCut is a free video editing app owned by ByteDance (TikTok's parent company). While CapCut itself doesn't have analytics, it's optimized for creating content for TikTok, YouTube Shorts, and Instagram Reels. Video performance reporting happens on each platform after you publish.</p>
+        
+        <h3>CapCut's Role in the Analytics Workflow</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Tool</th>
+              <th>What Happens</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1. Edit Video</td>
+              <td>CapCut</td>
+              <td>Cut, add effects, music, text</td>
+            </tr>
+            <tr>
+              <td>2. Export</td>
+              <td>CapCut</td>
+              <td>Export MP4 with platform-optimized settings</td>
+            </tr>
+            <tr>
+              <td>3. Publish</td>
+              <td>TikTok/YouTube/Instagram</td>
+              <td>Upload and publish video</td>
+            </tr>
+            <tr>
+              <td>4. Track Performance</td>
+              <td>Platform Analytics</td>
+              <td>View metrics, engagement, audience data</td>
+            </tr>
+            <tr>
+              <td>5. Report</td>
+              <td>Spreadsheets/Dashboard</td>
+              <td>Combine data for unified reporting</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <h3>Why CapCut Doesn't Have Analytics</h3>
+        <p>CapCut is designed for video creation, not distribution. The platforms where you publish (TikTok, YouTube, Instagram) collect viewer data because that's where the viewing happens. This is standard across all video editors - Final Cut Pro, Premiere Pro, and DaVinci Resolve also don't have analytics.</p>
+      </section>
+      
+      <section id="tiktok">
+        <h2>TikTok Analytics for CapCut Videos</h2>
+        <p>TikTok provides the most comprehensive analytics for short-form video content. Since CapCut is owned by ByteDance, there's tight integration for TikTok publishing.</p>
+        
+        <h3>Accessing TikTok Analytics</h3>
+        <ol>
+          <li>Open TikTok app or TikTok.com (desktop)</li>
+          <li>Go to your Profile → tap the three dots (mobile) or hamburger menu (desktop)</li>
+          <li>Select "Creator Tools" or "Analytics"</li>
+          <li>Note: Requires Creator or Business account (free to switch)</li>
+        </ol>
+        
+        <h3>TikTok Analytics Available</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Metrics</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Overview</td>
+              <td>Video views, profile views, followers gained</td>
+            </tr>
+            <tr>
+              <td>Content</td>
+              <td>Views per video, average watch time, completion rate</td>
+            </tr>
+            <tr>
+              <td>Engagement</td>
+              <td>Likes, comments, shares, saves</td>
+            </tr>
+            <tr>
+              <td>Audience</td>
+              <td>Gender breakdown, top territories, activity times</td>
+            </tr>
+            <tr>
+              <td>Retention</td>
+              <td>Audience retention graph (when viewers drop off)</td>
+            </tr>
+            <tr>
+              <td>Live</td>
+              <td>Live views, gifts received, diamond earnings</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <h3>TikTok Analytics Export</h3>
+        <p>On desktop TikTok, you can export analytics data:</p>
+        <ol>
+          <li>Go to TikTok.com → Profile → Analytics</li>
+          <li>Click "Export data" (available for last 7, 28, 60 days)</li>
+          <li>Download CSV with detailed metrics</li>
+          <li>Import to Google Sheets for further analysis</li>
+        </ol>
+        
+        <h3>Best TikTok Metrics for CapCut Videos</h3>
+        <ul>
+          <li><strong>Completion Rate:</strong> % of viewers who watched the entire video (key for algorithm)</li>
+          <li><strong>Average Watch Time:</strong> How long viewers stay engaged</li>
+          <li><strong>Engagement Rate:</strong> (Likes + Comments + Shares) / Views</li>
+          <li><strong>Retention Graph:</strong> See exactly where viewers drop off</li>
+          <li><strong>Traffic Source:</strong> How viewers found your video (For You, Following, Search)</li>
+        </ul>
+      </section>
+      
+      <section id="youtube">
+        <h2>YouTube Analytics for CapCut Shorts</h2>
+        <p>YouTube Studio provides detailed analytics for YouTube Shorts (vertical videos under 60 seconds).</p>
+        
+        <h3>Accessing YouTube Studio Analytics</h3>
+        <ol>
+          <li>Go to YouTube Studio (studio.youtube.com)</li>
+          <li>Click "Analytics" in left sidebar</li>
+          <li>Filter by "Shorts" to see only vertical video metrics</li>
+          <li>Click individual videos for detailed performance</li>
+        </ol>
+        
+        <h3>YouTube Shorts Analytics Available</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Tab</th>
+              <th>Metrics</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Overview</td>
+              <td>Views, watch time, subscribers gained from Shorts</td>
+            </tr>
+            <tr>
+              <td>Reach</td>
+              <td>Impressions, click-through rate, unique viewers</td>
+            </tr>
+            <tr>
+              <td>Engagement</td>
+              <td>Likes, comments, shares, average view duration</td>
+            </tr>
+            <tr>
+              <td>Audience</td>
+              <td>Age, gender, geography, watch time by device</td>
+            </tr>
+            <tr>
+              <td>Revenue</td>
+              <td>Estimated revenue from Shorts Fund/Ad Revenue Sharing</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <h3>Key YouTube Shorts Metrics</h3>
+        <ul>
+          <li><strong>Swipe Away Rate:</strong> % of viewers who swiped away immediately</li>
+          <li><strong>Average View Duration:</strong> How long viewers watch</li>
+          <li><strong>Likes per View:</strong> Engagement quality indicator</li>
+          <li><strong>Subscribers Gained:</strong> New subscribers from this Short</li>
+          <li><strong>Impressions:</strong> How many times the Short was shown</li>
+        </ul>
+      </section>
+      
+      <section id="instagram">
+        <h2>Instagram Insights for CapCut Reels</h2>
+        <p>Instagram Insights tracks Reels performance for videos edited in CapCut and published to Instagram.</p>
+        
+        <h3>Accessing Instagram Insights</h3>
+        <ol>
+          <li>Open Instagram app</li>
+          <li>Go to your Profile</li>
+          <li>Tap the hamburger menu (top right)</li>
+          <li>Select "Insights"</li>
+          <li>Scroll to "Reels" section</li>
+        </ol>
+        <p>Note: Requires Creator or Business account (free to switch from Personal)</p>
+        
+        <h3>Instagram Reels Analytics Available</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Plays</td>
+              <td>Number of times Reel was played</td>
+            </tr>
+            <tr>
+              <td>Accounts Reached</td>
+              <td>Unique accounts who saw the Reel</td>
+            </tr>
+            <tr>
+              <td>Likes</td>
+              <td>Total likes on the Reel</td>
+            </tr>
+            <tr>
+              <td>Comments</td>
+              <td>Total comments</td>
+            </tr>
+            <tr>
+              <td>Saves</td>
+              <td>Number of users who saved the Reel</td>
+            </tr>
+            <tr>
+              <td>Shares</td>
+              <td>Number of times Reel was shared</td>
+            </tr>
+            <tr>
+              <td>Total Play Time</td>
+              <td>Cumulative time watched</td>
+            </tr>
+            <tr>
+              <td>Average Watch Time</td>
+              <td>How long viewers watched</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <h3>Instagram Insights Export</h3>
+        <p>On mobile, you can screenshot Insights. For data export:</p>
+        <ol>
+          <li>Use Meta Business Suite (business.facebook.com)</li>
+          <li>Go to Insights → Content</li>
+          <li>Export data as CSV</li>
+          <li>Import to Google Sheets for analysis</li>
+        </ol>
+      </section>
+      
+      <section id="metrics">
+        <h2>Key Metrics to Track Across Platforms</h2>
+        
+        <h3>Universal Video Metrics</h3>
+        <p>Track these metrics across all platforms for CapCut-edited videos:</p>
+        
+        <table>
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>TikTok</th>
+              <th>YouTube Shorts</th>
+              <th>Instagram Reels</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Views</td>
+              <td>✓</td>
+              <td>✓</td>
+              <td>✓ (Plays)</td>
+            </tr>
+            <tr>
+              <td>Watch Time</td>
+              <td>✓</td>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <td>Avg. View Duration</td>
+              <td>✓</td>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <td>Completion Rate</td>
+              <td>✓</td>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <td>Likes</td>
+              <td>✓</td>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <td>Comments</td>
+              <td>✓</td>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <td>Shares</td>
+              <td>✓</td>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <td>Saves</td>
+              <td>✓</td>
+              <td>✓ (Playlist adds)</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <td>Profile Visits</td>
+              <td>✓</td>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <td>New Followers</td>
+              <td>✓</td>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <h3>Engagement Rate Formula</h3>
+        <p><strong>Engagement Rate = (Likes + Comments + Shares + Saves) / Views × 100</strong></p>
+        <p>Good engagement rates:</p>
+        <ul>
+          <li><strong>TikTok:</strong> 4-6%+ is good, 8%+ is excellent</li>
+          <li><strong>YouTube Shorts:</strong> 2-4% is good, 5%+ is excellent</li>
+          <li><strong>Instagram Reels:</strong> 3-5% is good, 6%+ is excellent</li>
+        </ul>
+      </section>
+      
+      <section id="dashboard">
+        <h2>Building a Unified Reporting Dashboard</h2>
+        <p>Since CapCut videos go to multiple platforms, create a unified dashboard for tracking:</p>
+        
+        <h3>Option 1: Google Sheets Dashboard</h3>
+        <ol>
+          <li>Export CSV from TikTok, YouTube Studio, Instagram Insights</li>
+          <li>Import each to separate tabs in Google Sheets</li>
+          <li>Create a "Summary" tab with key metrics</li>
+          <li>Use formulas to calculate engagement rate, averages</li>
+          <li>Add charts for visual representation</li>
+        </ol>
+        
+        <h3>Option 2: Looker Studio Dashboard</h3>
+        <ol>
+          <li>Connect Google Sheets data sources to Looker Studio</li>
+          <li>Create scorecards for views, engagement, followers</li>
+          <li>Add time series charts for trends</li>
+          <li>Filter by platform, content type, date range</li>
+        </ol>
+        
+        <h3>Option 3: Social Media Management Tools</h3>
+        <p>Use tools that aggregate cross-platform analytics:</p>
+        <ul>
+          <li><strong>Hootsuite:</strong> Aggregate analytics from TikTok, YouTube, Instagram</li>
+          <li><strong>Buffer:</strong> Analytics for all platforms in one dashboard</li>
+          <li><strong>Later:</strong> Instagram + TikTok + Pinterest analytics</li>
+          <li><strong>Sprout Social:</strong> Enterprise-level cross-platform reporting</li>
+        </ul>
+        
+        <h3>Sample Dashboard Metrics</h3>
+        <pre><code class="language-markdown">| Date       | Platform | Video Title | Views | Eng Rate | Followers |
+|------------|----------|-------------|-------|----------|-----------|
+| 2026-03-15 | TikTok   | Dance Trend | 12,500| 8.2%     | +45       |
+| 2026-03-15 | YouTube  | Tutorial    | 8,200 | 4.1%     | +12       |
+| 2026-03-15 | Instagram| Behind Scenes|5,100 | 5.7%     | +8        |
+</code></pre>
+      </section>
+      
+      <section id="best-practices">
+        <h2>Reporting Best Practices</h2>
+        
+        <h3>Weekly Reporting Template</h3>
+        <ul>
+          <li><strong>Total Views:</strong> Sum across all platforms</li>
+          <li><strong>Avg Engagement Rate:</strong> Weighted average by views</li>
+          <li><strong>Best Performer:</strong> Video with highest engagement</li>
+          <li><strong>Worst Performer:</strong> Video to analyze for improvement</li>
+          <li><strong>Follower Growth:</strong> Net new followers</li>
+          <li><strong>Top Platform:</strong> Where you got most engagement</li>
+        </ul>
+        
+        <h3>Content Optimization Tips</h3>
+        <ul>
+          <li><strong>Review retention graphs:</strong> See where viewers drop off</li>
+          <li><strong>A/B test hooks:</strong> Test different opening 3 seconds</li>
+          <li><strong>Track posting times:</strong> Note when videos perform best</li>
+          <li><strong>Compare formats:</strong> Tutorial vs. entertainment vs. trending</li>
+          <li><strong>Analyze top comments:</strong> See what resonates with audience</li>
+        </ul>
+      </section>
+      
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+          <h3>Can I track CapCut video performance in real-time?</h3>
+          <p>Real-time tracking is available on each platform: TikTok shows live view counts, YouTube Studio has real-time analytics, and Instagram shows plays as they happen. However, detailed metrics (engagement rate, audience retention) update with a delay of 24-48 hours.</p>
+        </div>
+        
+        <div class="faq-item">
+          <h3>Why don't I see analytics on my videos?</h3>
+          <p>You need a Creator or Business account to access analytics on TikTok, YouTube, and Instagram. Personal accounts have limited or no analytics. Switching is free and takes 1 minute in each platform's settings.</p>
+        </div>
+        
+        <div class="faq-item">
+          <h3>How do I track CapCut videos across all platforms?</h3>
+          <p>There's no automatic cross-platform tracker. Use social media management tools (Hootsuite, Buffer) to aggregate data, or manually export CSV reports from each platform and combine in Google Sheets or Looker Studio.</p>
+        </div>
+        
+        <div class="faq-item">
+          <h3>Can I see which CapCut edits performed best?</h3>
+          <p>Only if you tag or name your videos consistently. Use consistent naming conventions (e.g., "Tutorial_01", "Dance_01") so you can correlate CapCut editing techniques with platform performance. The platforms don't know you used CapCut.</p>
+        </div>
+        
+        <div class="faq-item">
+          <h3>What's a good engagement rate for CapCut videos?</h3>
+          <p>It depends on platform and content type. Generally: TikTok 4-6%+, YouTube Shorts 2-4%+, Instagram Reels 3-5%+. Educational content typically gets lower engagement but higher completion rates. Entertainment content gets higher engagement but may have more drop-offs.</p>
+        </div>
+      </section>
+      
+      <section id="related">
+        <h2>Related Articles</h2>
+        <ul>
+          <li><a href="/video-editing-software-youtubers/best-capcut-for-youtubers.html">CapCut for YouTubers: Complete Guide</a></li>
+          <li><a href="/video-editing-software-youtubers/capcut-vs-filmora.html">CapCut vs Filmora Comparison</a></li>
+          <li><a href="/video-editing-software-youtubers/best-video-editing-software-youtubers.html">Best Video Editing Software for YouTubers</a></li>
+          <li><a href="/social-media-schedulers-influencers/how-to-track-social-media-metrics.html">Social Media Metrics Tracking Guide</a></li>
+        </ul>
+      </section>
     </article>
   </main>
   
   <footer>
-    <p>&copy; 2026 Analytics Tools Apps. All rights reserved.</p>
-    <p>
-      <a href="/privacy">Privacy Policy</a> | 
-      <a href="/terms">Terms of Service</a> | 
-      <a href="/sitemap.xml">Sitemap</a>
-    </p>
+    <p>&copy; 2026 Tools Reviews Hub. All rights reserved.</p>
+    <p><a href="/about.html">About</a> | <a href="/contact.html">Contact</a> | <a href="/privacy.html">Privacy</a></p>
   </footer>
-  
-  <!-- Analytics placeholder -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=GA-XXXXXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'GA-XXXXXXXXXX');
-  </script>
 </body>
 </html>
