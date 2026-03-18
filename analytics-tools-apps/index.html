@@ -338,50 +338,6 @@ Analytics.logEvent("purchase", parameters: [
     </section>
 
   
-    <section id="case-studies">
-      <h2>Real-World Case Studies</h2>
-      <h3>Startup: Mobile Game Analytics</h3>
-      <p><strong>Challenge:</strong> A mobile game with 50K DAU needed to understand player churn and optimize monetization.</p>
-      <p><strong>Solution:</strong> Implemented Mixpanel for real-time event tracking and Amplitude for cohort analysis.</p>
-      <p><strong>Results:</strong> Identified 3 critical drop-off points in onboarding, reduced Day 1 churn from 65% to 45%, increased ARPU by 23%.</p>
-      
-      <h3>E-commerce App: Conversion Optimization</h3>
-      <p><strong>Challenge:</strong> Fashion e-commerce app with low checkout completion rate (12%).</p>
-      <p><strong>Solution:</strong> Firebase Analytics for free tracking, Heap for auto-capture of all user interactions.</p>
-      <p><strong>Results:</strong> Discovered payment screen was confusing on small screens, redesigned payment flow, increased checkout rate to 28%.</p>
-      
-      <h3>SaaS App: Feature Adoption</h3>
-      <p><strong>Challenge:</strong> B2B SaaS app with low feature adoption after onboarding.</p>
-      <p><strong>Solution:</strong> Amplitude for product analytics, tracked 47 different feature events.</p>
-      <p><strong>Results:</strong> Found that users who completed 3 specific actions in first session had 4x retention. Updated onboarding to guide users to those actions.</p>
-    </section>
-    <section id="checklist">
-      <h2>Analytics Implementation Checklist</h2>
-      <h3>Before You Start</h3>
-      <ul>
-        <li>☐ Define your North Star metric (the one metric that matters most)</li>
-        <li>☐ Document all events you want to track</li>
-        <li>☐ Create naming convention for events (e.g., button_clicked, page_viewed)</li>
-        <li>☐ Define user properties to track (plan, account age, source)</li>
-        <li>☐ Plan your dashboards before implementation</li>
-      </ul>
-      <h3>During Implementation</h3>
-      <ul>
-        <li>☐ Initialize SDK before any events are tracked</li>
-        <li>☐ Test in debug mode before production</li>
-        <li>☐ Verify events appear in dashboard</li>
-        <li>☐ Check event properties are captured correctly</li>
-        <li>☐ Validate user identity tracking</li>
-      </ul>
-      <h3>After Launch</h3>
-      <ul>
-        <li>☐ Set up key dashboards</li>
-        <li>☐ Create alerts for anomalies</li>
-        <li>☐ Train team on dashboard usage</li>
-        <li>☐ Schedule weekly analytics review</li>
-        <li>☐ Document insights and actions taken</li>
-      </ul>
-    </section>
 
   
     <section id="tips">
@@ -430,6 +386,46 @@ Analytics.logEvent("purchase", parameters: [
         </tbody>
       </table>
       <p><strong>Bottom Line:</strong> Start with Firebase or Mixpanel. Upgrade to Amplitude when you need deeper product insights. Consider Heap for teams that don't want to plan events ahead.</p>
+    </section>
+
+  
+    <section id="examples">
+      <h2>Real Implementation Examples</h2>
+      <h3>Mixpanel Implementation</h3>
+      <p><strong>Common use case:</strong> E-commerce apps track product views, add-to-cart events, and purchases to build conversion funnels.</p>
+      <pre><code>// Track purchase event
+Mixpanel.track('Purchase', {
+  'Product ID': '12345',
+  'Product Name': 'Premium Plan',
+  'Price': 49.99,
+  'Currency': 'USD'
+});</code></pre>
+      <p><strong>Key metrics to track:</strong> Product views, cart additions, checkout starts, purchase completions, revenue.</p>
+      
+      <h3>Amplitude Implementation</h3>
+      <p><strong>Common use case:</strong> SaaS apps track user engagement patterns to identify power users and churn risks.</p>
+      <pre><code>// Track feature usage
+Amplitude.track('Feature Used', {
+  'Feature': 'Dashboard Export',
+  'Plan': 'Pro',
+  'Time in App': 15
+});</code></pre>
+      <p><strong>Key metrics to track:</strong> Feature usage frequency, session duration, user retention by cohort, conversion from free to paid.</p>
+      
+      <h3>Firebase Analytics Implementation</h3>
+      <p><strong>Common use case:</strong> Gaming apps track level progression and in-app purchases for monetization analysis.</p>
+      <pre><code>// Log level completion
+Analytics.logEvent('level_complete', parameters: [
+  'level': 42,
+  'time_seconds': 180,
+  'score': 15000
+])</code></pre>
+      <p><strong>Key metrics to track:</strong> Level completion rates, daily active users, average session length, in-app purchase revenue.</p>
+      
+      <h3>Heap Implementation</h3>
+      <p><strong>Common use case:</strong> Apps that need retroactive analysis without pre-planning events.</p>
+      <p><strong>How it works:</strong> Heap automatically captures all user interactions (clicks, form changes, page views). You can define events retroactively in the dashboard without code changes.</p>
+      <p><strong>Best for:</strong> Teams iterating quickly on analytics, apps without dedicated analytics resources, projects needing flexibility.</p>
     </section>
 
   </main>
