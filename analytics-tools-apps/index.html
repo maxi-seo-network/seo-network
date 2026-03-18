@@ -71,11 +71,69 @@
     <section id="integrations">
       <h2>SDK Integration Guide</h2>
       <h3>iOS Integration</h3>
-      <p>All tools offer CocoaPods and Swift Package Manager integration.</p>
+      <p>All tools offer CocoaPods and Swift Package Manager integration. Mixpanel and Amplitude provide full Swift support with automatic event tracking capabilities. Firebase Analytics integrates seamlessly with other Firebase services.</p>
+      <h4>Installation Examples</h4>
+      <p><strong>CocoaPods:</strong> Add the SDK pod to your Podfile, run pod install, and initialize in AppDelegate. Most SDKs can be integrated in under 30 minutes.</p>
       <h3>Android Integration</h3>
-      <p>Gradle integration available for all platforms.</p>
+      <p>Gradle integration available for all platforms. Add the dependency to your build.gradle, sync, and initialize in your Application class. Mixpanel and Amplitude provide Kotlin-first SDKs with coroutine support.</p>
       <h3>React Native</h3>
-      <p>All tools have React Native packages with TypeScript support.</p>
+      <p>All tools have React Native packages with TypeScript support. Install via npm or yarn, link native modules, and initialize. Event tracking works identically across iOS and Android.</p>
+      <h3>Flutter Integration</h3>
+      <p>Mixpanel, Amplitude, and Firebase all offer Flutter plugins with Dart support. Firebase Analytics is particularly well-integrated with Flutter through the official firebase_analytics package.</p>
+      <h3>Best Practices</h3>
+      <ul>
+        <li><strong>Plan your events:</strong> Define a consistent naming convention before implementing</li>
+        <li><strong>Track properties:</strong> Include context like user type, subscription status, source</li>
+        <li><strong>Set user identity:</strong> Link anonymous users to known users after login</li>
+        <li><strong>Use super properties:</strong> Track session-level data automatically</li>
+        <li><strong>Test before release:</strong> Verify events appear correctly in dashboard</li>
+      </ul>
+    </section>
+    <section id="use-cases">
+      <h2>Use Cases by App Type</h2>
+      <h3>E-commerce Apps</h3>
+      <p>Track product views, add-to-cart events, purchases, and cart abandonment. Measure conversion rates from browse to buy. Use funnel analysis to identify drop-off points.</p>
+      <p><strong>Recommended:</strong> Mixpanel for conversion funnels, Amplitude for cohort analysis of repeat buyers.</p>
+      <h3>SaaS Mobile Apps</h3>
+      <p>Track feature usage, trial conversions, and subscription events. Measure which features drive upgrades. Understand power users vs casual users.</p>
+      <p><strong>Recommended:</strong> Amplitude for product-led growth insights, Mixpanel for event tracking.</p>
+      <h3>Gaming Apps</h3>
+      <p>Track level completions, in-app purchases, ad views, and player progression. Measure retention by cohort. Understand monetization patterns.</p>
+      <p><strong>Recommended:</strong> Firebase Analytics with BigQuery for custom analysis, Mixpanel for real-time events.</p>
+      <h3>Content Apps</h3>
+      <p>Track content views, shares, bookmarks, and reading time. Measure engagement by content type. Understand what content drives retention.</p>
+      <p><strong>Recommended:</strong> Amplitude for content analytics, Heap for auto-tracking all interactions.</p>
+    </section>
+    <section id="choosing">
+      <h2>How to Choose</h2>
+      <h3>Choose Mixpanel If:</h3>
+      <ul>
+        <li>You need real-time event tracking</li>
+        <li>Funnel analysis is your priority</li>
+        <li>You want simple implementation</li>
+        <li>Budget is a concern (generous free tier)</li>
+      </ul>
+      <h3>Choose Amplitude If:</h3>
+      <ul>
+        <li>Product analytics is your focus</li>
+        <li>You need behavioral cohorting</li>
+        <li>You want deep user insights</li>
+        <li>You're analyzing complex user journeys</li>
+      </ul>
+      <h3>Choose Firebase Analytics If:</h3>
+      <ul>
+        <li>You want completely free analytics</li>
+        <li>You're already using Firebase services</li>
+        <li>You need BigQuery integration</li>
+        <li>Budget is zero</li>
+      </ul>
+      <h3>Choose Heap If:</h3>
+      <ul>
+        <li>You want to track everything automatically</li>
+        <li>You need retroactive analysis</li>
+        <li>You don't want to plan events ahead</li>
+        <li>Budget allows for enterprise pricing</li>
+      </ul>
     </section>
     <section id="faq">
       <h2>Frequently Asked Questions</h2>
