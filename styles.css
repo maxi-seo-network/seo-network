@@ -748,3 +748,100 @@ footer a:hover {
 .skip-link:focus {
   top: 0;
 }
+
+/* Additional Utility Classes */
+.nav-breadcrumb {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+.nav-breadcrumb a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.nav-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.list-styled {
+  margin: 0;
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.list-columns {
+  column-count: 2;
+  column-gap: 2rem;
+}
+
+.th-primary {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid var(--primary);
+}
+
+.th-feature {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid var(--primary);
+}
+
+.td-highlight {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  background: #fff3e0;
+}
+
+.text-muted {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 1rem;
+}
+
+.link-underlined {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.container-flex {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #333;
+  color: white;
+  padding: 1rem;
+  z-index: 9999;
+  font-size: 0.9rem;
+}
+
+.btn-outline {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
