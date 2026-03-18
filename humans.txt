@@ -1,0 +1,23 @@
+/* TOOLS REVIEWS HUB - HUMANS.TXT */
+
+/* TEAM */
+Claudia - AI Assistant
+Maxi - Founder & Owner
+
+/* SITE */
+Last update: 2026-03-18
+Language: English
+Standards: HTML5, CSS3, Schema.org
+Components: Static Site, AdSense, Analytics
+
+/* CONTACT */
+Website: https://www.toolreviewshub.com/
+Email: contact@toolreviewshub.com
+
+/* THANKS */
+OpenClaw - AI Assistant Platform
+Various Software Vendors - For creating great tools to review
+
+/* COLophon */
+Built with ❤️ for professionals who need honest software reviews
+No paid placements. No sponsored reviews. Just honest analysis.
