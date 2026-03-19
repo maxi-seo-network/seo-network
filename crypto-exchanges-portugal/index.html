@@ -28,25 +28,26 @@
     </script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; line-height: 1.6; color: #333; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; line-height: 1.6; color: #333; background: #f8f9fa; }
         .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
         header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 60px 20px; text-align: center; }
         header h1 { font-size: 2.5em; margin-bottom: 15px; }
         header p { font-size: 1.2em; opacity: 0.9; }
-        nav { background: #f8f9fa; padding: 15px 20px; border-bottom: 1px solid #e9ecef; }
-        nav a { color: #667eea; text-decoration: none; margin-right: 20px; }
+        nav { background: #fff; padding: 15px 20px; border-bottom: 1px solid #e9ecef; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        nav a { color: #667eea; text-decoration: none; margin-right: 20px; font-weight: 500; }
         nav a:hover { text-decoration: underline; }
         .articles { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 25px; margin: 40px 0; }
         .article-card { background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.2s, box-shadow 0.2s; }
         .article-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
-        .article-card img { width: 100%; height: 200px; object-fit: cover; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .article-card-header { height: 200px; display: flex; align-items: center; justify-content: center; }
         .article-card-content { padding: 20px; }
-        .article-card h2 { font-size: 1.3em; margin-bottom: 10px; color: #333; }
+        .article-card h2 { font-size: 1.2em; margin-bottom: 10px; color: #333; }
         .article-card h2 a { color: inherit; text-decoration: none; }
         .article-card h2 a:hover { color: #667eea; }
-        .article-card p { color: #666; font-size: 0.95em; margin-bottom: 15px; }
-        .article-card .read-more { color: #667eea; text-decoration: none; font-weight: 600; }
+        .article-card p { color: #666; font-size: 0.9em; margin-bottom: 15px; line-height: 1.5; }
+        .article-card .read-more { color: #667eea; text-decoration: none; font-weight: 600; font-size: 0.9em; }
         .article-card .read-more:hover { text-decoration: underline; }
+        .language-badge { display: inline-block; background: #e9ecef; color: #495057; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; margin-bottom: 10px; }
         .cta-box { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0; }
         .cta-box h3 { font-size: 1.8em; margin-bottom: 15px; }
         .cta-box p { margin-bottom: 20px; }
@@ -54,14 +55,14 @@
         .cta-button:hover { background: #f0f0f0; }
         footer { background: #2d3748; color: white; padding: 40px 20px; margin-top: 60px; }
         footer a { color: #a0aec0; }
-        .disclosure { background: #f8f9fa; padding: 20px; margin: 20px 0; border-radius: 8px; font-size: 0.9em; color: #666; }
-        .language-badge { display: inline-block; background: #e9ecef; color: #495057; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; margin-bottom: 10px; }
+        .disclosure { background: #fff3cd; padding: 20px; margin: 20px 0; border-radius: 8px; font-size: 0.9em; color: #666; border-left: 4px solid #f0ad4e; }
+        .section-title { font-size: 1.5em; margin: 40px 0 20px; color: #333; }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Exchanges de Criptomoedas em Portugal</h1>
+            <h1>₿ Exchanges de Criptomoedas em Portugal</h1>
             <p>Guias completos para comprar Bitcoin, Ethereum e outras criptomoedas em Portugal</p>
         </div>
     </header>
@@ -78,8 +79,13 @@
     
     <main class="container">
         <section class="articles">
+            <!-- Portuguese Articles -->
+            <h2 class="section-title" style="grid-column: 1/-1;">Guias em Português</h2>
+            
             <article class="article-card">
-                <div style="height: 200px; background: linear-gradient(135deg, #f7931a 0%, #ff9500 100%);"></div>
+                <div class="article-card-header" style="background: linear-gradient(135deg, #f7931a 0%, #ff9500 100%);">
+                    <span style="font-size: 4em;">₿</span>
+                </div>
                 <div class="article-card-content">
                     <span class="language-badge">Português</span>
                     <h2><a href="como-comprar-bitcoin-em-portugal.html">Como Comprar Bitcoin em Portugal - Guia Completo 2026</a></h2>
@@ -89,7 +95,24 @@
             </article>
             
             <article class="article-card">
-                <div style="height: 200px; background: linear-gradient(135deg, #f3ba2f 0%, #f0b90b 100%);"></div>
+                <div class="article-card-header" style="background: linear-gradient(135deg, #f7a600 0%, #f0a500 100%);">
+                    <span style="font-size: 4em;">📊</span>
+                </div>
+                <div class="article-card-content">
+                    <span class="language-badge">Português</span>
+                    <h2><a href="melhor-exchange-criptomoedas-portugal.html">Melhor Exchange Criptomoedas Portugal - Comparativo 2026</a></h2>
+                    <p>Compare as melhores exchanges: Binance, Bybit, Coinbase. Taxas, segurança, métodos de pagamento e como escolher.</p>
+                    <a href="melhor-exchange-criptomoedas-portugal.html" class="read-more">Ler Comparativo →</a>
+                </div>
+            </article>
+            
+            <!-- English Articles -->
+            <h2 class="section-title" style="grid-column: 1/-1;">English Guides</h2>
+            
+            <article class="article-card">
+                <div class="article-card-header" style="background: linear-gradient(135deg, #f3ba2f 0%, #f0b90b 100%);">
+                    <span style="font-size: 4em;">€</span>
+                </div>
                 <div class="article-card-content">
                     <span class="language-badge">English</span>
                     <h2><a href="buy-bitcoin-with-euro-portugal.html">How to Buy Bitcoin with Euro in Portugal - Complete Guide</a></h2>
@@ -99,7 +122,9 @@
             </article>
             
             <article class="article-card">
-                <div style="height: 200px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                <div class="article-card-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <span style="font-size: 4em;">🇵🇹</span>
+                </div>
                 <div class="article-card-content">
                     <span class="language-badge">English</span>
                     <h2><a href="how-to-buy-bitcoin-in-portugal.html">How to Buy Bitcoin in Portugal - Complete 2026 Guide for Beginners</a></h2>
@@ -109,41 +134,45 @@
             </article>
             
             <article class="article-card">
-                <div style="height: 200px; background: linear-gradient(135deg, #f7a600 0%, #f0a500 100%);"></div>
+                <div class="article-card-header" style="background: linear-gradient(135deg, #00d4aa 0%, #00b894 100%);">
+                    <span style="font-size: 4em;">🇪🇺</span>
+                </div>
                 <div class="article-card-content">
-                    <span class="language-badge">Português</span>
-                    <h2><a href="binance-review-portugal.html">Binance Portugal Review 2026</a></h2>
-                    <p>Análise completa da Binance para utilizadores portugueses. Taxas, segurança, métodos de pagamento e como criar conta.</p>
-                    <a href="binance-review-portugal.html" class="read-more">Ler Análise →</a>
+                    <span class="language-badge">English</span>
+                    <h2><a href="best-place-to-buy-crypto-in-europe.html">Best Place to Buy Crypto in Europe - 2026 Comparison</a></h2>
+                    <p>Compare the best crypto exchanges for Europeans. Binance, Bybit, Coinbase, Kraken, Bitpanda. Fees, safety, regulations.</p>
+                    <a href="best-place-to-buy-crypto-in-europe.html" class="read-more">Read Comparison →</a>
                 </div>
             </article>
             
             <article class="article-card">
-                <div style="height: 200px; background: linear-gradient(135deg, #00d4aa 0%, #00b894 100%);"></div>
+                <div class="article-card-header" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+                    <span style="font-size: 4em;">🎓</span>
+                </div>
                 <div class="article-card-content">
-                    <span class="language-badge">Português</span>
-                    <h2><a href="bybit-review-portugal.html">Bybit Portugal Review 2026</a></h2>
-                    <p>Review da Bybit para traders portugueses. Taxas de trading, leverage, segurança e como começar.</p>
-                    <a href="bybit-review-portugal.html" class="read-more">Ler Análise →</a>
+                    <span class="language-badge">English</span>
+                    <h2><a href="beginner-crypto-exchange-portugal.html">Best Crypto Exchange for Beginners in Portugal - 2026 Guide</a></h2>
+                    <p>New to crypto? This beginner-friendly guide explains everything. Step-by-step instructions, simple explanations.</p>
+                    <a href="beginner-crypto-exchange-portugal.html" class="read-more">Read Beginner Guide →</a>
                 </div>
             </article>
         </section>
         
         <div class="cta-box">
-            <h3>Pronto para comprar Bitcoin?</h3>
-            <p>Comece hoje na maior exchange de criptomoedas do mundo</p>
-            <a href="https://www.binance.com/pt-PT/register?ref=YOUR_BINANCE_ID" class="cta-button" target="_blank" rel="noopener">Criar Conta na Binance →</a>
+            <h3>Ready to Buy Bitcoin?</h3>
+            <p>Start today on the world's largest crypto exchange</p>
+            <a href="https://www.binance.com/pt-PT/register?ref=YOUR_BINANCE_ID" class="cta-button" target="_blank" rel="noopener noopener">Create Binance Account →</a>
         </div>
         
         <div class="disclosure">
-            <p><strong>Afiliação:</strong> Este site contém links de afiliados. Quando você se registra através dos nossos links, podemos receber uma comissão. Isso não afeta nossas análises ou recomendações. <a href="../affiliate-disclosure.html">Ler política completa</a></p>
+            <p><strong>Affiliate Disclosure:</strong> This site contains affiliate links. When you register through our links, we may receive a commission. This does not affect our reviews or recommendations. <a href="../affiliate-disclosure.html">Read full policy</a></p>
         </div>
     </main>
     
     <footer>
         <div class="container">
-            <p>&copy; 2026 Tools Reviews Hub. Todos os direitos reservados.</p>
-            <p><a href="../privacy.html">Privacidade</a> | <a href="../terms.html">Termos</a> | <a href="../affiliate-disclosure.html">Afiliação</a></p>
+            <p>&copy; 2026 Tools Reviews Hub. All rights reserved.</p>
+            <p><a href="../privacy.html">Privacy</a> | <a href="../terms.html">Terms</a> | <a href="../affiliate-disclosure.html">Affiliate Disclosure</a></p>
         </div>
     </footer>
 </body>
