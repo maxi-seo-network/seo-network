@@ -1,4 +1,50 @@
-# Affiliate Programs to Join - Priority Order
+# Affiliate Programs Status
+
+## Active Affiliate Programs
+
+| Program | Status | Commission | Affiliate ID | Link Format | Verified |
+|---------|--------|------------|--------------|-------------|----------|
+| Binance | ✅ Active | 20-40% | `45254765` | `https://www.binance.com/register?ref=45254765` | 2026-03-20 |
+| Bybit | ✅ Active | 30-45% | `YOUR_BYBIT_ID` | `https://www.bybit.com/register?ref=YOUR_BYBIT_ID` | 2026-03-20 |
+| Ledger | ✅ Active | Affiliate | `dc740afd0ecf` | `https://shop.ledger.com/?r=dc740afd0ecf` | 2026-03-20 |
+| TradingView | ✅ Active | Affiliate | `164689` | `https://es.tradingview.com/?aff_id=164689` | 2026-03-20 |
+
+## Pending Verification
+
+| Program | Status | Notes |
+|---------|--------|-------|
+| Trezor | 🔄 Applying | User applying now |
+| NordPass | 🔄 Applying | User applying now |
+| Dashlane | 🔄 Applying | User applying now |
+| Kraken | ⚠️ Check | Need to verify program |
+| Bitpanda | ⚠️ Check | Need to verify program |
+| eToro | ⚠️ Check | Need to verify program |
+| Exodus | ⚠️ Check | Need to verify program |
+
+## Closed Programs (DO NOT USE)
+
+| Program | Status | Reason | Date Closed |
+|---------|--------|--------|-------------|
+| Coinbase | ❌ Closed | EU/UK closed, US closed 2022, $0 commission | 2026-03-20 |
+| BlockFi | ❌ Bankrupt | Bankruptcy November 2022 | 2022-11 |
+| FTX | ❌ Bankrupt | Fraud, bankruptcy 2022 | 2022-11 |
+| Celsius | ❌ Bankrupt | Bankruptcy 2022 | 2022-07 |
+
+## No Affiliate Program
+
+| Program | Reason |
+|---------|--------|
+| MetaMask | Free, open-source wallet. No referral program. |
+| Trust Wallet | Free wallet owned by Binance. No affiliate program. |
+| PayPal | Payment processor, not affiliate. |
+
+## Notes
+
+- Always verify commission > 0 in affiliate dashboard before use
+- Update this file when program status changes
+- Check official affiliate pages for latest terms
+
+---
 
 ## 10-Minute Setup Guide
 
@@ -61,7 +107,7 @@ Klaviyo: klaviyo_partner_456
 HubSpot: hubspot_ref_789
 ```
 
-I'll then run a script to replace all `YOUR_ID` placeholders across all 1,216 pages.
+I'll then run a script to replace all `YOUR_ID` placeholders across all sites.
 
 ---
 
@@ -80,24 +126,6 @@ I'll then run a script to replace all `YOUR_ID` placeholders across all 1,216 pa
 3. **ConvertKit** - convertkit.com/affiliates/
    - 30% recurring commission
    - Creator-focused email marketing
-
-**Your sites that use these:**
-- Semrush → seo-tools-bloggers (101 articles)
-- Klaviyo → email-marketing-tools-ecommerce (101 articles)
-- ConvertKit → email-marketing-tools-ecommerce (101 articles)
-
----
-
-## Alternative: Amazon Associates
-
-**Already set up!** Your AdSense code includes Amazon Associates capability.
-
-Just need to:
-1. Go to affiliate-program.amazon.com
-2. Apply for Associates program
-3. Add your site (toolreviewshub.com)
-4. Get your Associate ID
-5. I'll embed Amazon affiliate links
 
 ---
 
