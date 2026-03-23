@@ -21,3 +21,4 @@ Sitemap: https://www.toolreviewshub.com/social-media-schedulers-influencers/site
 Sitemap: https://www.toolreviewshub.com/video-editing-software-youtubers/sitemap.xml
 Sitemap: https://www.toolreviewshub.com/vpn-services-remote-workers/sitemap.xml
 Sitemap: https://www.toolreviewshub.com/web-hosting-small-business/sitemap.xml
+Sitemap: https://www.toolreviewshub.com/crypto-exchanges-portugal/sitemap.xml
