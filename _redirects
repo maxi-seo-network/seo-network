@@ -1,0 +1,22 @@
+# Redirects for moved articles
+# Old Google URLs -> New correct locations
+
+# Social Media Schedulers -> Accounting Software Freelancers
+Redirect 301 /social-media-schedulers-influencers/how-to-use-capcut-for-reporting.html https://www.toolreviewshub.com/accounting-software-freelancers/how-to-use-capcut-for-reporting.html
+Redirect 301 /email-marketing-tools-ecommerce/how-to-use-buffer-for-cost-reduction.html https://www.toolreviewshub.com/accounting-software-freelancers/how-to-use-buffer-for-cost-reduction.html
+
+# Email Marketing -> Accounting Software Freelancers
+Redirect 301 /email-marketing-tools-ecommerce/clickup-vs-notion.html https://www.toolreviewshub.com/project-management-software-startups/clickup-vs-notion.html
+
+# Accounting Software -> Project Management
+Redirect 301 /accounting-software-freelancers/asana-vs-trello.html https://www.toolreviewshub.com/project-management-software-startups/asana-vs-trello.html
+
+# Best CRM -> Accounting Software Freelancers
+Redirect 301 /best-crm-for-agencies/monday.com-vs-clickup.html https://www.toolreviewshub.com/accounting-software-freelancers/monday.com-vs-clickup.html
+Redirect 301 /best-crm-for-agencies/xero-vs-freshbooks.html https://www.toolreviewshub.com/accounting-software-freelancers/xero-vs-freshbooks.html
+
+# Social Media -> Accounting Software
+Redirect 301 /social-media-schedulers-influencers/salesforce-vs-pipedrive.html https://www.toolreviewshub.com/accounting-software-freelancers/salesforce-vs-pipedrive.html
+
+# Project Management -> Accounting Software
+Redirect 301 /project-management-software-startups/salesforce-vs-pipedrive.html https://www.toolreviewshub.com/accounting-software-freelancers/salesforce-vs-pipedrive.html
