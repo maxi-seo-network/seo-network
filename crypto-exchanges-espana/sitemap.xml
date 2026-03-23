@@ -1,27 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.toolreviewshub.com/crypto-exchanges-espana/</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.toolreviewshub.com/crypto-exchanges-espana/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.toolreviewshub.com/crypto-exchanges-portugal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toolreviewshub.com/crypto-exchanges-portugal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toolreviewshub.com/crypto-exchanges-portugal/"/>
+  </url>
   <url>
     <loc>https://www.toolreviewshub.com/crypto-exchanges-espana/binance-review-espana.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.toolreviewshub.com/crypto-exchanges-espana/binance-review-espana.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.toolreviewshub.com/crypto-exchanges-portugal/binance-review-portugal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toolreviewshub.com/crypto-exchanges-portugal/binance-review-portugal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toolreviewshub.com/crypto-exchanges-portugal/binance-review-portugal.html"/>
   </url>
   <url>
     <loc>https://www.toolreviewshub.com/crypto-exchanges-espana/como-comprar-bitcoin-espana.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.toolreviewshub.com/crypto-exchanges-espana/index.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.toolreviewshub.com/crypto-exchanges-espana/como-comprar-bitcoin-espana.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.toolreviewshub.com/crypto-exchanges-portugal/como-comprar-bitcoin-em-portugal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toolreviewshub.com/crypto-exchanges-portugal/how-to-buy-bitcoin-in-portugal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toolreviewshub.com/crypto-exchanges-portugal/how-to-buy-bitcoin-in-portugal.html"/>
   </url>
   <url>
     <loc>https://www.toolreviewshub.com/crypto-exchanges-espana/mejor-exchange-criptomonedas-espana.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.toolreviewshub.com/crypto-exchanges-espana/mejor-exchange-criptomonedas-espana.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.toolreviewshub.com/crypto-exchanges-portugal/melhor-exchange-criptomoedas-portugal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toolreviewshub.com/crypto-exchanges-portugal/best-place-to-buy-crypto-in-europe.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toolreviewshub.com/crypto-exchanges-portugal/best-place-to-buy-crypto-in-europe.html"/>
   </url>
 </urlset>
