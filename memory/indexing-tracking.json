@@ -482,6 +482,183 @@
       "totalUrls": 471,
       "liveCount": 10,
       "expectedUrls": 1010
+    },
+    {
+      "timestamp": "2026-03-25T09:00:11.301Z",
+      "date": "2026-03-25",
+      "results": [
+        {
+          "site": "accounting-software-freelancers",
+          "urls": 92,
+          "status": 200
+        },
+        {
+          "site": "ai-tools-for-realtors",
+          "urls": 43,
+          "status": 200
+        },
+        {
+          "site": "analytics-tools-apps",
+          "urls": 42,
+          "status": 200
+        },
+        {
+          "site": "best-crm-for-agencies",
+          "urls": 40,
+          "status": 200
+        },
+        {
+          "site": "chatbot-platforms-saas",
+          "urls": 36,
+          "status": 200
+        },
+        {
+          "site": "email-marketing-tools-ecommerce",
+          "urls": 56,
+          "status": 200
+        },
+        {
+          "site": "project-management-software-startups",
+          "urls": 41,
+          "status": 200
+        },
+        {
+          "site": "seo-tools-bloggers",
+          "urls": 38,
+          "status": 200
+        },
+        {
+          "site": "social-media-schedulers-influencers",
+          "urls": 38,
+          "status": 200
+        },
+        {
+          "site": "video-editing-software-youtubers",
+          "urls": 45,
+          "status": 200
+        }
+      ],
+      "totalUrls": 471,
+      "liveCount": 10,
+      "expectedUrls": 1010
+    },
+    {
+      "timestamp": "2026-03-26T09:00:10.850Z",
+      "date": "2026-03-26",
+      "results": [
+        {
+          "site": "accounting-software-freelancers",
+          "urls": 92,
+          "status": 200
+        },
+        {
+          "site": "ai-tools-for-realtors",
+          "urls": 43,
+          "status": 200
+        },
+        {
+          "site": "analytics-tools-apps",
+          "urls": 42,
+          "status": 200
+        },
+        {
+          "site": "best-crm-for-agencies",
+          "urls": 40,
+          "status": 200
+        },
+        {
+          "site": "chatbot-platforms-saas",
+          "urls": 36,
+          "status": 200
+        },
+        {
+          "site": "email-marketing-tools-ecommerce",
+          "urls": 56,
+          "status": 200
+        },
+        {
+          "site": "project-management-software-startups",
+          "urls": 41,
+          "status": 200
+        },
+        {
+          "site": "seo-tools-bloggers",
+          "urls": 38,
+          "status": 200
+        },
+        {
+          "site": "social-media-schedulers-influencers",
+          "urls": 38,
+          "status": 200
+        },
+        {
+          "site": "video-editing-software-youtubers",
+          "urls": 45,
+          "status": 200
+        }
+      ],
+      "totalUrls": 471,
+      "liveCount": 10,
+      "expectedUrls": 1010
+    },
+    {
+      "timestamp": "2026-03-27T09:00:11.032Z",
+      "date": "2026-03-27",
+      "results": [
+        {
+          "site": "accounting-software-freelancers",
+          "urls": 92,
+          "status": 200
+        },
+        {
+          "site": "ai-tools-for-realtors",
+          "urls": 43,
+          "status": 200
+        },
+        {
+          "site": "analytics-tools-apps",
+          "urls": 42,
+          "status": 200
+        },
+        {
+          "site": "best-crm-for-agencies",
+          "urls": 40,
+          "status": 200
+        },
+        {
+          "site": "chatbot-platforms-saas",
+          "urls": 36,
+          "status": 200
+        },
+        {
+          "site": "email-marketing-tools-ecommerce",
+          "urls": 56,
+          "status": 200
+        },
+        {
+          "site": "project-management-software-startups",
+          "urls": 41,
+          "status": 200
+        },
+        {
+          "site": "seo-tools-bloggers",
+          "urls": 38,
+          "status": 200
+        },
+        {
+          "site": "social-media-schedulers-influencers",
+          "urls": 38,
+          "status": 200
+        },
+        {
+          "site": "video-editing-software-youtubers",
+          "urls": 45,
+          "status": 200
+        }
+      ],
+      "totalUrls": 471,
+      "liveCount": 10,
+      "expectedUrls": 1010
     }
   ]
 }
