@@ -1,6 +1,13 @@
 # Redirects for moved articles
 # Netlify format: /old-path /new-path status-code
 
+# HTTP to HTTPS redirect (handled by Netlify automatically)
+# Non-www to www redirect (handled by Netlify automatically)
+# These are shown here for documentation:
+# http://toolreviewshub.com/* → https://www.toolreviewshub.com/
+# http://www.toolreviewshub.com/* → https://www.toolreviewshub.com/
+# https://toolreviewshub.com/* → https://www.toolreviewshub.com/
+
 # Social Media Schedulers -> Accounting Software Freelancers
 /social-media-schedulers-influencers/how-to-use-capcut-for-reporting.html /accounting-software-freelancers/how-to-use-capcut-for-reporting.html 301
 /email-marketing-tools-ecommerce/how-to-use-buffer-for-cost-reduction.html /accounting-software-freelancers/how-to-use-buffer-for-cost-reduction.html 301
