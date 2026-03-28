@@ -1,22 +1,22 @@
 # Redirects for moved articles
-# Old Google URLs -> New correct locations
+# Netlify format: /old-path /new-path status-code
 
 # Social Media Schedulers -> Accounting Software Freelancers
-Redirect 301 /social-media-schedulers-influencers/how-to-use-capcut-for-reporting.html https://www.toolreviewshub.com/accounting-software-freelancers/how-to-use-capcut-for-reporting.html
-Redirect 301 /email-marketing-tools-ecommerce/how-to-use-buffer-for-cost-reduction.html https://www.toolreviewshub.com/accounting-software-freelancers/how-to-use-buffer-for-cost-reduction.html
+/social-media-schedulers-influencers/how-to-use-capcut-for-reporting.html /accounting-software-freelancers/how-to-use-capcut-for-reporting.html 301
+/email-marketing-tools-ecommerce/how-to-use-buffer-for-cost-reduction.html /accounting-software-freelancers/how-to-use-buffer-for-cost-reduction.html 301
 
-# Email Marketing -> Accounting Software Freelancers
-Redirect 301 /email-marketing-tools-ecommerce/clickup-vs-notion.html https://www.toolreviewshub.com/project-management-software-startups/clickup-vs-notion.html
+# Email Marketing -> Project Management
+/email-marketing-tools-ecommerce/clickup-vs-notion.html /project-management-software-startups/clickup-vs-notion.html 301
 
 # Accounting Software -> Project Management
-Redirect 301 /accounting-software-freelancers/asana-vs-trello.html https://www.toolreviewshub.com/project-management-software-startups/asana-vs-trello.html
+/accounting-software-freelancers/asana-vs-trello.html /project-management-software-startups/asana-vs-trello.html 301
 
 # Best CRM -> Accounting Software Freelancers
-Redirect 301 /best-crm-for-agencies/monday.com-vs-clickup.html https://www.toolreviewshub.com/accounting-software-freelancers/monday.com-vs-clickup.html
-Redirect 301 /best-crm-for-agencies/xero-vs-freshbooks.html https://www.toolreviewshub.com/accounting-software-freelancers/xero-vs-freshbooks.html
+/best-crm-for-agencies/monday.com-vs-clickup.html /accounting-software-freelancers/monday.com-vs-clickup.html 301
+/best-crm-for-agencies/xero-vs-freshbooks.html /accounting-software-freelancers/xero-vs-freshbooks.html 301
 
 # Social Media -> Accounting Software
-Redirect 301 /social-media-schedulers-influencers/salesforce-vs-pipedrive.html https://www.toolreviewshub.com/accounting-software-freelancers/salesforce-vs-pipedrive.html
+/social-media-schedulers-influencers/salesforce-vs-pipedrive.html /accounting-software-freelancers/salesforce-vs-pipedrive.html 301
 
 # Project Management -> Accounting Software
-Redirect 301 /project-management-software-startups/salesforce-vs-pipedrive.html https://www.toolreviewshub.com/accounting-software-freelancers/salesforce-vs-pipedrive.html
+/project-management-software-startups/salesforce-vs-pipedrive.html /accounting-software-freelancers/salesforce-vs-pipedrive.html 301
