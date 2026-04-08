@@ -58,12 +58,12 @@
     {"keyword": "crypto-tax-software-comparison", "priority": 10, "affiliate": "coinledger", "status": "completed"},
     {"keyword": "bitbox-wallet-review", "priority": 8, "affiliate": "bitbox", "status": "completed"},
     {"keyword": "nexo-review-europe", "priority": 8, "affiliate": "nexo", "status": "completed"},
-    {"keyword": "primexbt-review-crypto", "priority": 7, "affiliate": "primexbt", "status": "pending"},
+    {"keyword": "primexbt-review-crypto", "priority": 7, "affiliate": "primexbt", "status": "completed"},
     {"keyword": "crypto-debit-card-comparison", "priority": 9, "affiliate": "crypto.com", "status": "completed"},
     {"keyword": "best-crypto-card-europe-2026", "priority": 9, "affiliate": "crypto.com", "status": "completed"},
     {"keyword": "bitget-review-portugal", "priority": 8, "affiliate": "bitget", "status": "completed"},
-    {"keyword": "whitebit-exchange-review", "priority": 7, "affiliate": "whitebit", "status": "pending"},
-    {"keyword": "margex-exchange-review", "priority": 7, "affiliate": "margex", "status": "pending"}
+    {"keyword": "whitebit-exchange-review", "priority": 7, "affiliate": "whitebit", "status": "completed"},
+    {"keyword": "margex-exchange-review", "priority": 7, "affiliate": "margex", "status": "completed"}
   ],
   "completedKeywords": []
 }
