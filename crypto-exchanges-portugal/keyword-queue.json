@@ -92,7 +92,9 @@
     {"keyword": "tradingview-discount-code", "priority": 6, "affiliate": "tradingview", "status": "pending"},
     {"keyword": "ledger-nano-s-plus-vs-trezor-one", "priority": 9, "affiliate": "ledger", "status": "pending"},
     {"keyword": "binance-referral-code-2026", "priority": 8, "affiliate": "binance", "status": "pending"},
-    {"keyword": "bybit-fee-discount-code", "priority": 7, "affiliate": "bybit", "status": "pending"}
+    {"keyword": "bybit-fee-discount-code", "priority": 7, "affiliate": "bybit", "status": "pending"},
+    {"keyword": "trezor-safe-3-review-2026", "priority": 9, "affiliate": "trezor", "status": "pending"},
+    {"keyword": "best-hardware-wallet-beginners", "priority": 9, "affiliate": "ledger", "status": "pending"}
   ],
   "completedKeywords": []
 }
