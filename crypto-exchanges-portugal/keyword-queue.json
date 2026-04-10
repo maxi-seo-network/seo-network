@@ -63,7 +63,26 @@
     {"keyword": "best-crypto-card-europe-2026", "priority": 9, "affiliate": "crypto.com", "status": "completed"},
     {"keyword": "bitget-review-portugal", "priority": 8, "affiliate": "bitget", "status": "completed"},
     {"keyword": "whitebit-exchange-review", "priority": 7, "affiliate": "whitebit", "status": "completed"},
-    {"keyword": "margex-exchange-review", "priority": 7, "affiliate": "margex", "status": "completed"}
+    {"keyword": "margex-exchange-review", "priority": 7, "affiliate": "margex", "status": "completed"},
+    {"keyword": "best-software-wallet-2026", "priority": 9, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "mobile-crypto-wallet-review", "priority": 8, "affiliate": "trezor", "status": "pending"},
+    {"keyword": "seed-phrase-storage-guide", "priority": 9, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "bitcoin-only-wallet-comparison", "priority": 7, "affiliate": "trezor", "status": "pending"},
+    {"keyword": "solana-wallet-review-2026", "priority": 8, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "ethereum-wallet-beginners", "priority": 8, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "dex-vs-cex-comparison", "priority": 7, "affiliate": "binance", "status": "pending"},
+    {"keyword": "crypto-lending-platforms-europe", "priority": 8, "affiliate": "nexo", "status": "pending"},
+    {"keyword": "yield-farming-beginners-guide", "priority": 7, "affiliate": "binance", "status": "pending"},
+    {"keyword": "trading-bot-review-2026", "priority": 6, "affiliate": "bybit", "status": "pending"},
+    {"keyword": "nft-storage-solutions", "priority": 6, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "exchange-security-comparison", "priority": 9, "affiliate": "binance", "status": "pending"},
+    {"keyword": "crypto-insurance-guide", "priority": 7, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "multi-sig-wallet-explained", "priority": 6, "affiliate": "trezor", "status": "pending"},
+    {"keyword": "best-cold-wallet-2026", "priority": 10, "affiliate": "trezor", "status": "pending"},
+    {"keyword": "hardware-wallet-beginners-guide", "priority": 9, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "crypto-inheritance-planning", "priority": 5, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "defi-wallet-review-2026", "priority": 8, "affiliate": "trezor", "status": "pending"},
+    {"keyword": "binance-fees-explained", "priority": 8, "affiliate": "binance", "status": "pending"}
   ],
   "completedKeywords": []
 }
