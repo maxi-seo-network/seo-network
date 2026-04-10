@@ -564,6 +564,24 @@
       "priority": 9,
       "affiliate": "ledger",
       "status": "pending"
+    },
+    {
+      "keyword": "how-to-transfer-crypto-to-hardware-wallet",
+      "priority": 9,
+      "affiliate": "ledger",
+      "status": "pending"
+    },
+    {
+      "keyword": "ledger-vs-trezor-2026",
+      "priority": 10,
+      "affiliate": "trezor",
+      "status": "pending"
+    },
+    {
+      "keyword": "best-bitcoin-hardware-wallet",
+      "priority": 10,
+      "affiliate": "ledger",
+      "status": "pending"
     }
   ],
   "completedKeywords": []
