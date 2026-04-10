@@ -582,6 +582,24 @@
       "priority": 10,
       "affiliate": "ledger",
       "status": "completed"
+    },
+    {
+      "keyword": "crypto-wallet-recovery-guide",
+      "priority": 8,
+      "affiliate": "ledger",
+      "status": "pending"
+    },
+    {
+      "keyword": "ledger-live-tutorial-2026",
+      "priority": 7,
+      "affiliate": "ledger",
+      "status": "pending"
+    },
+    {
+      "keyword": "trezor-suite-guide",
+      "priority": 7,
+      "affiliate": "trezor",
+      "status": "pending"
     }
   ],
   "completedKeywords": []
