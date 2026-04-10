@@ -1,100 +1,570 @@
 {
   "created": "2026-03-27",
   "keywords": [
-    {"keyword": "okx-review-portugal", "priority": 10, "affiliate": "okx", "status": "completed"},
-    {"keyword": "crypto-com-review-europe", "priority": 9, "affiliate": "crypto.com", "status": "completed"},
-    {"keyword": "bitpanda-review-portugal", "priority": 10, "affiliate": "bitpanda", "status": "completed"},
-    {"keyword": "best-crypto-exchange-staking", "priority": 8, "affiliate": "binance", "status": "completed"},
-    {"keyword": "crypto-futures-trading-beginners", "priority": 7, "affiliate": "bybit", "status": "completed"},
-    {"keyword": "best-crypto-hardware-wallet-2026", "priority": 9, "affiliate": "ledger", "status": "completed"},
-    {"keyword": "crypto-cold-storage-guide", "priority": 7, "affiliate": "trezor", "status": "completed"},
-    {"keyword": "metamask-alternatives-2026", "priority": 6, "affiliate": "none", "status": "completed"},
-    {"keyword": "crypto-tax-software-portugal", "priority": 8, "affiliate": "none", "status": "completed"},
-    {"keyword": "best-vpn-crypto-trading", "priority": 8, "affiliate": "nordvpn", "status": "completed"},
-    {"keyword": "crypto-debit-card-europe", "priority": 9, "affiliate": "crypto.com", "status": "completed"},
-    {"keyword": "nft-marketplace-beginners", "priority": 6, "affiliate": "binance", "status": "completed"},
-    {"keyword": "layer-2-solutions-explained", "priority": 5, "affiliate": "none", "status": "completed"},
-    {"keyword": "defi-staking-beginners", "priority": 7, "affiliate": "binance", "status": "completed"},
-    {"keyword": "crypto-savings-account-europe", "priority": 8, "affiliate": "binance", "status": "completed"},
-    {"keyword": "bitcoin-ira-europe", "priority": 5, "affiliate": "none", "status": "completed"},
-    {"keyword": "crypto-security-checklist", "priority": 7, "affiliate": "ledger", "status": "completed"},
-    {"keyword": "ledger-nano-s-plus-review", "priority": 9, "affiliate": "ledger", "status": "completed"},
-    {"keyword": "trezor-safe-7-review", "priority": 9, "affiliate": "trezor", "status": "completed"},
-    {"keyword": "best-bitcoin-wallet-2026", "priority": 9, "affiliate": "ledger", "status": "completed"},
-    {"keyword": "crypto-exchange-signup-bonus", "priority": 8, "affiliate": "binance", "status": "completed"},
-    {"keyword": "kyc-free-crypto-exchange", "priority": 6, "affiliate": "none", "status": "completed"},
-    {"keyword": "crypto-portfolio-tracker", "priority": 6, "affiliate": "tradingview", "status": "completed"},
-    {"keyword": "bybit-copy-trading", "priority": 7, "affiliate": "bybit", "status": "completed"},
-    {"keyword": "binance-earn-review", "priority": 8, "affiliate": "binance", "status": "completed"},
-    {"keyword": "crypto-arbitrage-beginners", "priority": 5, "affiliate": "none", "status": "completed"},
-    {"keyword": "best-crypto-app-beginners-2026", "priority": 9, "affiliate": "binance", "status": "completed"},
-    {"keyword": "nordvpn-vs-expressvpn-security", "priority": 8, "affiliate": "nordvpn", "status": "completed"},
-    {"keyword": "password-manager-crypto-security", "priority": 7, "affiliate": "nordpass", "status": "completed"},
-    {"keyword": "tradingview-vs-coinstats", "priority": 6, "affiliate": "tradingview", "status": "completed"},
-    {"keyword": "binance-vs-coinbase-portugal", "priority": 9, "affiliate": "binance", "status": "completed"},
-    {"keyword": "comprar-bitcoin-portugal", "priority": 10, "affiliate": "binance", "status": "completed"},
-    {"keyword": "melhor-exchange-crypto-portugal-2026", "priority": 9, "affiliate": "binance", "status": "completed"},
-    {"keyword": "crypto-wallet-portugal", "priority": 8, "affiliate": "ledger", "status": "completed"},
-    {"keyword": "how-to-buy-ethereum-europe", "priority": 8, "affiliate": "binance", "status": "completed"},
-    {"keyword": "bybit-referral-code-2026", "priority": 7, "affiliate": "bybit", "status": "completed"},
-    {"keyword": "ledger-nano-x-review-2026", "priority": 9, "affiliate": "ledger", "status": "completed"},
-    {"keyword": "trezor-model-t-vs-ledger-nano-x", "priority": 9, "affiliate": "trezor", "status": "completed"},
-    {"keyword": "best-vpn-portugal-streaming", "priority": 7, "affiliate": "nordvpn", "status": "completed"},
-    {"keyword": "nordvpn-portugal-servers", "priority": 6, "affiliate": "nordvpn", "status": "completed"},
-    {"keyword": "password-manager-2026-comparison", "priority": 7, "affiliate": "nordpass", "status": "completed"},
-    {"keyword": "tradingview-free-vs-paid", "priority": 6, "affiliate": "tradingview", "status": "completed"},
-    {"keyword": "crypto-staking-beginners-guide", "priority": 8, "affiliate": "binance", "status": "completed"},
-    {"keyword": "okx-exchange-review-eu", "priority": 9, "affiliate": "okx", "status": "completed"},
-    {"keyword": "crypto-com-card-europe-review", "priority": 8, "affiliate": "crypto.com", "status": "completed"},
-    {"keyword": "bitpanda-review-portugal", "priority": 9, "affiliate": "bitpanda", "status": "completed"},
-    {"keyword": "best-crypto-app-europe-2026", "priority": 9, "affiliate": "binance", "status": "completed"},
-    {"keyword": "crypto-security-beginners-checklist", "priority": 7, "affiliate": "ledger", "status": "completed"},
-    {"keyword": "nordpass-vs-lastpass-2026", "priority": 6, "affiliate": "nordpass", "status": "completed"},
-    {"keyword": "mexc-review-portugal", "priority": 10, "affiliate": "mexc", "status": "completed"},
-    {"keyword": "mexc-exchange-review-eu", "priority": 10, "affiliate": "mexc", "status": "completed"},
-    {"keyword": "coinledger-review-2026", "priority": 10, "affiliate": "coinledger", "status": "completed"},
-    {"keyword": "koinly-review-2026", "priority": 9, "affiliate": "koinly", "status": "completed"},
-    {"keyword": "coinledger-vs-koinly", "priority": 8, "affiliate": "coinledger", "status": "completed"},
-    {"keyword": "crypto-tax-software-comparison", "priority": 10, "affiliate": "coinledger", "status": "completed"},
-    {"keyword": "bitbox-wallet-review", "priority": 8, "affiliate": "bitbox", "status": "completed"},
-    {"keyword": "nexo-review-europe", "priority": 8, "affiliate": "nexo", "status": "completed"},
-    {"keyword": "primexbt-review-crypto", "priority": 7, "affiliate": "primexbt", "status": "completed"},
-    {"keyword": "crypto-debit-card-comparison", "priority": 9, "affiliate": "crypto.com", "status": "completed"},
-    {"keyword": "best-crypto-card-europe-2026", "priority": 9, "affiliate": "crypto.com", "status": "completed"},
-    {"keyword": "bitget-review-portugal", "priority": 8, "affiliate": "bitget", "status": "completed"},
-    {"keyword": "whitebit-exchange-review", "priority": 7, "affiliate": "whitebit", "status": "completed"},
-    {"keyword": "margex-exchange-review", "priority": 7, "affiliate": "margex", "status": "completed"},
-    {"keyword": "best-software-wallet-2026", "priority": 9, "affiliate": "ledger", "status": "pending"},
-    {"keyword": "mobile-crypto-wallet-review", "priority": 8, "affiliate": "trezor", "status": "pending"},
-    {"keyword": "seed-phrase-storage-guide", "priority": 9, "affiliate": "ledger", "status": "pending"},
-    {"keyword": "bitcoin-only-wallet-comparison", "priority": 7, "affiliate": "trezor", "status": "pending"},
-    {"keyword": "solana-wallet-review-2026", "priority": 8, "affiliate": "ledger", "status": "pending"},
-    {"keyword": "ethereum-wallet-beginners", "priority": 8, "affiliate": "ledger", "status": "pending"},
-    {"keyword": "dex-vs-cex-comparison", "priority": 7, "affiliate": "binance", "status": "pending"},
-    {"keyword": "crypto-lending-platforms-europe", "priority": 8, "affiliate": "nexo", "status": "pending"},
-    {"keyword": "yield-farming-beginners-guide", "priority": 7, "affiliate": "binance", "status": "pending"},
-    {"keyword": "trading-bot-review-2026", "priority": 6, "affiliate": "bybit", "status": "pending"},
-    {"keyword": "nft-storage-solutions", "priority": 6, "affiliate": "ledger", "status": "pending"},
-    {"keyword": "exchange-security-comparison", "priority": 9, "affiliate": "binance", "status": "pending"},
-    {"keyword": "crypto-insurance-guide", "priority": 7, "affiliate": "ledger", "status": "pending"},
-    {"keyword": "multi-sig-wallet-explained", "priority": 6, "affiliate": "trezor", "status": "pending"},
-    {"keyword": "best-cold-wallet-2026", "priority": 10, "affiliate": "trezor", "status": "pending"},
-    {"keyword": "hardware-wallet-beginners-guide", "priority": 9, "affiliate": "ledger", "status": "pending"},
-    {"keyword": "crypto-inheritance-planning", "priority": 5, "affiliate": "ledger", "status": "pending"},
-    {"keyword": "defi-wallet-review-2026", "priority": 8, "affiliate": "trezor", "status": "pending"},
-    {"keyword": "binance-fees-explained", "priority": 8, "affiliate": "binance", "status": "pending"},
-    {"keyword": "crypto-wallet-security-tips", "priority": 9, "affiliate": "ledger", "status": "pending"},
-    {"keyword": "ledger-live-app-review", "priority": 8, "affiliate": "ledger", "status": "pending"},
-    {"keyword": "trezor-suite-review-2026", "priority": 8, "affiliate": "trezor", "status": "pending"},
-    {"keyword": "nordvpn-coupon-code-2026", "priority": 7, "affiliate": "nordvpn", "status": "pending"},
-    {"keyword": "best-vpn-dark-web", "priority": 6, "affiliate": "nordvpn", "status": "pending"},
-    {"keyword": "nordpass-family-plan-review", "priority": 7, "affiliate": "nordpass", "status": "pending"},
-    {"keyword": "tradingview-discount-code", "priority": 6, "affiliate": "tradingview", "status": "pending"},
-    {"keyword": "ledger-nano-s-plus-vs-trezor-one", "priority": 9, "affiliate": "ledger", "status": "pending"},
-    {"keyword": "binance-referral-code-2026", "priority": 8, "affiliate": "binance", "status": "pending"},
-    {"keyword": "bybit-fee-discount-code", "priority": 7, "affiliate": "bybit", "status": "pending"},
-    {"keyword": "trezor-safe-3-review-2026", "priority": 9, "affiliate": "trezor", "status": "pending"},
-    {"keyword": "best-hardware-wallet-beginners", "priority": 9, "affiliate": "ledger", "status": "pending"}
+    {
+      "keyword": "okx-review-portugal",
+      "priority": 10,
+      "affiliate": "okx",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-com-review-europe",
+      "priority": 9,
+      "affiliate": "crypto.com",
+      "status": "completed"
+    },
+    {
+      "keyword": "bitpanda-review-portugal",
+      "priority": 10,
+      "affiliate": "bitpanda",
+      "status": "completed"
+    },
+    {
+      "keyword": "best-crypto-exchange-staking",
+      "priority": 8,
+      "affiliate": "binance",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-futures-trading-beginners",
+      "priority": 7,
+      "affiliate": "bybit",
+      "status": "completed"
+    },
+    {
+      "keyword": "best-crypto-hardware-wallet-2026",
+      "priority": 9,
+      "affiliate": "ledger",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-cold-storage-guide",
+      "priority": 7,
+      "affiliate": "trezor",
+      "status": "completed"
+    },
+    {
+      "keyword": "metamask-alternatives-2026",
+      "priority": 6,
+      "affiliate": "none",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-tax-software-portugal",
+      "priority": 8,
+      "affiliate": "none",
+      "status": "completed"
+    },
+    {
+      "keyword": "best-vpn-crypto-trading",
+      "priority": 8,
+      "affiliate": "nordvpn",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-debit-card-europe",
+      "priority": 9,
+      "affiliate": "crypto.com",
+      "status": "completed"
+    },
+    {
+      "keyword": "nft-marketplace-beginners",
+      "priority": 6,
+      "affiliate": "binance",
+      "status": "completed"
+    },
+    {
+      "keyword": "layer-2-solutions-explained",
+      "priority": 5,
+      "affiliate": "none",
+      "status": "completed"
+    },
+    {
+      "keyword": "defi-staking-beginners",
+      "priority": 7,
+      "affiliate": "binance",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-savings-account-europe",
+      "priority": 8,
+      "affiliate": "binance",
+      "status": "completed"
+    },
+    {
+      "keyword": "bitcoin-ira-europe",
+      "priority": 5,
+      "affiliate": "none",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-security-checklist",
+      "priority": 7,
+      "affiliate": "ledger",
+      "status": "completed"
+    },
+    {
+      "keyword": "ledger-nano-s-plus-review",
+      "priority": 9,
+      "affiliate": "ledger",
+      "status": "completed"
+    },
+    {
+      "keyword": "trezor-safe-7-review",
+      "priority": 9,
+      "affiliate": "trezor",
+      "status": "completed"
+    },
+    {
+      "keyword": "best-bitcoin-wallet-2026",
+      "priority": 9,
+      "affiliate": "ledger",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-exchange-signup-bonus",
+      "priority": 8,
+      "affiliate": "binance",
+      "status": "completed"
+    },
+    {
+      "keyword": "kyc-free-crypto-exchange",
+      "priority": 6,
+      "affiliate": "none",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-portfolio-tracker",
+      "priority": 6,
+      "affiliate": "tradingview",
+      "status": "completed"
+    },
+    {
+      "keyword": "bybit-copy-trading",
+      "priority": 7,
+      "affiliate": "bybit",
+      "status": "completed"
+    },
+    {
+      "keyword": "binance-earn-review",
+      "priority": 8,
+      "affiliate": "binance",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-arbitrage-beginners",
+      "priority": 5,
+      "affiliate": "none",
+      "status": "completed"
+    },
+    {
+      "keyword": "best-crypto-app-beginners-2026",
+      "priority": 9,
+      "affiliate": "binance",
+      "status": "completed"
+    },
+    {
+      "keyword": "nordvpn-vs-expressvpn-security",
+      "priority": 8,
+      "affiliate": "nordvpn",
+      "status": "completed"
+    },
+    {
+      "keyword": "password-manager-crypto-security",
+      "priority": 7,
+      "affiliate": "nordpass",
+      "status": "completed"
+    },
+    {
+      "keyword": "tradingview-vs-coinstats",
+      "priority": 6,
+      "affiliate": "tradingview",
+      "status": "completed"
+    },
+    {
+      "keyword": "binance-vs-coinbase-portugal",
+      "priority": 9,
+      "affiliate": "binance",
+      "status": "completed"
+    },
+    {
+      "keyword": "comprar-bitcoin-portugal",
+      "priority": 10,
+      "affiliate": "binance",
+      "status": "completed"
+    },
+    {
+      "keyword": "melhor-exchange-crypto-portugal-2026",
+      "priority": 9,
+      "affiliate": "binance",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-wallet-portugal",
+      "priority": 8,
+      "affiliate": "ledger",
+      "status": "completed"
+    },
+    {
+      "keyword": "how-to-buy-ethereum-europe",
+      "priority": 8,
+      "affiliate": "binance",
+      "status": "completed"
+    },
+    {
+      "keyword": "bybit-referral-code-2026",
+      "priority": 7,
+      "affiliate": "bybit",
+      "status": "completed"
+    },
+    {
+      "keyword": "ledger-nano-x-review-2026",
+      "priority": 9,
+      "affiliate": "ledger",
+      "status": "completed"
+    },
+    {
+      "keyword": "trezor-model-t-vs-ledger-nano-x",
+      "priority": 9,
+      "affiliate": "trezor",
+      "status": "completed"
+    },
+    {
+      "keyword": "best-vpn-portugal-streaming",
+      "priority": 7,
+      "affiliate": "nordvpn",
+      "status": "completed"
+    },
+    {
+      "keyword": "nordvpn-portugal-servers",
+      "priority": 6,
+      "affiliate": "nordvpn",
+      "status": "completed"
+    },
+    {
+      "keyword": "password-manager-2026-comparison",
+      "priority": 7,
+      "affiliate": "nordpass",
+      "status": "completed"
+    },
+    {
+      "keyword": "tradingview-free-vs-paid",
+      "priority": 6,
+      "affiliate": "tradingview",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-staking-beginners-guide",
+      "priority": 8,
+      "affiliate": "binance",
+      "status": "completed"
+    },
+    {
+      "keyword": "okx-exchange-review-eu",
+      "priority": 9,
+      "affiliate": "okx",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-com-card-europe-review",
+      "priority": 8,
+      "affiliate": "crypto.com",
+      "status": "completed"
+    },
+    {
+      "keyword": "bitpanda-review-portugal",
+      "priority": 9,
+      "affiliate": "bitpanda",
+      "status": "completed"
+    },
+    {
+      "keyword": "best-crypto-app-europe-2026",
+      "priority": 9,
+      "affiliate": "binance",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-security-beginners-checklist",
+      "priority": 7,
+      "affiliate": "ledger",
+      "status": "completed"
+    },
+    {
+      "keyword": "nordpass-vs-lastpass-2026",
+      "priority": 6,
+      "affiliate": "nordpass",
+      "status": "completed"
+    },
+    {
+      "keyword": "mexc-review-portugal",
+      "priority": 10,
+      "affiliate": "mexc",
+      "status": "completed"
+    },
+    {
+      "keyword": "mexc-exchange-review-eu",
+      "priority": 10,
+      "affiliate": "mexc",
+      "status": "completed"
+    },
+    {
+      "keyword": "coinledger-review-2026",
+      "priority": 10,
+      "affiliate": "coinledger",
+      "status": "completed"
+    },
+    {
+      "keyword": "koinly-review-2026",
+      "priority": 9,
+      "affiliate": "koinly",
+      "status": "completed"
+    },
+    {
+      "keyword": "coinledger-vs-koinly",
+      "priority": 8,
+      "affiliate": "coinledger",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-tax-software-comparison",
+      "priority": 10,
+      "affiliate": "coinledger",
+      "status": "completed"
+    },
+    {
+      "keyword": "bitbox-wallet-review",
+      "priority": 8,
+      "affiliate": "bitbox",
+      "status": "completed"
+    },
+    {
+      "keyword": "nexo-review-europe",
+      "priority": 8,
+      "affiliate": "nexo",
+      "status": "completed"
+    },
+    {
+      "keyword": "primexbt-review-crypto",
+      "priority": 7,
+      "affiliate": "primexbt",
+      "status": "completed"
+    },
+    {
+      "keyword": "crypto-debit-card-comparison",
+      "priority": 9,
+      "affiliate": "crypto.com",
+      "status": "completed"
+    },
+    {
+      "keyword": "best-crypto-card-europe-2026",
+      "priority": 9,
+      "affiliate": "crypto.com",
+      "status": "completed"
+    },
+    {
+      "keyword": "bitget-review-portugal",
+      "priority": 8,
+      "affiliate": "bitget",
+      "status": "completed"
+    },
+    {
+      "keyword": "whitebit-exchange-review",
+      "priority": 7,
+      "affiliate": "whitebit",
+      "status": "completed"
+    },
+    {
+      "keyword": "margex-exchange-review",
+      "priority": 7,
+      "affiliate": "margex",
+      "status": "completed"
+    },
+    {
+      "keyword": "best-software-wallet-2026",
+      "priority": 9,
+      "affiliate": "ledger",
+      "status": "completed"
+    },
+    {
+      "keyword": "mobile-crypto-wallet-review",
+      "priority": 8,
+      "affiliate": "trezor",
+      "status": "pending"
+    },
+    {
+      "keyword": "seed-phrase-storage-guide",
+      "priority": 9,
+      "affiliate": "ledger",
+      "status": "completed"
+    },
+    {
+      "keyword": "bitcoin-only-wallet-comparison",
+      "priority": 7,
+      "affiliate": "trezor",
+      "status": "pending"
+    },
+    {
+      "keyword": "solana-wallet-review-2026",
+      "priority": 8,
+      "affiliate": "ledger",
+      "status": "pending"
+    },
+    {
+      "keyword": "ethereum-wallet-beginners",
+      "priority": 8,
+      "affiliate": "ledger",
+      "status": "pending"
+    },
+    {
+      "keyword": "dex-vs-cex-comparison",
+      "priority": 7,
+      "affiliate": "binance",
+      "status": "pending"
+    },
+    {
+      "keyword": "crypto-lending-platforms-europe",
+      "priority": 8,
+      "affiliate": "nexo",
+      "status": "pending"
+    },
+    {
+      "keyword": "yield-farming-beginners-guide",
+      "priority": 7,
+      "affiliate": "binance",
+      "status": "pending"
+    },
+    {
+      "keyword": "trading-bot-review-2026",
+      "priority": 6,
+      "affiliate": "bybit",
+      "status": "pending"
+    },
+    {
+      "keyword": "nft-storage-solutions",
+      "priority": 6,
+      "affiliate": "ledger",
+      "status": "pending"
+    },
+    {
+      "keyword": "exchange-security-comparison",
+      "priority": 9,
+      "affiliate": "binance",
+      "status": "pending"
+    },
+    {
+      "keyword": "crypto-insurance-guide",
+      "priority": 7,
+      "affiliate": "ledger",
+      "status": "pending"
+    },
+    {
+      "keyword": "multi-sig-wallet-explained",
+      "priority": 6,
+      "affiliate": "trezor",
+      "status": "pending"
+    },
+    {
+      "keyword": "best-cold-wallet-2026",
+      "priority": 10,
+      "affiliate": "trezor",
+      "status": "completed"
+    },
+    {
+      "keyword": "hardware-wallet-beginners-guide",
+      "priority": 9,
+      "affiliate": "ledger",
+      "status": "pending"
+    },
+    {
+      "keyword": "crypto-inheritance-planning",
+      "priority": 5,
+      "affiliate": "ledger",
+      "status": "pending"
+    },
+    {
+      "keyword": "defi-wallet-review-2026",
+      "priority": 8,
+      "affiliate": "trezor",
+      "status": "pending"
+    },
+    {
+      "keyword": "binance-fees-explained",
+      "priority": 8,
+      "affiliate": "binance",
+      "status": "pending"
+    },
+    {
+      "keyword": "crypto-wallet-security-tips",
+      "priority": 9,
+      "affiliate": "ledger",
+      "status": "pending"
+    },
+    {
+      "keyword": "ledger-live-app-review",
+      "priority": 8,
+      "affiliate": "ledger",
+      "status": "pending"
+    },
+    {
+      "keyword": "trezor-suite-review-2026",
+      "priority": 8,
+      "affiliate": "trezor",
+      "status": "pending"
+    },
+    {
+      "keyword": "nordvpn-coupon-code-2026",
+      "priority": 7,
+      "affiliate": "nordvpn",
+      "status": "pending"
+    },
+    {
+      "keyword": "best-vpn-dark-web",
+      "priority": 6,
+      "affiliate": "nordvpn",
+      "status": "pending"
+    },
+    {
+      "keyword": "nordpass-family-plan-review",
+      "priority": 7,
+      "affiliate": "nordpass",
+      "status": "pending"
+    },
+    {
+      "keyword": "tradingview-discount-code",
+      "priority": 6,
+      "affiliate": "tradingview",
+      "status": "pending"
+    },
+    {
+      "keyword": "ledger-nano-s-plus-vs-trezor-one",
+      "priority": 9,
+      "affiliate": "ledger",
+      "status": "pending"
+    },
+    {
+      "keyword": "binance-referral-code-2026",
+      "priority": 8,
+      "affiliate": "binance",
+      "status": "pending"
+    },
+    {
+      "keyword": "bybit-fee-discount-code",
+      "priority": 7,
+      "affiliate": "bybit",
+      "status": "pending"
+    },
+    {
+      "keyword": "trezor-safe-3-review-2026",
+      "priority": 9,
+      "affiliate": "trezor",
+      "status": "pending"
+    },
+    {
+      "keyword": "best-hardware-wallet-beginners",
+      "priority": 9,
+      "affiliate": "ledger",
+      "status": "pending"
+    }
   ],
   "completedKeywords": []
 }
