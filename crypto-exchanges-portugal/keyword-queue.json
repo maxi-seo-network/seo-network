@@ -449,7 +449,7 @@
       "keyword": "exchange-security-comparison",
       "priority": 9,
       "affiliate": "binance",
-      "status": "pending"
+      "status": "completed"
     },
     {
       "keyword": "crypto-insurance-guide",
@@ -575,13 +575,13 @@
       "keyword": "ledger-vs-trezor-2026",
       "priority": 10,
       "affiliate": "trezor",
-      "status": "pending"
+      "status": "completed"
     },
     {
       "keyword": "best-bitcoin-hardware-wallet",
       "priority": 10,
       "affiliate": "ledger",
-      "status": "pending"
+      "status": "completed"
     }
   ],
   "completedKeywords": []
