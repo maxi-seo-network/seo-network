@@ -113,7 +113,17 @@
       "keyword": "trezor-safe-7-review",
       "priority": 9,
       "affiliate": "trezor",
-      "status": "completed"
+      "status": "published",
+      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/trezor-safe-7-review.html",
+      "publishedDate": "2026-04-11"
+    },
+    {
+      "keyword": "ledger-flex-review",
+      "priority": 10,
+      "affiliate": "ledger",
+      "status": "published",
+      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/ledger-flex-review.html",
+      "publishedDate": "2026-04-11"
     },
     {
       "keyword": "best-bitcoin-wallet-2026",
@@ -563,7 +573,9 @@
       "keyword": "best-hardware-wallet-beginners",
       "priority": 9,
       "affiliate": "ledger",
-      "status": "pending"
+      "status": "published",
+      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/best-crypto-hardware-wallet-beginners.html",
+      "publishedAt": "2026-04-11"
     },
     {
       "keyword": "how-to-transfer-crypto-to-hardware-wallet",
