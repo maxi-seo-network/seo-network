@@ -399,7 +399,8 @@
       "keyword": "mobile-crypto-wallet-review",
       "priority": 8,
       "affiliate": "trezor",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-12"
     },
     {
       "keyword": "seed-phrase-storage-guide",
@@ -509,7 +510,8 @@
       "keyword": "crypto-wallet-security-tips",
       "priority": 9,
       "affiliate": "ledger",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-12"
     },
     {
       "keyword": "ledger-live-app-review",
@@ -587,7 +589,8 @@
       "keyword": "how-to-transfer-crypto-to-hardware-wallet",
       "priority": 9,
       "affiliate": "ledger",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-12"
     },
     {
       "keyword": "ledger-vs-trezor-2026",
