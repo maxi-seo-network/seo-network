@@ -412,19 +412,22 @@
       "keyword": "bitcoin-only-wallet-comparison",
       "priority": 7,
       "affiliate": "trezor",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-13"
     },
     {
       "keyword": "solana-wallet-review-2026",
       "priority": 8,
       "affiliate": "ledger",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-13"
     },
     {
       "keyword": "ethereum-wallet-beginners",
       "priority": 8,
       "affiliate": "ledger",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-13"
     },
     {
       "keyword": "dex-vs-cex-comparison",
