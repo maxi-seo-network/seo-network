@@ -457,13 +457,15 @@
       "keyword": "trading-bot-review-2026",
       "priority": 6,
       "affiliate": "bybit",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-15"
     },
     {
       "keyword": "nft-storage-solutions",
       "priority": 6,
       "affiliate": "ledger",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-15"
     },
     {
       "keyword": "exchange-security-comparison",
@@ -475,7 +477,8 @@
       "keyword": "crypto-insurance-guide",
       "priority": 7,
       "affiliate": "ledger",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-15"
     },
     {
       "keyword": "multi-sig-wallet-explained",
