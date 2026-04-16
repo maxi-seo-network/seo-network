@@ -516,7 +516,9 @@
       "keyword": "binance-fees-explained",
       "priority": 8,
       "affiliate": "binance",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-16",
+      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/binance-fees-explained.html"
     },
     {
       "keyword": "crypto-wallet-security-tips",
@@ -529,13 +531,17 @@
       "keyword": "ledger-live-app-review",
       "priority": 8,
       "affiliate": "ledger",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-16",
+      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/ledger-live-app-review.html"
     },
     {
       "keyword": "trezor-suite-review-2026",
       "priority": 8,
       "affiliate": "trezor",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-16",
+      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/trezor-suite-review-2026.html"
     },
     {
       "keyword": "nordvpn-coupon-code-2026",
@@ -633,7 +639,32 @@
       "priority": 7,
       "affiliate": "trezor",
       "status": "pending"
-    }
+    },
+    {"keyword": "comprar-bitcoin-mb-way", "priority": 9, "affiliate": "binance", "status": "pending"},
+    {"keyword": "ledger-nano-s-plus-setup-tutorial", "priority": 8, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "how-to-store-seed-phrase-safely", "priority": 9, "affiliate": "trezor", "status": "pending"},
+    {"keyword": "bybit-web3-wallet-guide", "priority": 8, "affiliate": "bybit", "status": "pending"},
+    {"keyword": "carteira-bitcoin-mais-segura-2026", "priority": 9, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "binance-earn-alternatives-europe", "priority": 8, "affiliate": "binance", "status": "pending"},
+    {"keyword": "trezor-model-one-setup-guide", "priority": 7, "affiliate": "trezor", "status": "pending"},
+    {"keyword": "best-bitcoin-only-hardware-wallet", "priority": 8, "affiliate": "trezor", "status": "pending"},
+    {"keyword": "como-proteger-frase-recuperacao", "priority": 8, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "nordvpn-threat-protection-review", "priority": 7, "affiliate": "nordvpn", "status": "pending"},
+    {"keyword": "tradingview-best-indicators-crypto-beginners", "priority": 7, "affiliate": "tradingview", "status": "pending"},
+    {"keyword": "bybit-vs-kraken-europe-fees", "priority": 8, "affiliate": "bybit", "status": "pending"},
+    {"keyword": "ledger-flex-vs-trezor-safe-7-comparison", "priority": 9, "affiliate": "trezor", "status": "pending"},
+    {"keyword": "como-fazer-staking-ethereum-portugal", "priority": 8, "affiliate": "binance", "status": "pending"},
+    {"keyword": "best-cold-wallet-ethereum-staking", "priority": 8, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "nordpass-security-features-review", "priority": 7, "affiliate": "nordpass", "status": "pending"},
+    {"keyword": "vpn-for-binance-restricted-countries", "priority": 8, "affiliate": "nordvpn", "status": "pending"},
+    {"keyword": "melhor-app-comprar-bitcoin-portugal-2026", "priority": 9, "affiliate": "binance", "status": "pending"},
+    {"keyword": "hardware-wallet-multiple-cryptocurrencies", "priority": 8, "affiliate": "trezor", "status": "pending"},
+    {"keyword": "binance-p2p-fees-explained", "priority": 7, "affiliate": "binance", "status": "pending"},
+    {"keyword": "trezor-safe-3-vs-ledger-nano-s-plus", "priority": 8, "affiliate": "trezor", "status": "pending"},
+    {"keyword": "como-usar-ledger-nano-x-passo-a-passo", "priority": 8, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "crypto-hardware-wallet-safety-tips", "priority": 7, "affiliate": "ledger", "status": "pending"},
+    {"keyword": "bybit-earn-products-review", "priority": 8, "affiliate": "bybit", "status": "pending"},
+    {"keyword": "gestor-senhas-investidores-cripto", "priority": 8, "affiliate": "nordpass", "status": "pending"}
   ],
   "completedKeywords": []
 }
