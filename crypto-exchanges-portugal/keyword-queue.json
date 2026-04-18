@@ -553,19 +553,22 @@
       "keyword": "nordvpn-coupon-code-2026",
       "priority": 7,
       "affiliate": "nordvpn",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-18"
     },
     {
       "keyword": "best-vpn-dark-web",
       "priority": 6,
       "affiliate": "nordvpn",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-18"
     },
     {
       "keyword": "nordpass-family-plan-review",
       "priority": 7,
       "affiliate": "nordpass",
-      "status": "pending"
+      "status": "completed",
+      "publishedDate": "2026-04-18"
     },
     {
       "keyword": "tradingview-discount-code",
