@@ -1,816 +1,1577 @@
 {
-  "created": "2026-03-27",
-  "keywords": [
+  "queue": [
     {
-      "keyword": "okx-review-portugal",
-      "priority": 10,
-      "affiliate": "okx",
-      "status": "completed"
+      "keyword": "comprar ethereum portugal",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 85,
+      "status": "published"
     },
     {
-      "keyword": "crypto-com-review-europe",
-      "priority": 9,
-      "affiliate": "crypto.com",
-      "status": "completed"
+      "keyword": "buy ethereum europe",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 84,
+      "status": "published"
     },
     {
-      "keyword": "bitpanda-review-portugal",
-      "priority": 10,
-      "affiliate": "bitpanda",
-      "status": "completed"
+      "keyword": "best crypto exchange for beginners europe",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 82,
+      "status": "published"
     },
     {
-      "keyword": "best-crypto-exchange-staking",
-      "priority": 8,
-      "affiliate": "binance",
-      "status": "completed"
+      "keyword": "best bitcoin wallet portugal",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 79,
+      "status": "published"
     },
     {
-      "keyword": "crypto-futures-trading-beginners",
-      "priority": 7,
-      "affiliate": "bybit",
-      "status": "completed"
+      "keyword": "binance vs bybit fees comparison",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 78,
+      "status": "published"
     },
     {
-      "keyword": "best-crypto-hardware-wallet-2026",
-      "priority": 9,
-      "affiliate": "ledger",
-      "status": "completed"
+      "keyword": "best crypto wallet beginners 2024",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 78,
+      "status": "published"
     },
     {
-      "keyword": "crypto-cold-storage-guide",
-      "priority": 7,
-      "affiliate": "trezor",
-      "status": "completed"
+      "keyword": "best crypto app portugal",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 77,
+      "status": "published"
     },
     {
-      "keyword": "metamask-alternatives-2026",
-      "priority": 6,
-      "affiliate": "none",
-      "status": "completed"
+      "keyword": "tradingview premium worth it",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "TradingView",
+      "affiliate_status": "active",
+      "score": 77,
+      "status": "published"
     },
     {
-      "keyword": "crypto-tax-software-portugal",
-      "priority": 8,
-      "affiliate": "none",
-      "status": "completed"
+      "keyword": "nordvpn review 2026",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 80,
+      "status": "published"
     },
     {
-      "keyword": "best-vpn-crypto-trading",
-      "priority": 8,
-      "affiliate": "nordvpn",
-      "status": "completed"
+      "keyword": "nordpass review 2026",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordPass",
+      "affiliate_status": "active",
+      "score": 78,
+      "status": "published"
     },
     {
-      "keyword": "crypto-debit-card-europe",
-      "priority": 9,
-      "affiliate": "crypto.com",
-      "status": "completed"
+      "keyword": "best vpn for crypto trading",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 82,
+      "status": "published"
     },
     {
-      "keyword": "nft-marketplace-beginners",
-      "priority": 6,
-      "affiliate": "binance",
-      "status": "completed"
+      "keyword": "vpn comparison nordvpn expressvpn surfshark",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "published"
     },
     {
-      "keyword": "layer-2-solutions-explained",
-      "priority": 5,
-      "affiliate": "none",
-      "status": "completed"
+      "keyword": "vpn for portugal europe",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "published"
     },
     {
-      "keyword": "defi-staking-beginners",
-      "priority": 7,
-      "affiliate": "binance",
-      "status": "completed"
+      "keyword": "investir em criptomoedas portugal",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 76,
+      "status": "published"
     },
     {
-      "keyword": "crypto-savings-account-europe",
-      "priority": 8,
-      "affiliate": "binance",
-      "status": "completed"
+      "keyword": "como vender bitcoin portugal",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "published"
     },
     {
-      "keyword": "bitcoin-ira-europe",
-      "priority": 5,
-      "affiliate": "none",
-      "status": "completed"
+      "keyword": "crypto exchange portugal fees",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "published"
     },
     {
-      "keyword": "crypto-security-checklist",
-      "priority": 7,
-      "affiliate": "ledger",
-      "status": "completed"
+      "keyword": "comprar usdt portugal",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 76,
+      "status": "published"
     },
     {
-      "keyword": "ledger-nano-s-plus-review",
-      "priority": 9,
-      "affiliate": "ledger",
-      "status": "completed"
+      "keyword": "kraken review europe",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 76,
+      "status": "published"
     },
     {
-      "keyword": "trezor-safe-7-review",
-      "priority": 9,
-      "affiliate": "trezor",
+      "keyword": "binance vs coinbase europe",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "published"
+    },
+    {
+      "keyword": "binance staking review",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "published"
+    },
+    {
+      "keyword": "impostos criptomoedas portugal",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "published"
+    },
+    {
+      "keyword": "tradingview subscription worth it",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "TradingView",
+      "affiliate_status": "needs_verification",
+      "score": 73,
+      "status": "published"
+    },
+    {
+      "keyword": "stake crypto portugal",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 73,
+      "status": "published"
+    },
+    {
+      "keyword": "bybit registration tutorial",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Bybit",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "published"
+    },
+    {
+      "keyword": "how to start crypto trading europe",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "published"
+    },
+    {
+      "keyword": "ledger nano x review",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "published"
+    },
+    {
+      "keyword": "crypto taxes portugal",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "published"
+    },
+    {
+      "keyword": "how to stake ethereum europe",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "published"
+    },
+    {
+      "keyword": "best solana wallet europe",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 71,
+      "status": "published"
+    },
+    {
+      "keyword": "ledger nano x setup guide",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 71,
+      "status": "published"
+    },
+    {
+      "keyword": "vpn for crypto security",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 76,
+      "status": "published"
+    },
+    {
+      "keyword": "password manager for crypto",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordPass",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "published"
+    },
+    {
+      "keyword": "nordvpn portugues",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "published"
+    },
+    {
+      "keyword": "expressvpn vs nordvpn 2026",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 73,
+      "status": "published"
+    },
+    {
+      "keyword": "best vpn europe 2026",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "published"
+    },
+    {
+      "keyword": "nordvpn discount code",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 78,
+      "status": "published"
+    },
+    {
+      "keyword": "nordpass vs lastpass",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "NordPass",
+      "affiliate_status": "active",
+      "score": 71,
+      "status": "published"
+    },
+    {
+      "keyword": "tradingview pro review crypto trading",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "TradingView",
+      "affiliate_status": "needs_verification",
+      "score": 69,
+      "status": "published"
+    },
+    {
+      "keyword": "criptomoedas portugal como come\u00e7ar",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 68,
+      "status": "published"
+    },
+    {
+      "keyword": "hardware wallet comparison 2024",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 68,
+      "status": "published"
+    },
+    {
+      "keyword": "bitcoin atm portugal",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 68,
+      "status": "published"
+    },
+    {
+      "keyword": "metamask tutorial portugues",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 69,
+      "status": "published"
+    },
+    {
+      "keyword": "crypto trading for beginners portugal",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 70,
+      "status": "published"
+    },
+    {
+      "keyword": "best charting software crypto",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "TradingView",
+      "affiliate_status": "needs_verification",
+      "score": 70,
+      "status": "published"
+    },
+    {
+      "keyword": "trezor model t review",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 75,
       "status": "published",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/trezor-safe-7-review.html",
-      "publishedDate": "2026-04-11"
+      "published_at": "2026-03-26",
+      "url": "/crypto-exchanges-portugal/trezor-model-t-review.html"
     },
     {
-      "keyword": "ledger-flex-review",
-      "priority": 10,
-      "affiliate": "ledger",
+      "keyword": "defi wallet explained beginners",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 67,
+      "status": "published"
+    },
+    {
+      "keyword": "crypto security tips beginners",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 66,
+      "status": "published"
+    },
+    {
+      "keyword": "ledger nano s vs nano x",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 66,
+      "status": "published"
+    },
+    {
+      "keyword": "ledger vs trezor security",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 78,
+      "status": "published"
+    },
+    {
+      "keyword": "hardware wallet crypto comparison",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 64,
+      "status": "published"
+    },
+    {
+      "keyword": "buy usdt europe",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "published"
+    },
+    {
+      "keyword": "crypto exchange comparison 2024",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 73,
+      "status": "published"
+    },
+    {
+      "keyword": "tradingview alternatives free",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "TradingView",
+      "affiliate_status": "needs_verification",
+      "score": 58,
+      "status": "published"
+    },
+    {
+      "keyword": "trezor safe 5 review",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 76,
       "status": "published",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/ledger-flex-review.html",
-      "publishedDate": "2026-04-11"
+      "published_at": "2026-03-27",
+      "url": "/crypto-exchanges-portugal/trezor-safe-5-review.html"
     },
     {
-      "keyword": "best-bitcoin-wallet-2026",
-      "priority": 9,
-      "affiliate": "ledger",
-      "status": "completed"
+      "keyword": "trezor vs ledger 2026",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 80,
+      "status": "published"
     },
     {
-      "keyword": "crypto-exchange-signup-bonus",
-      "priority": 8,
-      "affiliate": "binance",
-      "status": "completed"
+      "keyword": "best hardware wallet 2026",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 82,
+      "status": "published"
     },
     {
-      "keyword": "kyc-free-crypto-exchange",
-      "priority": 6,
-      "affiliate": "none",
-      "status": "completed"
-    },
-    {
-      "keyword": "crypto-portfolio-tracker",
-      "priority": 6,
-      "affiliate": "tradingview",
-      "status": "completed"
-    },
-    {
-      "keyword": "bybit-copy-trading",
-      "priority": 7,
-      "affiliate": "bybit",
-      "status": "completed"
-    },
-    {
-      "keyword": "binance-earn-review",
-      "priority": 8,
-      "affiliate": "binance",
-      "status": "completed"
-    },
-    {
-      "keyword": "crypto-arbitrage-beginners",
-      "priority": 5,
-      "affiliate": "none",
-      "status": "completed"
-    },
-    {
-      "keyword": "best-crypto-app-beginners-2026",
-      "priority": 9,
-      "affiliate": "binance",
-      "status": "completed"
-    },
-    {
-      "keyword": "nordvpn-vs-expressvpn-security",
-      "priority": 8,
-      "affiliate": "nordvpn",
-      "status": "completed"
-    },
-    {
-      "keyword": "password-manager-crypto-security",
-      "priority": 7,
-      "affiliate": "nordpass",
-      "status": "completed"
-    },
-    {
-      "keyword": "tradingview-vs-coinstats",
-      "priority": 6,
-      "affiliate": "tradingview",
-      "status": "completed"
-    },
-    {
-      "keyword": "binance-vs-coinbase-portugal",
-      "priority": 9,
-      "affiliate": "binance",
-      "status": "completed"
-    },
-    {
-      "keyword": "comprar-bitcoin-portugal",
-      "priority": 10,
-      "affiliate": "binance",
-      "status": "completed"
-    },
-    {
-      "keyword": "melhor-exchange-crypto-portugal-2026",
-      "priority": 9,
-      "affiliate": "binance",
-      "status": "completed"
-    },
-    {
-      "keyword": "crypto-wallet-portugal",
-      "priority": 8,
-      "affiliate": "ledger",
-      "status": "completed"
-    },
-    {
-      "keyword": "how-to-buy-ethereum-europe",
-      "priority": 8,
-      "affiliate": "binance",
-      "status": "completed"
-    },
-    {
-      "keyword": "bybit-referral-code-2026",
-      "priority": 7,
-      "affiliate": "bybit",
-      "status": "completed"
-    },
-    {
-      "keyword": "ledger-nano-x-review-2026",
-      "priority": 9,
-      "affiliate": "ledger",
-      "status": "completed"
-    },
-    {
-      "keyword": "trezor-model-t-vs-ledger-nano-x",
-      "priority": 9,
-      "affiliate": "trezor",
-      "status": "completed"
-    },
-    {
-      "keyword": "best-vpn-portugal-streaming",
-      "priority": 7,
-      "affiliate": "nordvpn",
-      "status": "completed"
-    },
-    {
-      "keyword": "nordvpn-portugal-servers",
-      "priority": 6,
-      "affiliate": "nordvpn",
-      "status": "completed"
-    },
-    {
-      "keyword": "password-manager-2026-comparison",
-      "priority": 7,
-      "affiliate": "nordpass",
-      "status": "completed"
-    },
-    {
-      "keyword": "tradingview-free-vs-paid",
-      "priority": 6,
-      "affiliate": "tradingview",
-      "status": "completed"
-    },
-    {
-      "keyword": "crypto-staking-beginners-guide",
-      "priority": 8,
-      "affiliate": "binance",
-      "status": "completed"
-    },
-    {
-      "keyword": "okx-exchange-review-eu",
-      "priority": 9,
-      "affiliate": "okx",
-      "status": "completed"
-    },
-    {
-      "keyword": "crypto-com-card-europe-review",
-      "priority": 8,
-      "affiliate": "crypto.com",
-      "status": "completed"
-    },
-    {
-      "keyword": "bitpanda-review-portugal",
-      "priority": 9,
-      "affiliate": "bitpanda",
-      "status": "completed"
-    },
-    {
-      "keyword": "best-crypto-app-europe-2026",
-      "priority": 9,
-      "affiliate": "binance",
-      "status": "completed"
-    },
-    {
-      "keyword": "crypto-security-beginners-checklist",
-      "priority": 7,
-      "affiliate": "ledger",
-      "status": "completed"
-    },
-    {
-      "keyword": "nordpass-vs-lastpass-2026",
-      "priority": 6,
-      "affiliate": "nordpass",
-      "status": "completed"
-    },
-    {
-      "keyword": "mexc-review-portugal",
-      "priority": 10,
-      "affiliate": "mexc",
-      "status": "completed"
-    },
-    {
-      "keyword": "mexc-exchange-review-eu",
-      "priority": 10,
-      "affiliate": "mexc",
-      "status": "completed"
-    },
-    {
-      "keyword": "coinledger-review-2026",
-      "priority": 10,
-      "affiliate": "coinledger",
-      "status": "completed"
-    },
-    {
-      "keyword": "koinly-review-2026",
-      "priority": 9,
-      "affiliate": "koinly",
-      "status": "completed"
-    },
-    {
-      "keyword": "coinledger-vs-koinly",
-      "priority": 8,
-      "affiliate": "coinledger",
-      "status": "completed"
-    },
-    {
-      "keyword": "crypto-tax-software-comparison",
-      "priority": 10,
-      "affiliate": "coinledger",
-      "status": "completed"
-    },
-    {
-      "keyword": "bitbox-wallet-review",
-      "priority": 8,
-      "affiliate": "bitbox",
-      "status": "completed"
-    },
-    {
-      "keyword": "nexo-review-europe",
-      "priority": 8,
-      "affiliate": "nexo",
-      "status": "completed"
-    },
-    {
-      "keyword": "primexbt-review-crypto",
-      "priority": 7,
-      "affiliate": "primexbt",
-      "status": "completed"
-    },
-    {
-      "keyword": "crypto-debit-card-comparison",
-      "priority": 9,
-      "affiliate": "crypto.com",
-      "status": "completed"
-    },
-    {
-      "keyword": "best-crypto-card-europe-2026",
-      "priority": 9,
-      "affiliate": "crypto.com",
-      "status": "completed"
-    },
-    {
-      "keyword": "bitget-review-portugal",
-      "priority": 8,
-      "affiliate": "bitget",
-      "status": "completed"
-    },
-    {
-      "keyword": "whitebit-exchange-review",
-      "priority": 7,
-      "affiliate": "whitebit",
-      "status": "completed"
-    },
-    {
-      "keyword": "margex-exchange-review",
-      "priority": 7,
-      "affiliate": "margex",
-      "status": "completed"
-    },
-    {
-      "keyword": "best-software-wallet-2026",
-      "priority": 9,
-      "affiliate": "ledger",
-      "status": "completed"
-    },
-    {
-      "keyword": "mobile-crypto-wallet-review",
-      "priority": 8,
-      "affiliate": "trezor",
-      "status": "completed",
-      "publishedDate": "2026-04-12"
-    },
-    {
-      "keyword": "seed-phrase-storage-guide",
-      "priority": 9,
-      "affiliate": "ledger",
-      "status": "completed"
-    },
-    {
-      "keyword": "bitcoin-only-wallet-comparison",
-      "priority": 7,
-      "affiliate": "trezor",
-      "status": "completed",
-      "publishedDate": "2026-04-13"
-    },
-    {
-      "keyword": "solana-wallet-review-2026",
-      "priority": 8,
-      "affiliate": "ledger",
-      "status": "completed",
-      "publishedDate": "2026-04-13"
-    },
-    {
-      "keyword": "ethereum-wallet-beginners",
-      "priority": 8,
-      "affiliate": "ledger",
-      "status": "completed",
-      "publishedDate": "2026-04-13"
-    },
-    {
-      "keyword": "dex-vs-cex-comparison",
-      "priority": 7,
-      "affiliate": "binance",
-      "status": "completed",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/dex-vs-cex-comparison.html",
-      "publishedDate": "2026-04-14"
-    },
-    {
-      "keyword": "crypto-lending-platforms-europe",
-      "priority": 8,
-      "affiliate": "nexo",
-      "status": "completed",
-      "publishedDate": "2026-04-14",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/crypto-lending-platforms-europe.html"
-    },
-    {
-      "keyword": "yield-farming-beginners-guide",
-      "priority": 7,
-      "affiliate": "binance",
-      "status": "completed",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/yield-farming-beginners-guide.html",
-      "publishedDate": "2026-04-14"
-    },
-    {
-      "keyword": "trading-bot-review-2026",
-      "priority": 6,
-      "affiliate": "bybit",
-      "status": "completed",
-      "publishedDate": "2026-04-15"
-    },
-    {
-      "keyword": "nft-storage-solutions",
-      "priority": 6,
-      "affiliate": "ledger",
-      "status": "completed",
-      "publishedDate": "2026-04-15"
-    },
-    {
-      "keyword": "exchange-security-comparison",
-      "priority": 9,
-      "affiliate": "binance",
-      "status": "completed"
-    },
-    {
-      "keyword": "crypto-insurance-guide",
-      "priority": 7,
-      "affiliate": "ledger",
-      "status": "completed",
-      "publishedDate": "2026-04-15"
-    },
-    {
-      "keyword": "multi-sig-wallet-explained",
-      "priority": 6,
-      "affiliate": "trezor",
-      "status": "completed",
-      "publishedDate": "2026-04-17",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/multi-sig-wallet-explained.html"
-    },
-    {
-      "keyword": "best-cold-wallet-2026",
-      "priority": 10,
-      "affiliate": "trezor",
-      "status": "completed"
-    },
-    {
-      "keyword": "hardware-wallet-beginners-guide",
-      "priority": 9,
-      "affiliate": "ledger",
+      "keyword": "trezor model one review",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 72,
       "status": "published",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/hardware-wallet-beginners-guide.html",
-      "publishedDate": "2026-04-11"
+      "published_at": "2026-03-28",
+      "url": "/crypto-exchanges-portugal/trezor-model-one-review.html"
     },
     {
-      "keyword": "crypto-inheritance-planning",
-      "priority": 5,
-      "affiliate": "ledger",
-      "status": "completed",
-      "publishedDate": "2026-04-17",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/crypto-inheritance-planning.html"
-    },
-    {
-      "keyword": "defi-wallet-review-2026",
-      "priority": 8,
-      "affiliate": "trezor",
-      "status": "completed",
-      "publishedDate": "2026-04-17",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/defi-wallet-review-2026.html"
-    },
-    {
-      "keyword": "binance-fees-explained",
-      "priority": 8,
-      "affiliate": "binance",
-      "status": "completed",
-      "publishedDate": "2026-04-16",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/binance-fees-explained.html"
-    },
-    {
-      "keyword": "crypto-wallet-security-tips",
-      "priority": 9,
-      "affiliate": "ledger",
-      "status": "completed",
-      "publishedDate": "2026-04-12"
-    },
-    {
-      "keyword": "ledger-live-app-review",
-      "priority": 8,
-      "affiliate": "ledger",
-      "status": "completed",
-      "publishedDate": "2026-04-16",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/ledger-live-app-review.html"
-    },
-    {
-      "keyword": "trezor-suite-review-2026",
-      "priority": 8,
-      "affiliate": "trezor",
-      "status": "completed",
-      "publishedDate": "2026-04-16",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/trezor-suite-review-2026.html"
-    },
-    {
-      "keyword": "nordvpn-coupon-code-2026",
-      "priority": 7,
-      "affiliate": "nordvpn",
-      "status": "completed",
-      "publishedDate": "2026-04-18"
-    },
-    {
-      "keyword": "best-vpn-dark-web",
-      "priority": 6,
-      "affiliate": "nordvpn",
-      "status": "completed",
-      "publishedDate": "2026-04-18"
-    },
-    {
-      "keyword": "nordpass-family-plan-review",
-      "priority": 7,
-      "affiliate": "nordpass",
-      "status": "completed",
-      "publishedDate": "2026-04-18"
-    },
-    {
-      "keyword": "tradingview-discount-code",
-      "priority": 6,
-      "affiliate": "tradingview",
-      "status": "pending"
-    },
-    {
-      "keyword": "ledger-nano-s-plus-vs-trezor-one",
-      "priority": 9,
-      "affiliate": "ledger",
+      "keyword": "trezor safe 3 review",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 74,
       "status": "published",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/ledger-nano-s-plus-vs-trezor-one.html",
-      "publishedDate": "2026-04-11"
+      "published_at": "2026-03-31",
+      "url": "/crypto-exchanges-portugal/trezor-safe-3-review.html"
     },
     {
-      "keyword": "binance-referral-code-2026",
-      "priority": 8,
-      "affiliate": "binance",
-      "status": "pending"
-    },
-    {
-      "keyword": "bybit-fee-discount-code",
-      "priority": 7,
-      "affiliate": "bybit",
-      "status": "pending"
-    },
-    {
-      "keyword": "trezor-safe-3-review-2026",
-      "priority": 9,
-      "affiliate": "trezor",
+      "keyword": "carteira hardware bitcoin portugues",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 75,
       "status": "published",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/trezor-safe-3-review.html",
-      "publishedDate": "2026-04-11"
+      "published_at": "2026-03-28",
+      "url": "/crypto-exchanges-portugal/carteira-hardware-bitcoin-portugues.html"
     },
     {
-      "keyword": "best-hardware-wallet-beginners",
-      "priority": 9,
-      "affiliate": "ledger",
+      "keyword": "melhor carteira fria criptomoedas",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 77,
       "status": "published",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/best-crypto-hardware-wallet-beginners.html",
-      "publishedAt": "2026-04-11"
+      "published_at": "2026-03-27",
+      "url": "/crypto-exchanges-portugal/melhor-carteira-fria-criptomoedas.html"
     },
     {
-      "keyword": "how-to-transfer-crypto-to-hardware-wallet",
-      "priority": 9,
-      "affiliate": "ledger",
-      "status": "completed",
-      "publishedDate": "2026-04-12"
+      "keyword": "bybit vs binance 2026",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Bybit",
+      "affiliate_status": "active",
+      "score": 79,
+      "status": "published"
     },
     {
-      "keyword": "ledger-vs-trezor-2026",
-      "priority": 10,
-      "affiliate": "trezor",
-      "status": "completed"
-    },
-    {
-      "keyword": "best-bitcoin-hardware-wallet",
-      "priority": 10,
-      "affiliate": "ledger",
-      "status": "completed"
-    },
-    {
-      "keyword": "crypto-wallet-recovery-guide",
-      "priority": 8,
-      "affiliate": "ledger",
-      "status": "pending"
-    },
-    {
-      "keyword": "ledger-live-tutorial-2026",
-      "priority": 7,
-      "affiliate": "ledger",
-      "status": "pending"
-    },
-    {
-      "keyword": "trezor-suite-guide",
-      "priority": 7,
-      "affiliate": "trezor",
-      "status": "pending"
-    },
-    {
-      "keyword": "comprar-bitcoin-mb-way",
-      "priority": 9,
-      "affiliate": "binance",
-      "status": "completed",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/comprar-bitcoin-mb-way.html",
-      "publishedDate": "2026-04-16"
-    },
-    {
-      "keyword": "ledger-nano-s-plus-setup-tutorial",
-      "priority": 8,
-      "affiliate": "ledger",
-      "status": "pending"
-    },
-    {
-      "keyword": "how-to-store-seed-phrase-safely",
-      "priority": 9,
-      "affiliate": "trezor",
+      "keyword": "bybit review portugal",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Bybit",
+      "affiliate_status": "active",
+      "score": 76,
       "status": "published",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/how-to-store-seed-phrase-safely.html",
-      "publishedDate": "2026-04-17"
+      "published_at": "2026-03-28",
+      "url": "/crypto-exchanges-portugal/bybit-review-portugal.html"
     },
     {
-      "keyword": "bybit-web3-wallet-guide",
-      "priority": 8,
-      "affiliate": "bybit",
-      "status": "pending"
-    },
-    {
-      "keyword": "carteira-bitcoin-mais-segura-2026",
-      "priority": 9,
-      "affiliate": "ledger",
+      "keyword": "bybit trading fees explained",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Bybit",
+      "affiliate_status": "active",
+      "score": 73,
       "status": "published",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/carteira-bitcoin-mais-segura-2026.html",
-      "publishedDate": "2026-04-17"
+      "published_at": "2026-03-26",
+      "url": "/crypto-exchanges-portugal/bybit-trading-fees-explained.html"
     },
     {
-      "keyword": "binance-earn-alternatives-europe",
-      "priority": 8,
-      "affiliate": "binance",
-      "status": "pending"
-    },
-    {
-      "keyword": "trezor-model-one-setup-guide",
-      "priority": 7,
-      "affiliate": "trezor",
-      "status": "pending"
-    },
-    {
-      "keyword": "best-bitcoin-only-hardware-wallet",
-      "priority": 8,
-      "affiliate": "trezor",
+      "keyword": "como usar bybit passo a passo",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Bybit",
+      "affiliate_status": "active",
+      "score": 71,
       "status": "published",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/best-bitcoin-only-hardware-wallet.html",
-      "publishedDate": "2026-04-17"
+      "published_at": "2026-03-31",
+      "url": "/crypto-exchanges-portugal/como-usar-bybit-passo-a-passo.html"
     },
     {
-      "keyword": "como-proteger-frase-recuperacao",
-      "priority": 8,
-      "affiliate": "ledger",
+      "keyword": "bybit copy trading review",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Bybit",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "published",
+      "published_at": "2026-03-28",
+      "url": "/crypto-exchanges-portugal/bybit-copy-trading-review.html"
+    },
+    {
+      "keyword": "bybit futures trading tutorial",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "Bybit",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "published",
+      "published_at": "2026-03-31",
+      "url": "/crypto-exchanges-portugal/bybit-futures-trading-tutorial.html"
+    },
+    {
+      "keyword": "binance p2p portugal tutorial",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "published",
+      "published_at": "2026-04-15",
+      "url": "/crypto-exchanges-portugal/binance-p2p-portugal-tutorial.html"
+    },
+    {
+      "keyword": "comprar bitcoin com multibanco",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 77,
+      "status": "published",
+      "published_at": "2026-03-27",
+      "url": "/crypto-exchanges-portugal/comprar-bitcoin-com-multibanco.html"
+    },
+    {
+      "keyword": "binance card portugal",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 73,
+      "status": "published",
+      "published_at": "2026-04-15",
+      "url": "/crypto-exchanges-portugal/binance-card-portugal.html"
+    },
+    {
+      "keyword": "best crypto exchange portugal reddit",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 71,
+      "status": "published",
+      "published_at": "2026-04-15",
+      "url": "/crypto-exchanges-portugal/best-crypto-exchange-portugal-reddit.html"
+    },
+    {
+      "keyword": "crypto exchange with lowest fees europe",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 76,
+      "status": "published",
+      "published_at": "2026-03-28",
+      "url": "/crypto-exchanges-portugal/crypto-exchange-lowest-fees-europe.html"
+    },
+    {
+      "keyword": "buy bitcoin with euro instantly",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 78,
+      "status": "published"
+    },
+    {
+      "keyword": "comprar solana portugal",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "published",
+      "published_at": "2026-03-30",
+      "url": "/crypto-exchanges-portugal/comprar-solana-portugal.html"
+    },
+    {
+      "keyword": "buy solana europe",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 74,
       "status": "pending"
     },
     {
-      "keyword": "nordvpn-threat-protection-review",
-      "priority": 7,
-      "affiliate": "nordvpn",
+      "keyword": "nordvpn coupon 2026",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 79,
+      "status": "published"
+    },
+    {
+      "keyword": "nordvpn black friday deal",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 76,
+      "status": "published",
+      "published_at": "2026-03-28",
+      "url": "/crypto-exchanges-portugal/nordvpn-black-friday-deal.html"
+    },
+    {
+      "keyword": "vpn barato portugal",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 73,
       "status": "pending"
     },
     {
-      "keyword": "tradingview-best-indicators-crypto-beginners",
-      "priority": 7,
-      "affiliate": "tradingview",
+      "keyword": "nordvpn free trial",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 74,
       "status": "pending"
     },
     {
-      "keyword": "bybit-vs-kraken-europe-fees",
-      "priority": 8,
-      "affiliate": "bybit",
+      "keyword": "nordvpn vs surfshark 2026",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "published",
+      "published_at": "2026-03-30",
+      "url": "/crypto-exchanges-portugal/nordvpn-vs-surfshark-2026.html"
+    },
+    {
+      "keyword": "best vpn for streaming portugal",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 72,
       "status": "pending"
     },
     {
-      "keyword": "ledger-flex-vs-trezor-safe-7-comparison",
-      "priority": 9,
-      "affiliate": "trezor",
-      "status": "completed",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/ledger-flex-vs-trezor-safe-7-comparison.html",
-      "publishedDate": "2026-04-16"
-    },
-    {
-      "keyword": "como-fazer-staking-ethereum-portugal",
-      "priority": 8,
-      "affiliate": "binance",
+      "keyword": "nordpass family plan review",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordPass",
+      "affiliate_status": "active",
+      "score": 70,
       "status": "pending"
     },
     {
-      "keyword": "best-cold-wallet-ethereum-staking",
-      "priority": 8,
-      "affiliate": "ledger",
+      "keyword": "nordpass vs 1password",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "NordPass",
+      "affiliate_status": "active",
+      "score": 72,
       "status": "pending"
     },
     {
-      "keyword": "nordpass-security-features-review",
-      "priority": 7,
-      "affiliate": "nordpass",
+      "keyword": "best password manager 2026",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordPass",
+      "affiliate_status": "active",
+      "score": 76,
+      "status": "published",
+      "published_at": "2026-04-09",
+      "url": "/crypto-exchanges-portugal/best-password-manager-2026.html"
+    },
+    {
+      "keyword": "tradingview free vs paid",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "TradingView",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "published",
+      "published_at": "2026-03-26",
+      "url": "/crypto-exchanges-portugal/tradingview-free-vs-paid.html"
+    },
+    {
+      "keyword": "tradingview essential vs plus",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "TradingView",
+      "affiliate_status": "active",
+      "score": 73,
       "status": "pending"
     },
     {
-      "keyword": "vpn-for-binance-restricted-countries",
-      "priority": 8,
-      "affiliate": "nordvpn",
+      "keyword": "best crypto charting platform",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "TradingView",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "published",
+      "published_at": "2026-04-09",
+      "url": "/crypto-exchanges-portugal/best-crypto-charting-platform.html"
+    },
+    {
+      "keyword": "tradingview indicators for crypto",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "TradingView",
+      "affiliate_status": "active",
+      "score": 68,
       "status": "pending"
     },
     {
-      "keyword": "melhor-app-comprar-bitcoin-portugal-2026",
-      "priority": 9,
-      "affiliate": "binance",
-      "status": "completed",
-      "publishedDate": "2026-04-16",
-      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/melhor-app-comprar-bitcoin-portugal-2026.html"
+      "keyword": "ledger nano s plus review",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 73,
+      "status": "published",
+      "published_at": "2026-04-19",
+      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/ledger-nano-s-plus-review.html"
     },
     {
-      "keyword": "hardware-wallet-multiple-cryptocurrencies",
-      "priority": 8,
-      "affiliate": "trezor",
+      "keyword": "ledger stax review",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 71,
+      "status": "published",
+      "published_at": "2026-04-19",
+      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/ledger-stax-review.html"
+    },
+    {
+      "keyword": "ledger live app tutorial",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 67,
       "status": "pending"
     },
     {
-      "keyword": "binance-p2p-fees-explained",
-      "priority": 7,
-      "affiliate": "binance",
+      "keyword": "best cold wallet for bitcoin",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 78,
+      "status": "published",
+      "published_at": "2026-04-09",
+      "url": "/crypto-exchanges-portugal/best-cold-wallet-bitcoin.html"
+    },
+    {
+      "keyword": "trezor suite app review",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 70,
       "status": "pending"
     },
     {
-      "keyword": "trezor-safe-3-vs-ledger-nano-s-plus",
-      "priority": 8,
-      "affiliate": "trezor",
+      "keyword": "trezor one vs model t",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 74,
       "status": "pending"
     },
     {
-      "keyword": "como-usar-ledger-nano-x-passo-a-passo",
-      "priority": 8,
-      "affiliate": "ledger",
+      "keyword": "hardware wallet for beginners",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "published",
+      "published_at": "2026-04-13",
+      "url": "/crypto-exchanges-portugal/hardware-wallet-for-beginners.html"
+    },
+    {
+      "keyword": "como guardar criptomoedas com seguran\u00e7a",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 74,
       "status": "pending"
     },
     {
-      "keyword": "crypto-hardware-wallet-safety-tips",
-      "priority": 7,
-      "affiliate": "ledger",
+      "keyword": "carteira fria vs carteira quente",
+      "language": "pt",
+      "intent": "comparing",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 73,
       "status": "pending"
     },
     {
-      "keyword": "bybit-earn-products-review",
-      "priority": 8,
-      "affiliate": "bybit",
+      "keyword": "best crypto wallet reddit 2026",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 71,
       "status": "pending"
     },
     {
-      "keyword": "gestor-senhas-investidores-cripto",
-      "priority": 8,
-      "affiliate": "nordpass",
+      "keyword": "binance europe regulation 2026",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 70,
+      "status": "pending"
+    },
+    {
+      "keyword": "bybit europe regulation",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "Bybit",
+      "affiliate_status": "active",
+      "score": 69,
+      "status": "pending"
+    },
+    {
+      "keyword": "crypto exchange kyc portugal",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 68,
+      "status": "pending"
+    },
+    {
+      "keyword": "como transferir crypto para ledger",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 70,
+      "status": "pending"
+    },
+    {
+      "keyword": "ledger vs trezor reddit 2026",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "pending"
+    },
+    {
+      "keyword": "buy usdt with euro",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 77,
+      "status": "published",
+      "published_at": "2026-03-30",
+      "url": "/crypto-exchanges-portugal/buy-usdt-with-euro.html"
+    },
+    {
+      "keyword": "comprar bitcoin com cartao portugal",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 76,
+      "status": "published",
+      "published_at": "2026-04-09",
+      "url": "/crypto-exchanges-portugal/comprar-bitcoin-com-cartao-portugal.html"
+    },
+    {
+      "keyword": "vpn para criptomoedas",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "published",
+      "published_at": "2026-04-09",
+      "url": "/crypto-exchanges-portugal/vpn-para-criptomoedas.html"
+    },
+    {
+      "keyword": "gestor senhas criptomoedas",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "NordPass",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "pending"
+    },
+    {
+      "keyword": "tradingview espanol tutorial",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "TradingView",
+      "affiliate_status": "active",
+      "score": 68,
+      "status": "pending"
+    },
+    {
+      "keyword": "trezor safe 7 review",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 82,
+      "status": "published",
+      "published_at": "2026-04-13",
+      "url": "/crypto-exchanges-portugal/trezor-safe-7-review.html"
+    },
+    {
+      "keyword": "ledger flex review",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 78,
+      "status": "published",
+      "published_at": "2026-04-14",
+      "url": "/crypto-exchanges-portugal/ledger-flex-review.html"
+    },
+    {
+      "keyword": "best crypto hardware wallet for beginners",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 85,
+      "status": "published",
+      "published_at": "2026-04-13",
+      "url": "/crypto-exchanges-portugal/best-crypto-hardware-wallet-for-beginners.html"
+    },
+    {
+      "keyword": "NordPass business review",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordPass",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "pending"
+    },
+    {
+      "keyword": "Bybit spot trading fees comparison",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Bybit",
+      "affiliate_status": "active",
+      "score": 76,
+      "status": "pending"
+    },
+    {
+      "keyword": "como usar Trezor passo a passo",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "pending"
+    },
+    {
+      "keyword": "TradingView Essential plan review",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "TradingView",
+      "affiliate_status": "active",
+      "score": 73,
+      "status": "pending"
+    },
+    {
+      "keyword": "best password manager for crypto traders",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordPass",
+      "affiliate_status": "active",
+      "score": 79,
+      "status": "published",
+      "published_at": "2026-04-14",
+      "url": "/crypto-exchanges-portugal/best-password-manager-crypto-traders.html"
+    },
+    {
+      "keyword": "Trezor vs Ledger for beginners",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 81,
+      "status": "published",
+      "published_at": "2026-04-13",
+      "url": "/crypto-exchanges-portugal/trezor-vs-ledger-for-beginners.html"
+    },
+    {
+      "keyword": "NordVPN 2 year plan worth it",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 77,
+      "status": "published",
+      "published_at": "2026-04-14",
+      "url": "/crypto-exchanges-portugal/nordvpn-2-year-plan-worth-it.html"
+    },
+    {
+      "keyword": "Trezor Safe 7 vs Ledger Flex comparison",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 83,
+      "status": "published",
+      "published_at": "2026-04-19",
+      "url": "https://www.toolreviewshub.com/crypto-exchanges-portugal/trezor-safe-7-vs-ledger-flex-comparison.html"
+    },
+    {
+      "keyword": "ledger flex vs trezor safe 7",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 82,
+      "status": "pending"
+    },
+    {
+      "keyword": "comprar trezor portugal",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 78,
+      "status": "pending"
+    },
+    {
+      "keyword": "comprar ledger portugal",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 78,
+      "status": "pending"
+    },
+    {
+      "keyword": "melhor hardware wallet 2026",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 80,
+      "status": "pending"
+    },
+    {
+      "keyword": "VPN para exchanges bloqueadas",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "pending"
+    },
+    {
+      "keyword": "gestor de senhas para bitcoin",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "NordPass",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "pending"
+    },
+    {
+      "keyword": "NordVPN para acesso Binance",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "pending"
+    },
+    {
+      "keyword": "seed phrase storage security guide",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "pending"
+    },
+    {
+      "keyword": "best VPN for crypto exchanges 2026",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 80,
+      "status": "pending"
+    },
+    {
+      "keyword": "how to protect crypto seed phrase",
+      "language": "en",
+      "intent": "learning",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "pending"
+    },
+    {
+      "keyword": "Binance vs Bybit para iniciantes",
+      "language": "pt",
+      "intent": "comparing",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 77,
+      "status": "pending"
+    },
+    {
+      "keyword": "como fazer staking Binance",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "pending"
+    },
+    {
+      "keyword": "TradingView para criptomoedas tutorial",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "TradingView",
+      "affiliate_status": "active",
+      "score": 70,
+      "status": "pending"
+    },
+    {
+      "keyword": "Trezor Safe 7 características",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 76,
+      "status": "pending"
+    },
+    {
+      "keyword": "Ledger Flex review português",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "pending"
+    },
+    {
+      "keyword": "cold wallet security features comparison",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 73,
+      "status": "pending"
+    },
+    {
+      "keyword": "best VPN for Bybit access Europe",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 76,
       "status": "pending"
     }
   ],
-  "completedKeywords": []
+  "published": [
+    {
+      "keyword": "como comprar bitcoin em portugal",
+      "published_at": "2026-03-19",
+      "url": "/crypto-exchanges-portugal/como-comprar-bitcoin-em-portugal.html"
+    },
+    {
+      "keyword": "buy bitcoin with euro Portugal",
+      "published_at": "2026-03-19",
+      "url": "/crypto-exchanges-portugal/buy-bitcoin-with-euro-portugal.html"
+    },
+    {
+      "keyword": "how to buy bitcoin in portugal",
+      "published_at": "2026-03-19",
+      "url": "/crypto-exchanges-portugal/how-to-buy-bitcoin-in-portugal.html"
+    },
+    {
+      "keyword": "best place to buy crypto in europe",
+      "published_at": "2026-03-19",
+      "url": "/crypto-exchanges-portugal/best-place-to-buy-crypto-in-europe.html"
+    },
+    {
+      "keyword": "melhor exchange criptomoedas portugal",
+      "published_at": "2026-03-19",
+      "url": "/crypto-exchanges-portugal/melhor-exchange-criptomoedas-portugal.html"
+    },
+    {
+      "keyword": "beginner crypto exchange Portugal",
+      "published_at": "2026-03-19",
+      "url": "/crypto-exchanges-portugal/beginner-crypto-exchange-portugal.html"
+    },
+    {
+      "keyword": "bybit review portugal",
+      "published_at": "2026-03-19",
+      "url": "/crypto-exchanges-portugal/bybit-review-portugal.html"
+    },
+    {
+      "keyword": "bybit vs binance which is better",
+      "published_at": "2026-03-19",
+      "url": "/crypto-exchanges-portugal/bybit-vs-binance.html"
+    },
+    {
+      "keyword": "binance review portugal",
+      "published_at": "2026-03-19",
+      "url": "/crypto-exchanges-portugal/binance-review-portugal.html"
+    },
+    {
+      "keyword": "melhor plataforma trading criptografia",
+      "published_at": "2026-03-20",
+      "url": "/crypto-exchanges-portugal/melhor-plataforma-trading-criptografia.html"
+    },
+    {
+      "keyword": "melhor carteira criptomoedas",
+      "published_at": "2026-03-20",
+      "url": "/crypto-exchanges-portugal/melhor-carteira-criptomoedas.html"
+    },
+    {
+      "keyword": "carteira hardware bitcoin portugal",
+      "published_at": "2026-03-20",
+      "url": "/crypto-exchanges-portugal/carteira-hardware-bitcoin-portugal.html"
+    },
+    {
+      "keyword": "comprar ethereum portugal",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/comprar-ethereum-portugal.html"
+    },
+    {
+      "keyword": "best bitcoin wallet portugal",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/best-bitcoin-wallet-portugal.html"
+    },
+    {
+      "keyword": "tradingview premium worth it",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/tradingview-premium-worth-it.html"
+    },
+    {
+      "keyword": "binance vs bybit fees comparison",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/binance-vs-bybit-fees-comparison.html"
+    },
+    {
+      "keyword": "buy ethereum europe",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/buy-ethereum-europe.html"
+    },
+    {
+      "keyword": "best crypto exchange for beginners europe",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/best-crypto-exchange-for-beginners-europe.html"
+    },
+    {
+      "keyword": "nordvpn review 2026",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/nordvpn-review-2026.html"
+    },
+    {
+      "keyword": "nordpass review 2026",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/nordpass-review-2026.html"
+    },
+    {
+      "keyword": "best vpn for crypto trading",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/best-vpn-crypto-trading-2026.html"
+    },
+    {
+      "keyword": "vpn comparison nordvpn expressvpn surfshark",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/vpn-comparison-crypto-2026.html"
+    },
+    {
+      "keyword": "vpn for portugal europe",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/vpn-portugal-europe-2026.html"
+    },
+    {
+      "keyword": "best crypto app portugal",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/best-crypto-app-portugal.html"
+    },
+    {
+      "keyword": "investir em criptomoedas portugal",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/investir-em-criptomoedas-portugal.html"
+    },
+    {
+      "keyword": "como vender bitcoin portugal",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/como-vender-bitcoin-portugal.html"
+    },
+    {
+      "keyword": "crypto exchange portugal fees",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/crypto-exchange-portugal-fees.html"
+    },
+    {
+      "keyword": "comprar usdt portugal",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/comprar-usdt-portugal.html"
+    },
+    {
+      "keyword": "kraken review europe",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/kraken-review-europe.html"
+    },
+    {
+      "keyword": "binance staking review",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/binance-staking-review.html"
+    },
+    {
+      "keyword": "impostos criptomoedas portugal",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/impostos-criptomoedas-portugal.html"
+    },
+    {
+      "keyword": "crypto taxes portugal",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/crypto-taxes-portugal.html"
+    },
+    {
+      "keyword": "how to stake ethereum europe",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/how-to-stake-ethereum-europe.html"
+    },
+    {
+      "keyword": "best solana wallet europe",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/best-solana-wallet-europe.html"
+    },
+    {
+      "keyword": "vpn for crypto security",
+      "published_at": "2026-03-23",
+      "url": "/crypto-exchanges-portugal/vpn-for-crypto-security.html"
+    },
+    {
+      "keyword": "nordvpn discount code",
+      "published_at": "2026-03-24",
+      "url": "/crypto-exchanges-portugal/nordvpn-discount-code.html"
+    },
+    {
+      "keyword": "buy usdt europe",
+      "published_at": "2026-03-24",
+      "url": "/crypto-exchanges-portugal/buy-usdt-europe.html"
+    },
+    {
+      "keyword": "expressvpn vs nordvpn 2026",
+      "published_at": "2026-03-24",
+      "url": "/crypto-exchanges-portugal/expressvpn-vs-nordvpn-2026.html"
+    },
+    {
+      "keyword": "best hardware wallet 2026",
+      "published_at": "2026-03-25",
+      "url": "/crypto-exchanges-portugal/best-hardware-wallet-2026.html"
+    },
+    {
+      "keyword": "trezor vs ledger 2026",
+      "published_at": "2026-03-25",
+      "url": "/crypto-exchanges-portugal/trezor-vs-ledger-2026.html"
+    },
+    {
+      "keyword": "ledger vs trezor security",
+      "published_at": "2026-03-25",
+      "url": "/crypto-exchanges-portugal/ledger-vs-trezor-security.html"
+    },
+    {
+      "keyword": "bybit vs binance 2026",
+      "published_at": "2026-03-25",
+      "url": "/crypto-exchanges-portugal/bybit-vs-binance-2026.html"
+    },
+    {
+      "keyword": "nordvpn coupon 2026",
+      "published_at": "2026-03-25",
+      "url": "/crypto-exchanges-portugal/nordvpn-coupon-2026.html"
+    },
+    {
+      "keyword": "buy bitcoin with euro instantly",
+      "published_at": "2026-03-25",
+      "url": "/crypto-exchanges-portugal/buy-bitcoin-with-euro-instantly.html"
+    }
+  ],
+  "removed_keywords": [
+    {
+      "keyword": "coinbase review portugal",
+      "reason": "Coinbase affiliate program closed in UK/EU - $0 commission"
+    }
+  ],
+  "affiliate_verification": {
+    "last_check": "2026-03-25T05:33:00Z",
+    "programs": {
+      "Binance": {
+        "status": "active",
+        "commission": "20-40%",
+        "affiliate_id": "45254765",
+        "verified": "2026-03-25"
+      },
+      "Bybit": {
+        "status": "active",
+        "commission": "30-45%",
+        "affiliate_id": "156767",
+        "verified": "2026-03-25"
+      },
+      "Ledger": {
+        "status": "active",
+        "commission": "affiliate",
+        "affiliate_id": "dc740afd0ecf",
+        "verified": "2026-03-25"
+      },
+      "TradingView": {
+        "status": "active",
+        "commission": "affiliate",
+        "affiliate_id": "164689",
+        "verified": "2026-03-25"
+      },
+      "NordVPN": {
+        "status": "active",
+        "commission": "affiliate",
+        "affiliate_id": "143801",
+        "verified": "2026-03-25"
+      },
+      "NordPass": {
+        "status": "active",
+        "commission": "affiliate",
+        "affiliate_id": "143801",
+        "verified": "2026-03-25"
+      },
+      "Trezor": {
+        "status": "active",
+        "commission": "12% CPS",
+        "affiliate_id": "135463",
+        "verified": "2026-03-25"
+      },
+      "Coinbase": {
+        "status": "closed_eu_uk",
+        "commission": "$0",
+        "note": "DO NOT USE"
+      }
+    }
+  },
+  "total": 135,
+  "pending_count": 45,
+  "published_count": 90,
+  "lastUpdated": "2026-04-15T07:13:00.000000Z",
+  "status": "healthy",
+  "note": "Queue refilled with 18 new high-value keywords for Portugal/EU crypto beginners"
 }
