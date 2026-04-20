@@ -698,7 +698,9 @@
       "affiliate_program": "Binance",
       "affiliate_status": "active",
       "score": 74,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-20",
+      "url": "/crypto-exchanges-portugal/buy-solana-europe.html"
     },
     {
       "keyword": "nordvpn coupon 2026",
@@ -727,7 +729,9 @@
       "affiliate_program": "NordVPN",
       "affiliate_status": "active",
       "score": 73,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-20",
+      "url": "/crypto-exchanges-portugal/vpn-barato-portugal.html"
     },
     {
       "keyword": "nordvpn free trial",
@@ -736,7 +740,9 @@
       "affiliate_program": "NordVPN",
       "affiliate_status": "active",
       "score": 74,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-20",
+      "url": "/crypto-exchanges-portugal/nordvpn-free-trial.html"
     },
     {
       "keyword": "nordvpn vs surfshark 2026",
@@ -1252,7 +1258,7 @@
       "status": "pending"
     },
     {
-      "keyword": "Trezor Safe 7 características",
+      "keyword": "Trezor Safe 7 caracter\u00edsticas",
       "language": "pt",
       "intent": "buying",
       "affiliate_program": "Trezor",
@@ -1261,7 +1267,7 @@
       "status": "pending"
     },
     {
-      "keyword": "Ledger Flex review português",
+      "keyword": "Ledger Flex review portugu\u00eas",
       "language": "pt",
       "intent": "buying",
       "affiliate_program": "Ledger",
@@ -1508,6 +1514,21 @@
       "keyword": "buy bitcoin with euro instantly",
       "published_at": "2026-03-25",
       "url": "/crypto-exchanges-portugal/buy-bitcoin-with-euro-instantly.html"
+    },
+    {
+      "keyword": "buy solana europe",
+      "published_at": "2026-04-20",
+      "url": "/crypto-exchanges-portugal/buy-solana-europe.html"
+    },
+    {
+      "keyword": "vpn barato portugal",
+      "published_at": "2026-04-20",
+      "url": "/crypto-exchanges-portugal/vpn-barato-portugal.html"
+    },
+    {
+      "keyword": "nordvpn free trial",
+      "published_at": "2026-04-20",
+      "url": "/crypto-exchanges-portugal/nordvpn-free-trial.html"
     }
   ],
   "removed_keywords": [
@@ -1569,9 +1590,9 @@
     }
   },
   "total": 135,
-  "pending_count": 45,
-  "published_count": 90,
-  "lastUpdated": "2026-04-15T07:13:00.000000Z",
+  "pending_count": 39,
+  "published_count": 96,
+  "lastUpdated": "2026-04-20T20:17:37.610801Z",
   "status": "healthy",
   "note": "Queue refilled with 18 new high-value keywords for Portugal/EU crypto beginners"
 }
