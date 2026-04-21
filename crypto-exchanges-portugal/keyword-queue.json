@@ -780,7 +780,9 @@
       "affiliate_program": "NordPass",
       "affiliate_status": "active",
       "score": 72,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-21",
+      "url": "/crypto-exchanges-portugal/nordpass-vs-1password.html"
     },
     {
       "keyword": "best password manager 2026",
@@ -811,7 +813,9 @@
       "affiliate_program": "TradingView",
       "affiliate_status": "active",
       "score": 73,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-21",
+      "url": "/crypto-exchanges-portugal/tradingview-essential-vs-plus.html"
     },
     {
       "keyword": "best crypto charting platform",
@@ -831,7 +835,9 @@
       "affiliate_program": "TradingView",
       "affiliate_status": "active",
       "score": 68,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-21",
+      "url": "/crypto-exchanges-portugal/tradingview-indicators-for-crypto.html"
     },
     {
       "keyword": "ledger nano s plus review",
@@ -1590,9 +1596,9 @@
     }
   },
   "total": 135,
-  "pending_count": 39,
-  "published_count": 96,
-  "lastUpdated": "2026-04-20T20:17:37.610801Z",
+  "pending_count": 37,
+  "published_count": 98,
+  "lastUpdated": "2026-04-21T09:05:00.000000Z",
   "status": "healthy",
   "note": "Queue refilled with 18 new high-value keywords for Portugal/EU crypto beginners"
 }
