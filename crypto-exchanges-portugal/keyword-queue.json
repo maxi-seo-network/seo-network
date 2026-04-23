@@ -1164,7 +1164,9 @@
       "affiliate_program": "Trezor",
       "affiliate_status": "active",
       "score": 78,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-23",
+      "url": "/crypto-exchanges-portugal/comprar-trezor-portugal.html"
     },
     {
       "keyword": "comprar ledger portugal",
@@ -1173,7 +1175,7 @@
       "affiliate_program": "Ledger",
       "affiliate_status": "active",
       "score": 78,
-      "status": "pending"
+      "status": "in_progress"
     },
     {
       "keyword": "melhor hardware wallet 2026",
@@ -1249,7 +1251,7 @@
       "affiliate_program": "Binance",
       "affiliate_status": "active",
       "score": 77,
-      "status": "pending"
+      "status": "in_progress"
     },
     {
       "keyword": "como fazer staking Binance",
