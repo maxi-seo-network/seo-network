@@ -1082,7 +1082,9 @@
       "affiliate_program": "Bybit",
       "affiliate_status": "active",
       "score": 76,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-24",
+      "url": "/crypto-exchanges-portugal/bybit-spot-trading-fees-comparison.html"
     },
     {
       "keyword": "como usar Trezor passo a passo",
@@ -1213,7 +1215,9 @@
       "affiliate_program": "NordVPN",
       "affiliate_status": "active",
       "score": 75,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-24",
+      "url": "/crypto-exchanges-portugal/nordvpn-acesso-binance.html"
     },
     {
       "keyword": "seed phrase storage security guide",
@@ -1278,7 +1282,9 @@
       "affiliate_program": "Trezor",
       "affiliate_status": "active",
       "score": 76,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-24",
+      "url": "/crypto-exchanges-portugal/trezor-safe-7-caracteristicas.html"
     },
     {
       "keyword": "Ledger Flex review portugu\u00eas",
@@ -1604,9 +1610,9 @@
     }
   },
   "total": 135,
-  "pending_count": 34,
-  "published_count": 101,
-  "lastUpdated": "2026-04-21T09:05:00.000000Z",
+  "pending_count": 31,
+  "published_count": 104,
+  "lastUpdated": "2026-04-24T20:17:00.000000Z",
   "status": "healthy",
   "note": "Queue refilled with 18 new high-value keywords for Portugal/EU crypto beginners"
 }
