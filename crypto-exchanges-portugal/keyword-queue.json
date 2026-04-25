@@ -917,7 +917,9 @@
       "affiliate_program": "Ledger",
       "affiliate_status": "active",
       "score": 74,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-25",
+      "url": "/crypto-exchanges-portugal/como-guardar-criptomoedas-seguranca.html"
     },
     {
       "keyword": "carteira fria vs carteira quente",
@@ -1197,7 +1199,9 @@
       "affiliate_program": "NordVPN",
       "affiliate_status": "active",
       "score": 74,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-25",
+      "url": "/crypto-exchanges-portugal/vpn-exchanges-bloqueadas.html"
     },
     {
       "keyword": "gestor de senhas para bitcoin",
@@ -1311,7 +1315,9 @@
       "affiliate_program": "NordVPN",
       "affiliate_status": "active",
       "score": 76,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-25",
+      "url": "/crypto-exchanges-portugal/best-vpn-bybit-access-europe.html"
     }
   ],
   "published": [
@@ -1610,9 +1616,9 @@
     }
   },
   "total": 135,
-  "pending_count": 31,
-  "published_count": 104,
-  "lastUpdated": "2026-04-24T20:17:00.000000Z",
+  "pending_count": 30,
+  "published_count": 105,
+  "lastUpdated": "2026-04-25T20:15:00.000000Z",
   "status": "healthy",
   "note": "Queue refilled with 18 new high-value keywords for Portugal/EU crypto beginners"
 }
