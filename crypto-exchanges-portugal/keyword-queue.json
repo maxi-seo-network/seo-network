@@ -762,7 +762,9 @@
       "affiliate_program": "NordVPN",
       "affiliate_status": "active",
       "score": 72,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-26",
+      "url": "/crypto-exchanges-portugal/best-vpn-streaming-portugal.html"
     },
     {
       "keyword": "nordpass family plan review",
@@ -888,7 +890,9 @@
       "affiliate_program": "Trezor",
       "affiliate_status": "active",
       "score": 70,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-26",
+      "url": "/crypto-exchanges-portugal/trezor-suite-app-review.html"
     },
     {
       "keyword": "trezor one vs model t",
@@ -897,7 +901,9 @@
       "affiliate_program": "Trezor",
       "affiliate_status": "active",
       "score": 74,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-04-26",
+      "url": "/crypto-exchanges-portugal/trezor-one-vs-model-t.html"
     },
     {
       "keyword": "hardware wallet for beginners",
@@ -1616,8 +1622,8 @@
     }
   },
   "total": 135,
-  "pending_count": 30,
-  "published_count": 105,
+  "pending_count": 27,
+  "published_count": 108,
   "lastUpdated": "2026-04-25T20:15:00.000000Z",
   "status": "healthy",
   "note": "Queue refilled with 18 new high-value keywords for Portugal/EU crypto beginners"
