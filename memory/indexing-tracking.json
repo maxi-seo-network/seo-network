@@ -1,65 +1,6 @@
 {
   "checks": [
     {
-      "timestamp": "2026-03-23T09:00:16.492Z",
-      "date": "2026-03-23",
-      "results": [
-        {
-          "site": "accounting-software-freelancers",
-          "urls": 92,
-          "status": 200
-        },
-        {
-          "site": "ai-tools-for-realtors",
-          "urls": 43,
-          "status": 200
-        },
-        {
-          "site": "analytics-tools-apps",
-          "urls": 42,
-          "status": 200
-        },
-        {
-          "site": "best-crm-for-agencies",
-          "urls": 40,
-          "status": 200
-        },
-        {
-          "site": "chatbot-platforms-saas",
-          "urls": 36,
-          "status": 200
-        },
-        {
-          "site": "email-marketing-tools-ecommerce",
-          "urls": 56,
-          "status": 200
-        },
-        {
-          "site": "project-management-software-startups",
-          "urls": 41,
-          "status": 200
-        },
-        {
-          "site": "seo-tools-bloggers",
-          "urls": 38,
-          "status": 200
-        },
-        {
-          "site": "social-media-schedulers-influencers",
-          "urls": 38,
-          "status": 200
-        },
-        {
-          "site": "video-editing-software-youtubers",
-          "urls": 45,
-          "status": 200
-        }
-      ],
-      "totalUrls": 471,
-      "liveCount": 10,
-      "expectedUrls": 1010
-    },
-    {
       "timestamp": "2026-03-24T09:00:02.452Z",
       "date": "2026-03-24",
       "results": [
@@ -1714,6 +1655,65 @@
     {
       "timestamp": "2026-04-26T09:00:07.250Z",
       "date": "2026-04-26",
+      "results": [
+        {
+          "site": "accounting-software-freelancers",
+          "urls": 92,
+          "status": 200
+        },
+        {
+          "site": "ai-tools-for-realtors",
+          "urls": 43,
+          "status": 200
+        },
+        {
+          "site": "analytics-tools-apps",
+          "urls": 42,
+          "status": 200
+        },
+        {
+          "site": "best-crm-for-agencies",
+          "urls": 40,
+          "status": 200
+        },
+        {
+          "site": "chatbot-platforms-saas",
+          "urls": 36,
+          "status": 200
+        },
+        {
+          "site": "email-marketing-tools-ecommerce",
+          "urls": 56,
+          "status": 200
+        },
+        {
+          "site": "project-management-software-startups",
+          "urls": 41,
+          "status": 200
+        },
+        {
+          "site": "seo-tools-bloggers",
+          "urls": 38,
+          "status": 200
+        },
+        {
+          "site": "social-media-schedulers-influencers",
+          "urls": 38,
+          "status": 200
+        },
+        {
+          "site": "video-editing-software-youtubers",
+          "urls": 45,
+          "status": 200
+        }
+      ],
+      "totalUrls": 471,
+      "liveCount": 10,
+      "expectedUrls": 1010
+    },
+    {
+      "timestamp": "2026-04-27T09:00:05.128Z",
+      "date": "2026-04-27",
       "results": [
         {
           "site": "accounting-software-freelancers",
