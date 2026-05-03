@@ -1534,6 +1534,183 @@
       "affiliate_status": "active",
       "score": 75,
       "status": "pending"
+    },
+    {
+      "keyword": "ledger nano x best price europe",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 81,
+      "status": "published",
+      "published_at": "2026-05-03",
+      "url": "/crypto-exchanges-portugal/ledger-nano-x-best-price-europe.html"
+    },
+    {
+      "keyword": "trezor safe 5 best price",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 80,
+      "status": "published",
+      "published_at": "2026-05-03",
+      "url": "/crypto-exchanges-portugal/trezor-safe-5-best-price.html"
+    },
+    {
+      "keyword": "carteira hardware ethereum portugal",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 77,
+      "status": "pending"
+    },
+    {
+      "keyword": "vpn para segurança criptomoedas",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 76,
+      "status": "pending"
+    },
+    {
+      "keyword": "best password manager for bitcoin holders",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "NordPass",
+      "affiliate_status": "active",
+      "score": 78,
+      "status": "pending"
+    },
+    {
+      "keyword": "bybit vs kraken europe fees",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Bybit",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "pending"
+    },
+    {
+      "keyword": "trezor safe 3 vs ledger nano s plus",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 79,
+      "status": "pending"
+    },
+    {
+      "keyword": "comprar ledger nano x portugal",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 79,
+      "status": "pending"
+    },
+    {
+      "keyword": "nordvpn monthly vs yearly plan",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 73,
+      "status": "pending"
+    },
+    {
+      "keyword": "melhor gestor de senhas 2026",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "NordPass",
+      "affiliate_status": "active",
+      "score": 77,
+      "status": "pending"
+    },
+    {
+      "keyword": "binance vs bybit for beginners 2026",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 78,
+      "status": "pending"
+    },
+    {
+      "keyword": "hardware wallet for altcoins europe",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "pending"
+    },
+    {
+      "keyword": "vpn para proteger carteira cripto",
+      "language": "pt",
+      "intent": "buying",
+      "affiliate_program": "NordVPN",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "pending"
+    },
+    {
+      "keyword": "tradingview premium discount code",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "TradingView",
+      "affiliate_status": "active",
+      "score": 76,
+      "status": "pending"
+    },
+    {
+      "keyword": "ledger nano x vs trezor safe 7",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 83,
+      "status": "published",
+      "published_at": "2026-05-03",
+      "url": "/crypto-exchanges-portugal/ledger-nano-x-vs-trezor-safe-7.html"
+    },
+    {
+      "keyword": "como escolher carteira hardware cripto",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Trezor",
+      "affiliate_status": "active",
+      "score": 72,
+      "status": "pending"
+    },
+    {
+      "keyword": "nordpass premium vs free",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "NordPass",
+      "affiliate_status": "active",
+      "score": 74,
+      "status": "pending"
+    },
+    {
+      "keyword": "best crypto exchange europe 2026 reddit",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 76,
+      "status": "pending"
+    },
+    {
+      "keyword": "segurança criptomoedas guia iniciantes",
+      "language": "pt",
+      "intent": "learning",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 73,
+      "status": "pending"
     }
   ],
   "published": [
@@ -1831,10 +2008,10 @@
       }
     }
   },
-  "total": 155,
-  "pending_count": 23,
+  "total": 175,
+  "pending_count": 43,
   "published_count": 130,
-  "lastUpdated": "2026-05-03T09:10:00.000000Z",
+  "lastUpdated": "2026-05-03T09:10:45.000000Z",
   "status": "healthy",
   "note": "Queue expanded with 20 new high-value keywords for Portugal/EU crypto beginners"
 }
