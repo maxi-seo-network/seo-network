@@ -343,7 +343,7 @@
       "status": "published"
     },
     {
-      "keyword": "criptomoedas portugal como começar",
+      "keyword": "criptomoedas portugal como come\u00e7ar",
       "language": "pt",
       "intent": "learning",
       "affiliate_program": "Binance",
@@ -917,7 +917,7 @@
       "url": "/crypto-exchanges-portugal/hardware-wallet-for-beginners.html"
     },
     {
-      "keyword": "como guardar criptomoedas com segurança",
+      "keyword": "como guardar criptomoedas com seguran\u00e7a",
       "language": "pt",
       "intent": "learning",
       "affiliate_program": "Ledger",
@@ -1298,7 +1298,7 @@
       "status": "pending"
     },
     {
-      "keyword": "Trezor Safe 7 características",
+      "keyword": "Trezor Safe 7 caracter\u00edsticas",
       "language": "pt",
       "intent": "buying",
       "affiliate_program": "Trezor",
@@ -1309,7 +1309,7 @@
       "url": "/crypto-exchanges-portugal/trezor-safe-7-caracteristicas.html"
     },
     {
-      "keyword": "Ledger Flex review português",
+      "keyword": "Ledger Flex review portugu\u00eas",
       "language": "pt",
       "intent": "buying",
       "affiliate_program": "Ledger",
@@ -1406,7 +1406,9 @@
       "affiliate_program": "Trezor",
       "affiliate_status": "active",
       "score": 78,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-03",
+      "url": "/crypto-exchanges-portugal/trezor-safe-3-vs-safe-5-comparison.html"
     },
     {
       "keyword": "binance p2p tutorial europe",
@@ -1442,7 +1444,9 @@
       "affiliate_program": "Ledger",
       "affiliate_status": "active",
       "score": 77,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-03",
+      "url": "/crypto-exchanges-portugal/ledger-nano-s-plus-vs-nano-x.html"
     },
     {
       "keyword": "trezor model one discontinued alternatives",
@@ -1487,7 +1491,9 @@
       "affiliate_program": "Binance",
       "affiliate_status": "active",
       "score": 76,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-03",
+      "url": "/crypto-exchanges-portugal/binance-earn-vs-staking-comparison.html"
     },
     {
       "keyword": "hardware wallet touch screen comparison",
@@ -1826,9 +1832,9 @@
     }
   },
   "total": 155,
-  "pending_count": 47,
-  "published_count": 108,
-  "lastUpdated": "2026-04-27T20:54:00.000000Z",
+  "pending_count": 23,
+  "published_count": 130,
+  "lastUpdated": "2026-05-03T09:10:00.000000Z",
   "status": "healthy",
   "note": "Queue expanded with 20 new high-value keywords for Portugal/EU crypto beginners"
 }
