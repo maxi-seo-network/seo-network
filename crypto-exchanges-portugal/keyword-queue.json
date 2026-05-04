@@ -976,7 +976,7 @@
       "affiliate_program": "Binance",
       "affiliate_status": "active",
       "score": 68,
-      "status": "pending"
+      "status": "published"
     },
     {
       "keyword": "como transferir crypto para ledger",
@@ -985,7 +985,7 @@
       "affiliate_program": "Ledger",
       "affiliate_status": "active",
       "score": 70,
-      "status": "pending"
+      "status": "published"
     },
     {
       "keyword": "ledger vs trezor reddit 2026",
@@ -1038,7 +1038,7 @@
       "affiliate_program": "NordPass",
       "affiliate_status": "active",
       "score": 72,
-      "status": "pending"
+      "status": "published"
     },
     {
       "keyword": "tradingview espanol tutorial",
@@ -1567,7 +1567,7 @@
       "status": "pending"
     },
     {
-      "keyword": "vpn para segurança criptomoedas",
+      "keyword": "vpn para seguran\u00e7a criptomoedas",
       "language": "pt",
       "intent": "buying",
       "affiliate_program": "NordVPN",
@@ -1704,7 +1704,7 @@
       "status": "pending"
     },
     {
-      "keyword": "segurança criptomoedas guia iniciantes",
+      "keyword": "seguran\u00e7a criptomoedas guia iniciantes",
       "language": "pt",
       "intent": "learning",
       "affiliate_program": "Ledger",
