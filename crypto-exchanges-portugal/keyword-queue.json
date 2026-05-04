@@ -1582,7 +1582,9 @@
       "affiliate_program": "NordPass",
       "affiliate_status": "active",
       "score": 78,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-04",
+      "url": "/crypto-exchanges-portugal/best-password-manager-for-bitcoin-holders.html"
     },
     {
       "keyword": "bybit vs kraken europe fees",
@@ -1600,7 +1602,9 @@
       "affiliate_program": "Trezor",
       "affiliate_status": "active",
       "score": 79,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-04",
+      "url": "/crypto-exchanges-portugal/trezor-safe-3-vs-ledger-nano-s-plus.html"
     },
     {
       "keyword": "comprar ledger nano x portugal",
@@ -1609,7 +1613,9 @@
       "affiliate_program": "Ledger",
       "affiliate_status": "active",
       "score": 79,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-04",
+      "url": "/crypto-exchanges-portugal/comprar-ledger-nano-x-portugal.html"
     },
     {
       "keyword": "nordvpn monthly vs yearly plan",
@@ -2009,9 +2015,9 @@
     }
   },
   "total": 175,
-  "pending_count": 43,
-  "published_count": 130,
-  "lastUpdated": "2026-05-03T09:10:45.000000Z",
+  "pending_count": 33,
+  "published_count": 139,
+  "lastUpdated": "2026-05-04T20:18:28.661225Z",
   "status": "healthy",
   "note": "Queue expanded with 20 new high-value keywords for Portugal/EU crypto beginners"
 }
