@@ -1426,7 +1426,9 @@
       "affiliate_program": "NordVPN",
       "affiliate_status": "active",
       "score": 77,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-06",
+      "url": "/crypto-exchanges-portugal/vpn-acessar-binance-restrito.html"
     },
     {
       "keyword": "bybit web3 wallet review",
@@ -1633,7 +1635,9 @@
       "affiliate_program": "NordPass",
       "affiliate_status": "active",
       "score": 77,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-06",
+      "url": "/crypto-exchanges-portugal/melhor-gestor-senhas-2026.html"
     },
     {
       "keyword": "binance vs bybit for beginners 2026",
@@ -1642,7 +1646,9 @@
       "affiliate_program": "Binance",
       "affiliate_status": "active",
       "score": 78,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-06",
+      "url": "/crypto-exchanges-portugal/binance-vs-bybit-beginners-2026.html"
     },
     {
       "keyword": "hardware wallet for altcoins europe",
@@ -2015,9 +2021,9 @@
     }
   },
   "total": 175,
-  "pending_count": 33,
-  "published_count": 139,
-  "lastUpdated": "2026-05-04T20:18:28.661225Z",
+  "pending_count": 30,
+  "published_count": 142,
+  "lastUpdated": "2026-05-06T20:15:00Z",
   "status": "healthy",
   "note": "Queue expanded with 20 new high-value keywords for Portugal/EU crypto beginners"
 }
