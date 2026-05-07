@@ -1111,7 +1111,9 @@
       "affiliate_program": "Trezor",
       "affiliate_status": "active",
       "score": 74,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-07",
+      "url": "/crypto-exchanges-portugal/como-usar-trezor-passo-a-passo.html"
     },
     {
       "keyword": "TradingView Essential plan review",
@@ -1268,7 +1270,9 @@
       "affiliate_program": "Ledger",
       "affiliate_status": "active",
       "score": 74,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-07",
+      "url": "/crypto-exchanges-portugal/how-to-protect-crypto-seed-phrase.html"
     },
     {
       "keyword": "Binance vs Bybit para iniciantes",
@@ -1286,7 +1290,9 @@
       "affiliate_program": "Binance",
       "affiliate_status": "active",
       "score": 75,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-07",
+      "url": "/crypto-exchanges-portugal/como-fazer-staking-binance.html"
     },
     {
       "keyword": "TradingView para criptomoedas tutorial",
@@ -2021,9 +2027,9 @@
     }
   },
   "total": 175,
-  "pending_count": 30,
-  "published_count": 142,
-  "lastUpdated": "2026-05-06T20:15:00Z",
+  "pending_count": 27,
+  "published_count": 145,
+  "lastUpdated": "2026-05-07T20:21:00Z",
   "status": "healthy",
   "note": "Queue expanded with 20 new high-value keywords for Portugal/EU crypto beginners"
 }
