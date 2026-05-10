@@ -1392,7 +1392,9 @@
       "affiliate_program": "NordPass",
       "affiliate_status": "active",
       "score": 76,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-10",
+      "url": "/crypto-exchanges-portugal/gestor-de-senhas-para-cripto.html"
     },
     {
       "keyword": "best hardware wallet for ethereum staking",
@@ -1541,7 +1543,9 @@
       "affiliate_program": "Bybit",
       "affiliate_status": "active",
       "score": 75,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-10",
+      "url": "/crypto-exchanges-portugal/bybit-earn-review-passive-income.html"
     },
     {
       "keyword": "ledger nano x best price europe",
@@ -1685,7 +1689,9 @@
       "affiliate_program": "TradingView",
       "affiliate_status": "active",
       "score": 76,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-10",
+      "url": "/crypto-exchanges-portugal/tradingview-premium-discount-code.html"
     },
     {
       "keyword": "ledger nano x vs trezor safe 7",
@@ -2033,9 +2039,9 @@
     }
   },
   "total": 175,
-  "pending_count": 27,
-  "published_count": 145,
-  "lastUpdated": "2026-05-07T20:21:00Z",
+  "pending_count": 24,
+  "published_count": 148,
+  "lastUpdated": "2026-05-10T20:19:00Z",
   "status": "healthy",
   "note": "Queue expanded with 20 new high-value keywords for Portugal/EU crypto beginners"
 }
