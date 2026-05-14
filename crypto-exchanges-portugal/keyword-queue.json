@@ -979,6 +979,17 @@
       "status": "published"
     },
     {
+      "keyword": "Binance vs Bybit security comparison 2026",
+      "language": "en",
+      "intent": "comparing",
+      "affiliate_program": "Binance",
+      "affiliate_status": "active",
+      "score": 82,
+      "status": "published",
+      "published_at": "2026-05-14",
+      "url": "/crypto-exchanges-portugal/binance-vs-bybit-security-comparison-2026.html"
+    },
+    {
       "keyword": "como transferir crypto para ledger",
       "language": "pt",
       "intent": "learning",
@@ -1764,6 +1775,17 @@
       "status": "published",
       "published_at": "2026-05-14",
       "url": "/crypto-exchanges-portugal/bybit-referral-bonus-europe.html"
+    },
+    {
+      "keyword": "Ledger Live app features review",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Ledger",
+      "affiliate_status": "active",
+      "score": 75,
+      "status": "published",
+      "published_at": "2026-05-14",
+      "url": "/crypto-exchanges-portugal/ledger-live-app-features-review.html"
     }
   ],
   "published": [
@@ -2064,7 +2086,7 @@
   "total": 175,
   "pending_count": 24,
   "published_count": 149,
-  "lastUpdated": "2026-05-14T20:15:00Z",
+  "lastUpdated": "2026-05-14T20:22:05Z",
   "status": "healthy",
   "note": "Queue expanded with 20 new high-value keywords for Portugal/EU crypto beginners"
 }
