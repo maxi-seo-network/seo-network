@@ -1753,6 +1753,17 @@
       "affiliate_status": "active",
       "score": 73,
       "status": "pending"
+    },
+    {
+      "keyword": "Bybit referral bonus Europe",
+      "language": "en",
+      "intent": "buying",
+      "affiliate_program": "Bybit",
+      "affiliate_status": "active",
+      "score": 82,
+      "status": "published",
+      "published_at": "2026-05-14",
+      "url": "/crypto-exchanges-portugal/bybit-referral-bonus-europe.html"
     }
   ],
   "published": [
@@ -2052,8 +2063,8 @@
   },
   "total": 175,
   "pending_count": 24,
-  "published_count": 148,
-  "lastUpdated": "2026-05-10T20:19:00Z",
+  "published_count": 149,
+  "lastUpdated": "2026-05-14T20:15:00Z",
   "status": "healthy",
   "note": "Queue expanded with 20 new high-value keywords for Portugal/EU crypto beginners"
 }
