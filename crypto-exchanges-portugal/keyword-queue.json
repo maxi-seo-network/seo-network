@@ -1344,7 +1344,9 @@
       "affiliate_program": "Ledger",
       "affiliate_status": "active",
       "score": 75,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-15",
+      "url": "/crypto-exchanges-portugal/ledger-flex-review-portugues.html"
     },
     {
       "keyword": "cold wallet security features comparison",
@@ -1406,7 +1408,9 @@
       "affiliate_program": "NordPass",
       "affiliate_status": "active",
       "score": 75,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-15",
+      "url": "/crypto-exchanges-portugal/nordpass-vs-bitwarden-comparison.html"
     },
     {
       "keyword": "gestor de senhas para cripto",
@@ -1694,7 +1698,9 @@
       "affiliate_program": "Trezor",
       "affiliate_status": "active",
       "score": 75,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-15",
+      "url": "/crypto-exchanges-portugal/hardware-wallet-altcoins-europe.html"
     },
     {
       "keyword": "vpn para proteger carteira cripto",
@@ -2084,9 +2090,9 @@
     }
   },
   "total": 175,
-  "pending_count": 24,
-  "published_count": 149,
-  "lastUpdated": "2026-05-14T20:22:05Z",
+  "pending_count": 21,
+  "published_count": 152,
+  "lastUpdated": "2026-05-15T20:20:00Z",
   "status": "healthy",
   "note": "Queue expanded with 20 new high-value keywords for Portugal/EU crypto beginners"
 }
