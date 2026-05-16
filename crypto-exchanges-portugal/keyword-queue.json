@@ -1452,7 +1452,9 @@
       "affiliate_program": "Binance",
       "affiliate_status": "active",
       "score": 74,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-16",
+      "url": "/crypto-exchanges-portugal/binance-p2p-tutorial-europe.html"
     },
     {
       "keyword": "VPN para acessar Binance restrito",
@@ -1501,7 +1503,9 @@
       "affiliate_program": "NordVPN",
       "affiliate_status": "active",
       "score": 74,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-16",
+      "url": "/crypto-exchanges-portugal/nordvpn-threat-protection-review-crypto.html"
     },
     {
       "keyword": "como proteger seed phrase",
@@ -1636,7 +1640,9 @@
       "affiliate_program": "Bybit",
       "affiliate_status": "active",
       "score": 74,
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-05-16",
+      "url": "/crypto-exchanges-portugal/bybit-vs-kraken-europe-fees.html"
     },
     {
       "keyword": "trezor safe 3 vs ledger nano s plus",
@@ -2090,9 +2096,9 @@
     }
   },
   "total": 175,
-  "pending_count": 21,
-  "published_count": 152,
-  "lastUpdated": "2026-05-15T20:20:00Z",
+  "pending_count": 18,
+  "published_count": 155,
+  "lastUpdated": "2026-05-16T20:18:00Z",
   "status": "healthy",
   "note": "Queue expanded with 20 new high-value keywords for Portugal/EU crypto beginners"
 }
